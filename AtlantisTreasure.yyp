@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "bc95c4c4-9e2f-4511-bc02-86973e1bc181",
+            "Value": {
+                "id": "36489641-839a-4590-bf28-5271430a9820",
+                "resourcePath": "scripts\\scr_MoveCamera\\scr_MoveCamera.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c9e89b06-37a9-4698-b1a5-b3e6f7b6bdad",
             "Value": {
                 "id": "dae966a4-c8d8-43ab-8565-ce3565c7ae58",
@@ -184,7 +192,7 @@
         }
     ],
     "script_order": [
-        
+        "bc95c4c4-9e2f-4511-bc02-86973e1bc181"
     ],
     "tutorial": ""
 }
