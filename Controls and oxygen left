@@ -1,0 +1,27 @@
+//when the down key is pressed to make the diver go down
+self.vspeed = 10
+//when said key is released
+self.vspeed = 0
+//when the up key is pressed
+self.vspeed = -10
+//when up key is released
+self.vspeed = 0
+//when left key is pressed
+self.hspeed = -10
+//when left key is released
+self.hspeed = 0
+//when right key is pressed
+self.hspeed = 10
+//when right key is released
+self.hspeed = 0
+
+//all of this is when game is created under game controller object
+self.step_count = 0
+self.time = 180//180 seconds = 3 minutes
+//here is countdown
+step_count = step_count+1
+self.seconds = floor(self.step_count / room_speed)
+self.countdown = time-seconds
+//here is the display code
+draw_set_color(c_white)
+draw_text(100,100,"Time: " + string(countdown))
