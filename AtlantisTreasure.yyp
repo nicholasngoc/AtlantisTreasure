@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "10fa76e0-430e-425e-98f4-f1720f0d4bb7",
+            "Value": {
+                "id": "8153618a-016b-43e8-b18a-23f3ddc558c1",
+                "resourcePath": "sprites\\spr_OxygenTank\\spr_OxygenTank.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1120bc68-7369-447b-a56e-de0cac8c1857",
+            "Value": {
+                "id": "8036a30e-49ca-4f92-a12a-a6e59f1e8350",
+                "resourcePath": "objects\\obj_OxygenTank\\obj_OxygenTank.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1386f026-8d2b-426b-bc25-c92a7d78f293",
             "Value": {
                 "id": "f1fa841a-0392-4cda-a8ed-9d4595bfa11a",

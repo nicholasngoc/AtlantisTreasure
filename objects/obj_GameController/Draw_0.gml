@@ -3,7 +3,7 @@
 
 //here is the display code
 //draw_set_color(c_white)
-//draw_text(100,100,"Time: " + string(countdown))
+//draw_text(100,100,"Time: " + string(self.countdown))
 
 self.oxygenLevel = self.countdown / self.time * 100
 draw_healthbar(camera_get_view_x(view_camera[0]) + 10, 

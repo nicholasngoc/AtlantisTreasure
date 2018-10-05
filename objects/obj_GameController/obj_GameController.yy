@@ -63,7 +63,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "1",
-            "varName": "TimeInMinutes",
+            "varName": "timeInMinutes",
             "varType": 0
         }
     ],
