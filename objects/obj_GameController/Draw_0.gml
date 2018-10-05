@@ -6,4 +6,8 @@
 //draw_text(100,100,"Time: " + string(countdown))
 
 self.oxygenLevel = self.countdown / self.time * 100
-draw_healthbar(100, 100, 500, 200, oxygenLevel, c_black, c_red, c_lime, 0, true, true)
+draw_healthbar(camera_get_view_x(view_camera[0]) + 10, 
+	camera_get_view_y(view_camera[0]) + 10, 
+	camera_get_view_x(view_camera[0]) + 35,
+	camera_get_view_y(view_camera[0]) + 110,
+	oxygenLevel, c_black, c_red, c_lime, 3, true, true)
