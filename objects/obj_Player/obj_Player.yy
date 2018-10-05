@@ -103,6 +103,16 @@
             "enumb": 38,
             "eventtype": 5,
             "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
+        },
+        {
+            "id": "bb72fdb7-668f-4fdd-91e0-e905167cf8b8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "1ebd94b3-6808-44bc-a6f6-99a520f8ab63",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -161,7 +171,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "150",
+            "value": "200",
             "varName": "MovementDistance",
             "varType": 1
         }
