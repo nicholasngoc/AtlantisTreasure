@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "6054020b-b517-4123-90e5-499717e8d870",
+            "Value": {
+                "id": "ceaaefda-57d3-4010-bf00-9494b8fd4a60",
+                "resourcePath": "views\\6054020b-b517-4123-90e5-499717e8d870.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "69964a70-6408-4077-915b-34b9928875d3",
             "Value": {
                 "id": "1ef7aa06-ca24-4f31-ac9b-8a912d71365d",
@@ -151,10 +159,34 @@
             }
         },
         {
+            "Key": "7cfc8ed6-b1cb-4e0e-b77c-8cdbf9eec8c9",
+            "Value": {
+                "id": "9d9a77d0-7fbc-424d-b3e5-3fdb7aeff785",
+                "resourcePath": "views\\7cfc8ed6-b1cb-4e0e-b77c-8cdbf9eec8c9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "87daa402-6f53-4016-852f-8ba1e4777a71",
             "Value": {
                 "id": "759b0d38-198f-469d-877a-5742ed9c6a67",
                 "resourcePath": "sprites\\spr_Door\\spr_Door.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8de6a1b1-c04e-4075-a362-7533d5a28b1a",
+            "Value": {
+                "id": "a05cdd03-249d-4f7e-87d3-5d673bb2dfdd",
+                "resourcePath": "views\\8de6a1b1-c04e-4075-a362-7533d5a28b1a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8e45cd4d-0944-4a22-a14f-33d7650a891f",
+            "Value": {
+                "id": "2dd4984d-3964-4098-ab73-fd6791d4d3c7",
+                "resourcePath": "sprites\\spr_Obstacle\\spr_Obstacle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -279,10 +311,26 @@
             }
         },
         {
+            "Key": "e88435c0-1801-41b5-a69c-a3dfdb8bc003",
+            "Value": {
+                "id": "c3a5e57c-02d1-4c0c-ba0a-3613c85ba6e4",
+                "resourcePath": "views\\e88435c0-1801-41b5-a69c-a3dfdb8bc003.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ec0dcca8-e97f-4c51-996d-4cfe6765b9a5",
             "Value": {
                 "id": "44281dff-25d6-4bf1-a7a8-91e4a17b5d85",
                 "resourcePath": "objects\\obj_Door\\obj_Door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "edbd877f-7263-49cb-bfaa-87cab3c3b646",
+            "Value": {
+                "id": "a3bd2a57-578c-4ea8-98f0-1a356df38951",
+                "resourcePath": "objects\\obj_Obstacle\\obj_Obstacle.yy",
                 "resourceType": "GMObject"
             }
         },
