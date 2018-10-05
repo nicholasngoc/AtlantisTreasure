@@ -1,38 +1,28 @@
 {
-    "id": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9",
+    "id": "ec0dcca8-e97f-4c51-996d-4cfe6765b9a5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_GameController",
+    "name": "obj_Door",
     "eventList": [
         {
-            "id": "19c19e06-12c6-4355-ade3-d5ab245afe6b",
+            "id": "65564986-2016-4b68-b254-52babdb815ca",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "f652bf21-213d-4a3c-8482-942d8155934f",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
+            "eventtype": 4,
+            "m_owner": "ec0dcca8-e97f-4c51-996d-4cfe6765b9a5"
         },
         {
-            "id": "88d35d60-d391-46f8-9921-7eeb3d0239c5",
+            "id": "fbc31165-8b6a-432e-a1dc-2bf429539609",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
-        },
-        {
-            "id": "1e299e87-137a-499a-ac03-1b5af082f725",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "ec0dcca8-e97f-4c51-996d-4cfe6765b9a5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "ce4b6dde-056f-4c5f-9030-4dda63abdfc1",
+            "id": "e2149b1c-39e4-4acd-87e8-572012226cde",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "timeInMinutes",
-            "varType": 0
+            "value": "0",
+            "varName": "DoorType",
+            "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "87daa402-6f53-4016-852f-8ba1e4777a71",
     "visible": true
 }

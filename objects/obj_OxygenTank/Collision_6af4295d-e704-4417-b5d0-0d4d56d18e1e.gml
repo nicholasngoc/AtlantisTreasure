@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-self.hspeed = 0;
-self.vspeed = 1;
+obj_GameController.step_count = 0
+instance_destroy()
