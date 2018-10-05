@@ -5,3 +5,6 @@ if(self.vspeed == 1)
 {
 	self.vspeed = 0;
 }
+
+self.image_speed = 1;
+self.image_angle = self.direction - 90;
