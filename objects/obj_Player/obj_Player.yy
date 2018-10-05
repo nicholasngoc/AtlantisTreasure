@@ -171,7 +171,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "200",
+            "value": "150",
             "varName": "MovementDistance",
             "varType": 1
         }
