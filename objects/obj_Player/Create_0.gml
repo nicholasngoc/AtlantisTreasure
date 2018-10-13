@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-self.vspeed = 1
+
+//Stops initial animation speed
 self.image_speed = 0

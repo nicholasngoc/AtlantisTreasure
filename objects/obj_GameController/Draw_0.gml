@@ -5,9 +5,11 @@
 //draw_set_color(c_white)
 //draw_text(100,100,"Time: " + string(self.countdown))
 
-self.oxygenLevel = self.countdown / self.time * 100
+//Gets the oxygen level as a percentage
+self.oxygenLevel = self.countdown / self.time * 100;
+//Draws the health bar on the screen
 draw_healthbar(camera_get_view_x(view_camera[0]) + 10, 
-	camera_get_view_y(view_camera[0]) + 10, 
-	camera_get_view_x(view_camera[0]) + 35,
-	camera_get_view_y(view_camera[0]) + 110,
-	oxygenLevel, c_black, c_red, c_lime, 3, true, true)
+	camera_get_view_y(view_camera[0]) + 5, 
+	camera_get_view_x(view_camera[0]) + 25,
+	camera_get_view_y(view_camera[0]) + 55,
+	oxygenLevel, c_black, c_red, c_lime, 3, true, true);
