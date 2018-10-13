@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-self.hspeed = 0;
-self.vspeed = 1;
 
-self.image_speed = 0;
-self.image_angle = 0;
-self.image_index = 4;
+//When key is let go player is not moving
+self.playerMoving = false;
