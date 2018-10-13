@@ -65,6 +65,34 @@
             "value": "1",
             "varName": "timeInMinutes",
             "varType": 0
+        },
+        {
+            "id": "4ccb8502-7f77-4d69-a86b-312545ea2a6a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": ".25",
+            "varName": "imageScale",
+            "varType": 0
+        },
+        {
+            "id": "328e7e80-5b8a-4fc7-966a-645be040024d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "25",
+            "varName": "inventorySpacing",
+            "varType": 0
         }
     ],
     "solid": false,
