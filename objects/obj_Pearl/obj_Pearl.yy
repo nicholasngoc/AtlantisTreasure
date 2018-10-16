@@ -1,8 +1,8 @@
 {
-    "id": "1ebd94b3-6808-44bc-a6f6-99a520f8ab63",
+    "id": "624cf9fa-12c8-46b2-a016-101522d01196",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Wall",
+    "name": "obj_Pearl",
     "eventList": [
         
     ],
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "3a4f14ca-4ec8-4b88-8fb9-951825247c34",
+    "solid": false,
+    "spriteId": "7b95f5ab-cda5-490a-a1dd-2bc67d038191",
     "visible": true
 }

@@ -12,7 +12,8 @@
         "99e89d21-71fe-4228-b216-ea7d266d6b9a",
         "bb276a97-ddea-4c77-bba3-6838c8b774e9",
         "2055099f-eafd-48df-a724-d66ff603877b",
-        "1d95ae14-2270-45a4-851e-9832fb6a10d6"
+        "1d95ae14-2270-45a4-851e-9832fb6a10d6",
+        "7b95f5ab-cda5-490a-a1dd-2bc67d038191"
     ],
     "filterType": "GMSprite",
     "folderName": "Level1Assets",
