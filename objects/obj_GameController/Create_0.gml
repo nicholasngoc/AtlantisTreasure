@@ -3,3 +3,5 @@
 
 self.step_count = 0
 self.time = self.timeInMinutes * 60
+
+global.inventory = ds_list_create();

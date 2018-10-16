@@ -1,38 +1,18 @@
 {
-    "id": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9",
+    "id": "09ac47f2-488e-47ac-b895-25b8a9cbc1ab",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_GameController",
+    "name": "obj_Crab",
     "eventList": [
         {
-            "id": "19c19e06-12c6-4355-ade3-d5ab245afe6b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
-        },
-        {
-            "id": "88d35d60-d391-46f8-9921-7eeb3d0239c5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
-        },
-        {
-            "id": "1e299e87-137a-499a-ac03-1b5af082f725",
+            "id": "3455a47e-93a3-4edb-af05-6b3d69c8648e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
+            "m_owner": "09ac47f2-488e-47ac-b895-25b8a9cbc1ab"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "ce4b6dde-056f-4c5f-9030-4dda63abdfc1",
+            "id": "8dc46554-9e60-42c1-b57d-8a2beb10bda7",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,12 +42,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "timeInMinutes",
-            "varType": 0
+            "value": "0",
+            "varName": "dialogueState",
+            "varType": 1
         },
         {
-            "id": "4ccb8502-7f77-4d69-a86b-312545ea2a6a",
+            "id": "251995a5-5164-4800-9dcb-4ce0074cc70f",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -76,12 +56,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".25",
-            "varName": "imageScale",
+            "value": ".5",
+            "varName": "fontSize",
             "varType": 0
         },
         {
-            "id": "328e7e80-5b8a-4fc7-966a-645be040024d",
+            "id": "84964f99-9681-4cd2-99f2-7edd72a4ac58",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -91,11 +71,25 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "25",
-            "varName": "inventorySpacing",
+            "varName": "textYPosition",
+            "varType": 1
+        },
+        {
+            "id": "d1edbb04-b130-4150-8298-c67193d171e3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "textXPosition",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "1d95ae14-2270-45a4-851e-9832fb6a10d6",
     "visible": true
 }
