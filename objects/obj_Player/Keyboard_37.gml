@@ -5,10 +5,10 @@
 self.x -= self.playerMovementSpeed;
 
 //If the player is on the left most side of the screen
-if(self.x <= camera_get_view_x(view_camera[0]) + sprite_width/2)
+if(self.x <= sprite_width/2)
 {
 	//Keeps the player there
-	self.x = camera_get_view_x(view_camera[0]) + sprite_width / 2;
+	self.x = sprite_width / 2;
 	self.playerMoving = false;
 }
 else

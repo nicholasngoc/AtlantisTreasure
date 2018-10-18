@@ -5,10 +5,10 @@
 self.x += self.playerMovementSpeed;
 
 //If the player is at the right most part of the screen
-if(self.x >= (camera_get_view_width(view_camera[0]) + camera_get_view_x(view_camera[0]) - (sprite_width/2)))
+if(self.x >= room_width - (sprite_width/2))
 {
 	//Keeps the player on screen
-	self.x = camera_get_view_width(view_camera[0]) + camera_get_view_x(view_camera[0]) - (sprite_width / 2);	
+	self.x = room_width - (sprite_width / 2);	
 	self.playerMoving = false;
 }
 else
