@@ -5,10 +5,10 @@
 self.y -= self.playerMovementSpeed / 2;
 
 //If the player is at the top of the screen
-if(self.y <= camera_get_view_y(view_camera[0]) + sprite_width/2)
+if(self.y <= sprite_width/2)
 {
 	//Keeps the player on the top of the screen
-	self.y = camera_get_view_y(view_camera[0]) + sprite_width / 2;	
+	self.y = sprite_width / 2;	
 	self.playerMoving = false;
 }
 else
