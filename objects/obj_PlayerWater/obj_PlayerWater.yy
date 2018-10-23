@@ -2,7 +2,7 @@
     "id": "f652bf21-213d-4a3c-8482-942d8155934f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Player",
+    "name": "obj_PlayerWater",
     "eventList": [
         {
             "id": "df427d17-4387-4242-8666-4f40aa22f977",
@@ -32,16 +32,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 83,
             "eventtype": 5,
-            "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
-        },
-        {
-            "id": "6591cc80-74e3-4b46-a259-575fb5edb622",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "ec0dcca8-e97f-4c51-996d-4cfe6765b9a5",
-            "enumb": 0,
-            "eventtype": 4,
             "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
         },
         {
