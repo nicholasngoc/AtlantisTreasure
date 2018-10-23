@@ -146,7 +146,7 @@
             "Key": "4e8643dd-d8ee-40d2-8ab1-d3c41bef94e3",
             "Value": {
                 "id": "43cd60b1-8367-42c0-abe4-192931f012d1",
-                "resourcePath": "rooms\\rm_main\\rm_main.yy",
+                "resourcePath": "rooms\\rm_Level2\\rm_Level2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -156,6 +156,14 @@
                 "id": "f3cd1e8a-ddb2-4619-b46d-042d1df40400",
                 "resourcePath": "sprites\\spr_AngryFish\\spr_AngryFish.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5c8c13f6-b356-483d-9a51-058a9ca084a9",
+            "Value": {
+                "id": "b5e92f85-46a6-417d-8d17-dc4a47c1a630",
+                "resourcePath": "objects\\obj_PlayerLand\\obj_PlayerLand.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -220,6 +228,14 @@
                 "id": "1f3d609b-161e-447c-bb4f-c4eb33f4e5c6",
                 "resourcePath": "sprites\\spr_Pearl\\spr_Pearl.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "819ee606-f568-4c97-9aa7-bdb8b727fd78",
+            "Value": {
+                "id": "e2163827-bb90-424c-97ef-93a92cf97002",
+                "resourcePath": "rooms\\rm_Level1\\rm_Level1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -466,7 +482,7 @@
             "Key": "f652bf21-213d-4a3c-8482-942d8155934f",
             "Value": {
                 "id": "314a8a79-d512-4ea9-877d-01436028cd9f",
-                "resourcePath": "objects\\obj_Player\\obj_Player.yy",
+                "resourcePath": "objects\\obj_PlayerWater\\obj_PlayerWater.yy",
                 "resourceType": "GMObject"
             }
         }

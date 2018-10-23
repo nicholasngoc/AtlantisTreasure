@@ -61,7 +61,7 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 51,
-            "eventtype": 10,
+            "eventtype": 9,
             "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
         },
         {
@@ -71,6 +71,26 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
+        },
+        {
+            "id": "a3832401-2bf7-4c8f-aa60-65cf83535cc3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
+        },
+        {
+            "id": "af5e62ed-5608-431e-bd1b-0c0e0dfef6d8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
             "eventtype": 2,
             "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
         }
@@ -107,6 +127,20 @@
             "varType": 0
         },
         {
+            "id": "89bc5e38-e292-489a-9f70-0dfcce57917c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "layerId",
+            "varType": 1
+        },
+        {
             "id": "58a4d17b-af29-4ecf-b095-c512ea64e2e9",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -121,7 +155,7 @@
             "varType": 0
         },
         {
-            "id": "e8126640-4e33-4f07-aa79-be64b14fc70f",
+            "id": "44603f2f-8bb9-4eaf-8011-db986766fa81",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -131,8 +165,36 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "layerId",
+            "varName": "backgroundIndex",
+            "varType": 1
+        },
+        {
+            "id": "10027de9-ef17-4e82-aa12-71989cb7c0c4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "scoreTime",
             "varType": 0
+        },
+        {
+            "id": "52dc4ce2-8fc4-4c21-9524-ad1252a91a8b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "transitionLevel",
+            "varType": 3
         }
     ],
     "solid": false,
