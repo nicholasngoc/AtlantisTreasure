@@ -11,8 +11,3 @@ if(self.x <= sprite_width/2)
 	self.x = sprite_width / 2;
 	self.playerMoving = false;
 }
-else
-{
-	//Player is moving and animation plays
-	self.playerMoving = true;
-}

@@ -55,26 +55,6 @@
             "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
         },
         {
-            "id": "30379a6c-a31b-464c-970b-293791221a96",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 65,
-            "eventtype": 10,
-            "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
-        },
-        {
-            "id": "77711546-c6e7-45b5-95a5-8c22b0a00b96",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 68,
-            "eventtype": 10,
-            "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
-        },
-        {
             "id": "aff84180-1ac3-45e9-be8b-64485225a8a1",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -154,20 +134,6 @@
             "value": "10",
             "varName": "playerMovementSpeed",
             "varType": 1
-        },
-        {
-            "id": "524b1a24-7deb-481c-890c-8ccde8d45440",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "playerMoving",
-            "varType": 3
         },
         {
             "id": "5526a967-229b-421a-90ea-b4b79ec89d16",
@@ -251,6 +217,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "jumpCount",
+            "varType": 0
+        },
+        {
+            "id": "87042fde-1d12-4b6a-b19e-8fed134b1355",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "isDucking",
             "varType": 0
         }
     ],

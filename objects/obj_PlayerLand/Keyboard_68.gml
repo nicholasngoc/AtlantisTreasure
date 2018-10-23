@@ -11,8 +11,3 @@ if(self.x >= room_width - (sprite_width/2))
 	self.x = room_width - (sprite_width / 2);	
 	self.playerMoving = false;
 }
-else
-{
-	//Player is moving and plays animation
-	self.playerMoving = true;
-}
