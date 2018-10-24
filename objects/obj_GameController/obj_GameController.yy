@@ -65,6 +65,20 @@
             "value": "1",
             "varName": "timeInMinutes",
             "varType": 0
+        },
+        {
+            "id": "f9650a1f-cfa4-4272-b6e3-58ac12e8f911",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "healthMax",
+            "varType": 1
         }
     ],
     "solid": false,

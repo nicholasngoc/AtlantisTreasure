@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "57daee6e-0722-40d3-b547-e99db6319e97"
+        },
+        {
+            "id": "2909a172-a5bb-4592-8f20-439e66e0569a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "5c8c13f6-b356-483d-9a51-058a9ca084a9",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "57daee6e-0722-40d3-b547-e99db6319e97"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -76,8 +86,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "25",
             "varName": "yVelocity",
+            "varType": 0
+        },
+        {
+            "id": "7df34d15-da0b-40f3-869e-7e4cfa63efa0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "damage",
             "varType": 0
         }
     ],

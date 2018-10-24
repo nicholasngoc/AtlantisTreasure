@@ -5,7 +5,7 @@ if(self.tridentsSpawned < self.numOfTridents)
 {
 	//Spawns a trident
 	instance_create_layer(
-	irandom_range(spr_Trident.sprite_width / 2, room_width + spr_Trident.sprite_width / 2),
+	irandom_range(room_width / 2, room_width + spr_Trident.sprite_width / 2),
 	spr_Trident.sprite_height / -2,
 	"Instances",
 	obj_Trident);

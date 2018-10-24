@@ -90,7 +90,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "15",
             "varName": "numOfTridents",
             "varType": 1
         },
@@ -118,8 +118,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "2",
             "varName": "tridentSpawnRate",
+            "varType": 0
+        },
+        {
+            "id": "53004b70-8d65-4e3e-83a9-771de7dcc357",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "tridentRoomBuffer",
             "varType": 0
         }
     ],
