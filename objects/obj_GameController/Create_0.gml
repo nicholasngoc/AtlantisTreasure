@@ -4,3 +4,5 @@
 //Stuff for the oxygen system
 self.step_count = 0
 self.time = self.timeInMinutes * 60
+
+health = self.healthMax
