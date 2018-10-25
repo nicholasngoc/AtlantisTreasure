@@ -12,5 +12,5 @@ self.vspeed = self.yVelocity
 image_angle = self.direction - 45;
 
 //Rescales the image to be smaller
-image_xscale = .2;
-image_yscale = .2;
+image_xscale = self.newScale;
+image_yscale = self.newScale;

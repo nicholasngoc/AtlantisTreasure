@@ -103,6 +103,20 @@
             "value": "0",
             "varName": "damage",
             "varType": 0
+        },
+        {
+            "id": "044e923f-ac51-46bb-a01d-26f8dbe14fe4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": ".15",
+            "varName": "newScale",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "43e639fb-ffa5-44de-9b2e-381ffbd8f700",
+            "Value": {
+                "id": "ae19aefe-d49d-4d5e-a7d3-fe676fc50446",
+                "resourcePath": "rooms\\rm_ObstacleTest\\rm_ObstacleTest.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4582c8ae-de54-49cb-9058-7bd2ca734ce4",
             "Value": {
                 "id": "8848efe0-92ef-487b-9869-3b91b33c730e",
