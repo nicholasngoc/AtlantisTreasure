@@ -2,7 +2,7 @@
     "id": "810e24c7-0f28-4144-b6b9-067e08af15e3",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Platform",
+    "name": "spr_Platform",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 32,
-    "xorig": 0,
+    "xorig": 31,
     "yorig": 12
 }

@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "09fcb604-8f09-4aba-ab72-3f6c5d59b2d7"
+        },
+        {
+            "id": "ee7e7fd1-b1dd-45df-a8e6-e33f70e6ade3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "09fcb604-8f09-4aba-ab72-3f6c5d59b2d7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -62,12 +72,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "2",
             "varName": "numOfEvents",
             "varType": 0
         },
         {
-            "id": "b28ddae3-19f9-451e-b19a-1cf64197f769",
+            "id": "11645bf6-a42a-4909-bd3f-9f00e750bb10",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -76,7 +86,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "5",
             "varName": "eventDelay",
             "varType": 0
         },
@@ -123,7 +133,21 @@
             "varType": 0
         },
         {
-            "id": "53004b70-8d65-4e3e-83a9-771de7dcc357",
+            "id": "4d0d4db2-db54-4c3a-a070-f5df8276f913",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "tridentScale",
+            "varType": 0
+        },
+        {
+            "id": "3faf2d27-522a-4c2a-ae81-d13eb1d2d68d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -133,7 +157,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "20",
-            "varName": "tridentRoomBuffer",
+            "varName": "platformFinishTime",
             "varType": 0
         }
     ],

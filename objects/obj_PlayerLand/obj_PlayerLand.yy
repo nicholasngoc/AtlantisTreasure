@@ -83,6 +83,16 @@
             "enumb": 1,
             "eventtype": 3,
             "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
+        },
+        {
+            "id": "be74c040-61ec-4b38-8304-11cf391d74c4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "662eb96d-d1d6-4085-b9c6-fb49ebeb0e8c",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -256,6 +266,34 @@
             "value": "0",
             "varName": "onPlatform",
             "varType": 3
+        },
+        {
+            "id": "da4c73dc-a226-4472-87ad-20c847b30ea7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "platformCollisionHeight",
+            "varType": 0
+        },
+        {
+            "id": "60f7b335-4f5f-486a-a837-37e843cb01e7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "platformCollisionWidth",
+            "varType": 0
         }
     ],
     "solid": true,

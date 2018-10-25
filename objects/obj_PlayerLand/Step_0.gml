@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*If else statement to handle ducking*/
 if(self.isDucking == true)
 {
 	image_speed = 0;
@@ -21,6 +22,7 @@ if(self.isJumping == true)
 {
 	//This changes the players y
 	self.y -= self.jumpCount;
+	
 	//This decellerates their velocity
 	self.jumpCount -= self.playerFallingSpeed;
 	
