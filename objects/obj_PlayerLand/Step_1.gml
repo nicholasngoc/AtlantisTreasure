@@ -3,7 +3,7 @@
 
 /*This whole section is used to handlue being on platforms*/
 //If the player is on top of the platform
-if(place_meeting(self.x, self.y + sprite_height / 2 - self.platformHeight, obj_Platform) == true)
+if(position_meeting(self.x, self.y + sprite_height / 2/* - self.platformHeight*/, obj_Platform) == true)
 {
 	//If the player was jumping and is falling
 	if(self.isJumping == true && self.jumpCount < 0)

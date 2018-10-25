@@ -267,7 +267,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "130",
+            "value": "65",
             "varName": "platformHeight",
             "varType": 0
         }

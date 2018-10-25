@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*If else statement to handle ducking*/
 if(self.isDucking == true)
 {
 	image_speed = 0;
