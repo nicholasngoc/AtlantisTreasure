@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2f3e7ce7-6abd-446b-8ebe-1b9849da2001",
+            "Value": {
+                "id": "bbe22819-dc7f-4034-a91d-39863d72f580",
+                "resourcePath": "objects\\obj_Platform\\obj_Platform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3548d17b-c3e6-4f24-8888-556b50cc2949",
             "Value": {
                 "id": "72bf9f7a-c14c-447a-bb86-d3c10f5efa85",
@@ -530,7 +538,7 @@
             "Key": "f85b74ee-2469-4b1d-9001-340b5420680a",
             "Value": {
                 "id": "da647c91-dc8c-4a04-b99e-aff7b97fc86b",
-                "resourcePath": "objects\\obj_Platform\\obj_Platform.yy",
+                "resourcePath": "objects\\obj_PlatformSmall\\obj_PlatformSmall.yy",
                 "resourceType": "GMObject"
             }
         }

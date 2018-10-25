@@ -22,6 +22,7 @@ if(self.isJumping == true)
 {
 	//This changes the players y
 	self.y -= self.jumpCount;
+	
 	//This decellerates their velocity
 	self.jumpCount -= self.playerFallingSpeed;
 	
