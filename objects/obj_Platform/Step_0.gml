@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Checks the players x position
-if(place_meeting(self.x, self.y, self.player))
+/*if(place_meeting(self.x, self.y, self.player))
 {
 	//Checks the players y position to be above the platforms y
 	if(self.player.y + sprite_height / 2 > self.y)
@@ -19,8 +19,4 @@ if(place_meeting(self.x, self.y, self.player))
 			self.player.onPlatform = false;
 		}
 	}
-}
-else
-{
-	self.player.onPlatform = false;
 }

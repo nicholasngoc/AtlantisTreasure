@@ -256,6 +256,20 @@
             "value": "0",
             "varName": "onPlatform",
             "varType": 3
+        },
+        {
+            "id": "5d107547-e911-4b97-8ebf-fe28fead42a8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "130",
+            "varName": "platformHeight",
+            "varType": 0
         }
     ],
     "solid": true,
