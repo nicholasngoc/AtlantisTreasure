@@ -20,5 +20,6 @@ if(self.tridentsSpawned < self.numOfTridents)
 else
 {
 	//Chooses new event
-	alarm[0] = 1;
+	//Has 2 second delay to allow for tridents to get off the screen
+	alarm[0] = room_speed * 2;
 }
