@@ -59,6 +59,20 @@
             "value": "0",
             "varName": "newScale",
             "varType": 0
+        },
+        {
+            "id": "d50af465-7494-4f36-b853-9d378585402a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "reScale",
+            "varType": 3
         }
     ],
     "solid": false,

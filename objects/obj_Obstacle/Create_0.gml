@@ -2,8 +2,11 @@
 // You can write your code in this editor
 
 //Sets obstacle to move same speed 
-self.hspeed = -5
+self.hspeed = self.backgroundSpeed;
 
-//Sets new scale
-image_xscale = self.newScale;
-image_yscale = self.newScale;
+if(self.reScale == true)
+{
+	//Sets new scale
+	image_xscale = self.newScale;
+	image_yscale = self.newScale;
+}

@@ -17,6 +17,16 @@ else
 	}
 }
 
+//This pushes the player when they are on the left side of the wall
+if(place_meeting(self.x + sprite_width / 2, self.y, obj_Wall) == true)
+{
+	self.hspeed = -5;
+}
+else
+{
+	self.hspeed = 0;
+}
+
 //This if statement handles the player jump
 if(self.isJumping == true)
 {

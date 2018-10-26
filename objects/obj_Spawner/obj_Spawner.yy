@@ -53,6 +53,16 @@
             "enumb": 3,
             "eventtype": 2,
             "m_owner": "09fcb604-8f09-4aba-ab72-3f6c5d59b2d7"
+        },
+        {
+            "id": "166f483b-9b76-4cf8-8618-efcf423f5367",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 2,
+            "m_owner": "09fcb604-8f09-4aba-ab72-3f6c5d59b2d7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -82,7 +92,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "4",
             "varName": "numOfEvents",
             "varType": 0
         },
@@ -99,6 +109,20 @@
             "value": "5",
             "varName": "eventDelay",
             "varType": 0
+        },
+        {
+            "id": "9d9a55fd-bd3d-483c-8216-13f482c1a022",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "lastEvent",
+            "varType": 1
         },
         {
             "id": "57cf0c50-de89-48fa-8101-db7ad5f9c1bd",
@@ -138,7 +162,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "1.5",
             "varName": "tridentSpawnRate",
             "varType": 0
         },
@@ -194,7 +218,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.5",
+            "value": ".5",
             "varName": "event3SpawnMin",
             "varType": 0
         },
@@ -208,7 +232,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2.5",
+            "value": "1.5",
             "varName": "event3SpawnMax",
             "varType": 0
         },
@@ -238,6 +262,62 @@
             "resourceFilter": 1023,
             "value": "25",
             "varName": "atlanteanHeight",
+            "varType": 0
+        },
+        {
+            "id": "37a922cd-1b6a-4065-a863-336bbcb788b1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1478",
+            "varName": "deathPitStart",
+            "varType": 0
+        },
+        {
+            "id": "e57214d0-da36-4fbf-b020-8deb8ccbee0f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "64",
+            "varName": "spikeWidth",
+            "varType": 0
+        },
+        {
+            "id": "323e3cd4-c739-401e-9c10-afbc465adf3a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "27",
+            "varName": "spikeAmount",
+            "varType": 0
+        },
+        {
+            "id": "dab143f0-2f7e-4432-8313-6a1593b6cce6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "708",
+            "varName": "spikeY",
             "varType": 0
         }
     ],
