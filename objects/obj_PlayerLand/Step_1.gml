@@ -4,7 +4,7 @@
 /*This whole section is used to handlue being on platforms*/
 //If the player is on top of the platform
 if(collision_rectangle(self.x - self.platformCollisionWidth, 
-	self.y + sprite_height / 2, 
+	self.y + sprite_height / 2 - self.platformCollisionHeight, 
 	self.x + self.platformCollisionWidth, 
 	self.y + sprite_height / 2 + self.platformCollisionHeight, 
 	obj_Platform, false, true)
@@ -27,6 +27,13 @@ if(collision_rectangle(self.x - self.platformCollisionWidth,
 else
 {
 	self.onPlatform = false;
+}
+
+//If statement that handles bumping underneath a wall
+if(position_meeting(self.x, self.y - sprite_height / 2, obj_Wall) && self.isJumping == true)
+{
+	//Sets to negative so that they immedietly start falling after hitting the wall
+	self.jumpCount = -2;
 }
 
 //If the player did not jump, is not on a platform, and is not on the ground
