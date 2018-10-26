@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "17dd197b-ee8a-46c9-8b3d-1f63f5e2ced8",
+            "Value": {
+                "id": "1b29f1e5-7e5b-4fd1-bac8-ef5c26398e07",
+                "resourcePath": "objects\\obj_Robot\\obj_Robot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1d95ae14-2270-45a4-851e-9832fb6a10d6",
             "Value": {
                 "id": "9e35528b-1693-459c-8a21-1250a7dda15e",
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "26a5ff46-571c-4111-b8ed-a18ddcea093e",
+            "Value": {
+                "id": "d985006c-9408-4760-a63f-fcfba62624a5",
+                "resourcePath": "objects\\obj_Atlantean\\obj_Atlantean.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "289070dc-461d-4c21-b7fe-42d008baa4a7",
             "Value": {
                 "id": "f6f5ae59-1cd1-4b43-aa94-d30f1438c1d7",
@@ -131,6 +147,14 @@
             "Value": {
                 "id": "72bf9f7a-c14c-447a-bb86-d3c10f5efa85",
                 "resourcePath": "sprites\\spr_Trident\\spr_Trident.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3cf885a0-9198-4a86-b70d-65fd9fd444c4",
+            "Value": {
+                "id": "2aa676bc-8a5f-46b6-8be8-8b249f7d954d",
+                "resourcePath": "sprites\\spr_Atlantean\\spr_Atlantean.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -311,6 +335,14 @@
             }
         },
         {
+            "Key": "8e433772-2734-4968-bb92-e11cd74a8a26",
+            "Value": {
+                "id": "6030a5ca-ceb7-4487-aca7-ee98feadea3a",
+                "resourcePath": "objects\\obj_Obstacle\\obj_Obstacle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "90d53baa-f830-4211-8cab-846467dab4c5",
             "Value": {
                 "id": "9f1f96f7-cdef-45ee-8747-23bacd8edb83",
@@ -387,6 +419,14 @@
             "Value": {
                 "id": "3f2f7a46-1152-49e6-a13f-7a31879d4aa3",
                 "resourcePath": "sprites\\spr_Exclamation\\spr_Exclamation.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b34e8525-f622-4b02-b655-07fc523a44d4",
+            "Value": {
+                "id": "f2ab8c11-6bed-411f-9f0a-5cd67de01be3",
+                "resourcePath": "sprites\\spr_Robot\\spr_Robot.yy",
                 "resourceType": "GMSprite"
             }
         },

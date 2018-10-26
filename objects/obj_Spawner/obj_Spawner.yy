@@ -43,6 +43,16 @@
             "enumb": 2,
             "eventtype": 2,
             "m_owner": "09fcb604-8f09-4aba-ab72-3f6c5d59b2d7"
+        },
+        {
+            "id": "1176b6e1-15c7-4324-8947-5ca92bfd1c2a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 3,
+            "eventtype": 2,
+            "m_owner": "09fcb604-8f09-4aba-ab72-3f6c5d59b2d7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -133,20 +143,6 @@
             "varType": 0
         },
         {
-            "id": "4d0d4db2-db54-4c3a-a070-f5df8276f913",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "tridentScale",
-            "varType": 0
-        },
-        {
             "id": "3faf2d27-522a-4c2a-ae81-d13eb1d2d68d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -158,6 +154,90 @@
             "resourceFilter": 1023,
             "value": "20",
             "varName": "platformFinishTime",
+            "varType": 0
+        },
+        {
+            "id": "6baa48ab-fb99-4433-96e8-afed6eaf0fa3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "maxAtlanteanRobot",
+            "varType": 0
+        },
+        {
+            "id": "902f8808-c8b2-4198-8480-f5f680e5c81a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "atlanteanRobotsSpawned",
+            "varType": 0
+        },
+        {
+            "id": "dfb0b6da-88be-49a6-8518-67d130e70db8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.5",
+            "varName": "event3SpawnMin",
+            "varType": 0
+        },
+        {
+            "id": "91046f50-b6be-4b79-aff2-fdae4dfecffb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2.5",
+            "varName": "event3SpawnMax",
+            "varType": 0
+        },
+        {
+            "id": "71074bc8-83a2-4a2d-b146-7939038cc6a1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "640",
+            "varName": "robotHeight",
+            "varType": 0
+        },
+        {
+            "id": "ce631c31-5096-49cd-94a2-6fbbccef292a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "25",
+            "varName": "atlanteanHeight",
             "varType": 0
         }
     ],
