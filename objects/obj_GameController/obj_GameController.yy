@@ -79,6 +79,20 @@
             "value": "100",
             "varName": "healthMax",
             "varType": 1
+        },
+        {
+            "id": "3d641a81-59c6-4852-ad05-362e688a034e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gameState",
+            "varType": 0
         }
     ],
     "solid": false,
