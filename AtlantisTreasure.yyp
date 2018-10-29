@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0fe2a02d-d8f7-4e6e-9b8a-97030265ca48",
+            "Value": {
+                "id": "75bb2ac2-d56e-4ce8-92dc-7f537f07fcbd",
+                "resourcePath": "objects\\obj_GameOver\\obj_GameOver.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "10fa76e0-430e-425e-98f4-f1720f0d4bb7",
             "Value": {
                 "id": "8153618a-016b-43e8-b18a-23f3ddc558c1",
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "72bf9f7a-c14c-447a-bb86-d3c10f5efa85",
                 "resourcePath": "sprites\\spr_Trident\\spr_Trident.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "366a85f5-77f8-42ae-9dbd-16a82d196db3",
+            "Value": {
+                "id": "d781f2e6-2944-465f-8c77-81adad082f26",
+                "resourcePath": "sprites\\bg_GameOver\\bg_GameOver.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "7fa1f507-b06e-473c-854f-c1a565f75714",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "aab69778-6a90-45a0-97ed-d828bff7520b",
             "Value": {
                 "id": "cda83253-a769-459b-a69c-02e85d80fa8f",
@@ -559,6 +583,14 @@
             }
         },
         {
+            "Key": "e5ba2241-3bea-4eb6-90ef-26f2411ada94",
+            "Value": {
+                "id": "a975677c-6432-42c6-a50f-7ef8f1955af9",
+                "resourcePath": "rooms\\rm_GameOver\\rm_GameOver.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ec0dcca8-e97f-4c51-996d-4cfe6765b9a5",
             "Value": {
                 "id": "44281dff-25d6-4bf1-a7a8-91e4a17b5d85",
@@ -580,6 +612,14 @@
                 "id": "25314b93-a360-4da1-b5f9-c6cfc19e3782",
                 "resourcePath": "views\\f17f83ca-de3a-4a28-917c-53fa62ef9638.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "7e0f271c-1056-4f33-b8d9-78af5966186d",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
