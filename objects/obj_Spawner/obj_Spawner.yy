@@ -218,7 +218,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".5",
+            "value": "1",
             "varName": "event3SpawnMin",
             "varType": 0
         },
@@ -232,7 +232,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.5",
+            "value": "2",
             "varName": "event3SpawnMax",
             "varType": 0
         },
@@ -248,20 +248,6 @@
             "resourceFilter": 1023,
             "value": "640",
             "varName": "robotHeight",
-            "varType": 0
-        },
-        {
-            "id": "ce631c31-5096-49cd-94a2-6fbbccef292a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "25",
-            "varName": "atlanteanHeight",
             "varType": 0
         },
         {
