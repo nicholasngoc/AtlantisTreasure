@@ -11,4 +11,5 @@ if(health <= 0||self.countdown<=0)
 	instance_destroy(obj_PlayerWater);
 	instance_destroy(obj_PlayerLand);
 	room_goto(rm_GameOver);
+	self.gameState = -1;
 }
