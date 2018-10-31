@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Sets obstacle to move same speed 
-self.hspeed = self.backgroundSpeed;
+self.hspeed = obj_GameController.backgroundSpeed;
 
 if(self.reScale == true)
 {

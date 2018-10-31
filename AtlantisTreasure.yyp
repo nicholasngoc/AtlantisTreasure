@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "177b4f95-b903-4874-94f3-f8903fb4fabd",
+            "Value": {
+                "id": "30b4ae11-3112-4f71-9fc1-9e368dddaac3",
+                "resourcePath": "sprites\\spr_NewDiver\\spr_NewDiver.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "17dd197b-ee8a-46c9-8b3d-1f63f5e2ced8",
             "Value": {
                 "id": "1b29f1e5-7e5b-4fd1-bac8-ef5c26398e07",

@@ -5,7 +5,7 @@
 if(self.y > room_height - (sprite_height / 2))
 {
 	//Set hspeed to -5 because that is the room speed
-	self.hspeed = -5;
+	self.hspeed = obj_GameController.backgroundSpeed;
 	self.vspeed = 0;
 	self.y = room_height - (sprite_height / 2);
 }
