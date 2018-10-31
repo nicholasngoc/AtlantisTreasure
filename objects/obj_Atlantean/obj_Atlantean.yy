@@ -42,14 +42,6 @@
             "objectId": "8e433772-2734-4968-bb92-e11cd74a8a26",
             "propertyId": "d50af465-7494-4f36-b853-9d378585402a",
             "value": "True"
-        },
-        {
-            "id": "62b29278-f180-4546-b865-942e1df1b920",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "8e433772-2734-4968-bb92-e11cd74a8a26",
-            "propertyId": "5cf93f27-c49b-495d-86d2-535306ad6d91",
-            "value": "-20"
         }
     ],
     "parentObjectId": "8e433772-2734-4968-bb92-e11cd74a8a26",
@@ -79,6 +71,20 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "damage",
+            "varType": 0
+        },
+        {
+            "id": "bdc37ee5-72c6-4aae-a006-5e7587d547ba",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-25",
+            "varName": "eventSpeed",
             "varType": 0
         }
     ],

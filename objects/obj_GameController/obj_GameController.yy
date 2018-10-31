@@ -107,6 +107,20 @@
             "value": "0",
             "varName": "powerUp",
             "varType": 3
+        },
+        {
+            "id": "451ac2f2-7eca-4f94-a225-2a2c97fb4bfd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-10",
+            "varName": "backgroundSpeed",
+            "varType": 0
         }
     ],
     "solid": false,
