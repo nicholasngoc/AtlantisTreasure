@@ -294,6 +294,20 @@
             "value": "3",
             "varName": "platformCollisionWidth",
             "varType": 0
+        },
+        {
+            "id": "47fda241-29f0-416f-9331-de1131bf6b26",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-75",
+            "varName": "wallPushDistance",
+            "varType": 0
         }
     ],
     "solid": true,

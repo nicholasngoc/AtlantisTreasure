@@ -18,7 +18,7 @@ else
 }
 
 //This pushes the player when they are on the left side of the wall
-if(place_meeting(self.x + sprite_width / 2, self.y, obj_Wall) == true)
+if(place_meeting(self.x + sprite_width / 2 + self.wallPushDistance, self.y, obj_Wall) == true)
 {
 	self.hspeed = -5;
 }

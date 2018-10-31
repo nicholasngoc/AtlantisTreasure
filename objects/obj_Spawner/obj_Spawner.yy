@@ -260,7 +260,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1478",
+            "value": "0",
             "varName": "deathPitStart",
             "varType": 0
         },
@@ -288,7 +288,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "27",
+            "value": "0",
             "varName": "spikeAmount",
             "varType": 0
         },

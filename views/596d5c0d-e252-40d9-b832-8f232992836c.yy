@@ -12,7 +12,8 @@
         "662eb96d-d1d6-4085-b9c6-fb49ebeb0e8c",
         "17dd197b-ee8a-46c9-8b3d-1f63f5e2ced8",
         "26a5ff46-571c-4111-b8ed-a18ddcea093e",
-        "89bc1f38-9e68-498d-8ac8-4f68326b8c90"
+        "89bc1f38-9e68-498d-8ac8-4f68326b8c90",
+        "48d3ea62-8a4d-42ab-bdb4-a0f3cbebdcc9"
     ],
     "filterType": "GMObject",
     "folderName": "Level1Objects",
