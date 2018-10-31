@@ -13,7 +13,7 @@ if(self.atlanteanRobotsSpawned < self.maxAtlanteanRobot)
 	//This is for spawning atlantean
 	if(chooseObstacle == 0)
 	{
-		instance_create_layer(room_width + 100, room_height - self.atlanteanHeight, "Instances", obj_Atlantean);
+		instance_create_layer(room_width + 100, room_height, "Instances", obj_Atlantean);
 	}
 	//This is for choosing a robot
 	else if(chooseObstacle == 1)

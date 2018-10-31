@@ -191,6 +191,22 @@
             }
         },
         {
+            "Key": "48d3ea62-8a4d-42ab-bdb4-a0f3cbebdcc9",
+            "Value": {
+                "id": "8e00b3d0-96f8-45d7-97d8-b7af3205dbf8",
+                "resourcePath": "views\\48d3ea62-8a4d-42ab-bdb4-a0f3cbebdcc9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4e669ec0-f254-4a6a-b175-67a88dde2e7d",
+            "Value": {
+                "id": "98c6733b-b904-4272-ab81-39b0d596f15b",
+                "resourcePath": "views\\4e669ec0-f254-4a6a-b175-67a88dde2e7d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4e8643dd-d8ee-40d2-8ab1-d3c41bef94e3",
             "Value": {
                 "id": "43cd60b1-8367-42c0-abe4-192931f012d1",
@@ -434,7 +450,7 @@
             "Key": "aab69778-6a90-45a0-97ed-d828bff7520b",
             "Value": {
                 "id": "cda83253-a769-459b-a69c-02e85d80fa8f",
-                "resourcePath": "sprites\\spr_Player\\spr_Player.yy",
+                "resourcePath": "sprites\\spr_PlayerLand\\spr_PlayerLand.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -492,6 +508,14 @@
                 "id": "8a9051a3-4f02-44da-aaed-d72d43f9ee28",
                 "resourcePath": "objects\\obj_Worms\\obj_Worms.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b8f6eadd-7dbc-4bf9-90fa-306d91846783",
+            "Value": {
+                "id": "e01be97e-ff5e-4f76-b8e0-8ff2c36c355b",
+                "resourcePath": "rooms\\rm_Level1Platform\\rm_Level1Platform.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -636,6 +660,14 @@
                 "id": "da647c91-dc8c-4a04-b99e-aff7b97fc86b",
                 "resourcePath": "objects\\obj_PlatformSmall\\obj_PlatformSmall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb56ac46-dd22-4308-b599-42f1b0b2c4ed",
+            "Value": {
+                "id": "3950e8a3-6182-4c87-a487-1da9702d51cf",
+                "resourcePath": "sprites\\spr_PlayerWater\\spr_PlayerWater.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

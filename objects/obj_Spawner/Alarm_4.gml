@@ -1,5 +1,7 @@
 /// @description Death Pit
 
+self.deathPitStart = 1478;
+self.spikeAmount = 27;
 for(i = 0; i < self.spikeAmount; i++)
 {
 	instance_create_layer(self.deathPitStart + self.spikeWidth * i, self.spikeY, "Instances", obj_PitSpike);

@@ -218,7 +218,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".5",
+            "value": "1",
             "varName": "event3SpawnMin",
             "varType": 0
         },
@@ -232,7 +232,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.5",
+            "value": "2",
             "varName": "event3SpawnMax",
             "varType": 0
         },
@@ -251,20 +251,6 @@
             "varType": 0
         },
         {
-            "id": "ce631c31-5096-49cd-94a2-6fbbccef292a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "25",
-            "varName": "atlanteanHeight",
-            "varType": 0
-        },
-        {
             "id": "37a922cd-1b6a-4065-a863-336bbcb788b1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -274,7 +260,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1478",
+            "value": "0",
             "varName": "deathPitStart",
             "varType": 0
         },
@@ -302,7 +288,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "27",
+            "value": "0",
             "varName": "spikeAmount",
             "varType": 0
         },
