@@ -44,3 +44,9 @@ if(self.isJumping == false && self.onPlatform == false && self.y < room_height -
 	self.jumpCount = 0;
 	self.isJumping = true;
 }
+
+/*This will be used to handle the user going out of bounds*/
+if(self.x + sprite_width / 2 < 0)
+{
+	health = 0;
+}
