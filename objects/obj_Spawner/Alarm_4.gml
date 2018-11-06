@@ -36,4 +36,4 @@ wall.image_xscale = 20;
 wall.image_yscale = 8;
 
 //Chooses new event when the death pit is cleared
-alarm[0] = room_speed * 20
+alarm[0] = room_speed * self.pitFinishTime

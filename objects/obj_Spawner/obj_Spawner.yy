@@ -176,7 +176,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "10",
             "varName": "platformFinishTime",
             "varType": 0
         },
@@ -304,6 +304,20 @@
             "resourceFilter": 1023,
             "value": "708",
             "varName": "spikeY",
+            "varType": 0
+        },
+        {
+            "id": "be4883c5-7cf4-4b6b-b203-959a1c3bff35",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "11",
+            "varName": "pitFinishTime",
             "varType": 0
         }
     ],

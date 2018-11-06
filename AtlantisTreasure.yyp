@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "177b4f95-b903-4874-94f3-f8903fb4fabd",
-            "Value": {
-                "id": "30b4ae11-3112-4f71-9fc1-9e368dddaac3",
-                "resourcePath": "sprites\\spr_NewDiver\\spr_NewDiver.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "17dd197b-ee8a-46c9-8b3d-1f63f5e2ced8",
             "Value": {
                 "id": "1b29f1e5-7e5b-4fd1-bac8-ef5c26398e07",
@@ -599,6 +591,14 @@
             }
         },
         {
+            "Key": "cc13462c-86d2-41e2-b982-b4fd0dae5011",
+            "Value": {
+                "id": "b2776b86-4116-42ef-85a0-ea815331c0c8",
+                "resourcePath": "sprites\\spr_PlayerLandOld\\spr_PlayerLandOld.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "57ce2c11-e720-45d7-9a11-fd82f1f332de",
@@ -652,6 +652,14 @@
                 "id": "a975677c-6432-42c6-a50f-7ef8f1955af9",
                 "resourcePath": "rooms\\rm_GameOver\\rm_GameOver.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e7a4c5dc-1a71-40b9-a7b2-f1487044f9aa",
+            "Value": {
+                "id": "afa57bb1-c97c-478a-9544-596e36cd5d8d",
+                "resourcePath": "objects\\obj_ChasingAtlanteans\\obj_ChasingAtlanteans.yy",
+                "resourceType": "GMObject"
             }
         },
         {

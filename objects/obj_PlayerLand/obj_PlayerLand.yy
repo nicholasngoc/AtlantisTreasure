@@ -165,7 +165,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "12",
             "varName": "playerDuckIndex",
             "varType": 1
         },
@@ -305,7 +305,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-75",
+            "value": "-50",
             "varName": "wallPushDistance",
             "varType": 0
         }
