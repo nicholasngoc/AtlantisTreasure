@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "e7a4c5dc-1a71-40b9-a7b2-f1487044f9aa",
+            "Value": {
+                "id": "afa57bb1-c97c-478a-9544-596e36cd5d8d",
+                "resourcePath": "objects\\obj_ChasingAtlanteans\\obj_ChasingAtlanteans.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ec0dcca8-e97f-4c51-996d-4cfe6765b9a5",
             "Value": {
                 "id": "44281dff-25d6-4bf1-a7a8-91e4a17b5d85",

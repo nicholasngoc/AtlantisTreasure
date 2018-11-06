@@ -30,7 +30,7 @@ else
 }
 
 //If statement that handles bumping underneath a wall
-if(position_meeting(self.x, self.y - sprite_height / 2, obj_Wall) && self.isJumping == true)
+if(position_meeting(self.x, self.y - sprite_height / 2 - 8, obj_Wall) && self.isJumping == true)
 {
 	//Sets to negative so that they immedietly start falling after hitting the wall
 	self.jumpCount = -2;
