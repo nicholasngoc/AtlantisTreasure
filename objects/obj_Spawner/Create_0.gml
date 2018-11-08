@@ -6,4 +6,4 @@ chasingAtlanteans.image_xscale = chasingAtlanteanScale;
 chasingAtlanteans.image_yscale = chasingAtlanteanScale;
 
 //Selects random event
-alarm[5] = room_speed * 5;
+alarm[5] = 5;
