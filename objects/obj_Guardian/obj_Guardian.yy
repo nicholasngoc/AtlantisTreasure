@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "851236d0-f1ba-4130-a264-cfff446eb89f"
+        },
+        {
+            "id": "080c5d2f-7093-4bf3-b93c-409456c48955",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "851236d0-f1ba-4130-a264-cfff446eb89f"
+        },
+        {
+            "id": "0ab47411-7472-4ad9-84a0-69566d611db5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "851236d0-f1ba-4130-a264-cfff446eb89f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -68,6 +88,48 @@
             "resourceFilter": 1023,
             "value": "20",
             "varName": "scale",
+            "varType": 0
+        },
+        {
+            "id": "24bbc0c2-7106-43fe-af90-d10e382fe142",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "swingSword",
+            "varType": 3
+        },
+        {
+            "id": "ddcbcd4e-78d7-4d18-9535-eb96c34fcf6d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "maxSwings",
+            "varType": 0
+        },
+        {
+            "id": "a5d27044-70ba-4c72-b085-781e470fcd31",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "swings",
             "varType": 0
         }
     ],
