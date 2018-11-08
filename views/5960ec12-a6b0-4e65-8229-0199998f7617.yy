@@ -10,7 +10,7 @@
         "b34e8525-f622-4b02-b655-07fc523a44d4",
         "7d764fd1-a4ec-42ce-8443-a7b27c6313ad",
         "190ee104-1e9f-43ef-a096-9af36f55f6e1",
-        "73d2f5cd-6038-49a7-bfdd-416f7cdecc57"
+        "e66bdfc3-46b3-4cf1-af03-e217e98968ea"
     ],
     "filterType": "GMSprite",
     "folderName": "Level1Sprites",

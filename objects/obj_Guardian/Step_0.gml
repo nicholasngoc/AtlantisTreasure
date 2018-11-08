@@ -25,3 +25,14 @@ else
 	swingSword = false;
 	image_speed = 0;
 }
+
+/*The following if statement is used to deal damage on the player*/
+if(place_meeting(self.x, self.y, obj_PlayerLand))
+{
+	if(canDamage)
+	{
+		health -= damage;
+		canDamage = false;
+		alarm[11] = room_speed * damageDelay;
+	}
+}
