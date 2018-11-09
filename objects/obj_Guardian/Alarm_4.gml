@@ -7,6 +7,11 @@ if(waveCount < maxWaves)
 	
 	alarm[4] = room_speed * waveDelay;
 }
+else if(obj_GameController.debugMode == false)
+{
+	alarm[0] = 1;
+	waveCount = 0;
+}
 else
 {
 	waveCount = 0;

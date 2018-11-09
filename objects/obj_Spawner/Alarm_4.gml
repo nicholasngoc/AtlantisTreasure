@@ -1,7 +1,7 @@
 /// @description Death Pit
 
 self.deathPitStart = 1478;
-self.spikeAmount = 27;
+self.spikeAmount = 32;
 for(i = 0; i < self.spikeAmount; i++)
 {
 	instance_create_layer(self.deathPitStart + self.spikeWidth * i, self.spikeY, "Instances", obj_PitSpike);
@@ -35,5 +35,8 @@ var wall = instance_create_layer(3104, 0, "Instances", obj_Wall);
 wall.image_xscale = 20;
 wall.image_yscale = 8;
 
-//Chooses new event when the death pit is cleared
-alarm[0] = room_speed * self.pitFinishTime
+if(obj_GameController.debugMode == false)
+{
+	//Chooses new event when the death pit is cleared
+	alarm[0] = room_speed * self.pitFinishTime
+}

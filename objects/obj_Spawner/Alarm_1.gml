@@ -17,9 +17,15 @@ if(self.tridentsSpawned < self.numOfTridents)
 	//Spawns more tridents
 	alarm[1] = room_speed * self.tridentSpawnRate;
 }
-else
+else if(obj_GameController.debugMode == false)
 {
 	//Chooses new event
 	//Has 2 second delay to allow for tridents to get off the screen
 	alarm[0] = room_speed * 2;
+	
+	tridentsSpawned = 0;
+}
+else
+{
+	tridentsSpawned = 0;
 }

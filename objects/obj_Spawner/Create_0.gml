@@ -5,5 +5,6 @@ chasingAtlanteans = instance_create_layer(0, room_height, "Instances", obj_Chasi
 chasingAtlanteans.image_xscale = chasingAtlanteanScale;
 chasingAtlanteans.image_yscale = chasingAtlanteanScale;
 
+if(obj_GameController.debugMode == false)
 //Selects random event
-alarm[5] = 5;
+alarm[0] = 5;

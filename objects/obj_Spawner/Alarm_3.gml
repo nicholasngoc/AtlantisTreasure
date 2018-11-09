@@ -27,9 +27,15 @@ if(self.atlanteanRobotsSpawned < self.maxAtlanteanRobot)
 	//Spawns more obstacles
 	alarm[3] = room_speed * random_range(self.event3SpawnMin, self.event3SpawnMax);
 }
-else
+else if(obj_GameController.debugMode == false)
 {
 	//Chooses new event
 	//Has 2 second delay to allow for obstacles to get off the screen
 	alarm[0] = room_speed * 5;
+	
+	atlanteanRobotsSpawned = 0;
+}
+else
+{
+	atlanteanRobotsSpawned = 0;
 }

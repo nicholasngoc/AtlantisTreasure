@@ -121,6 +121,20 @@
             "value": "-10",
             "varName": "backgroundSpeed",
             "varType": 0
+        },
+        {
+            "id": "0e9a9ad2-df4f-48df-b15a-1f3dcc6d8921",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "debugMode",
+            "varType": 3
         }
     ],
     "solid": false,

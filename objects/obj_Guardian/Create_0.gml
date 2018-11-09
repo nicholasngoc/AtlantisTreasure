@@ -12,5 +12,8 @@ self.y = room_height;
 //Stops animation
 image_speed = 0;
 
-//Start random events
-alarm[3] = room_speed * arrivalDelay;
+if(obj_GameController.debugMode == false)
+{
+	//Start random events
+	alarm[0] = room_speed * arrivalDelay;
+}
