@@ -15,9 +15,13 @@ if(spitCount < maxSpits)
 	alarm[2] = room_speed * spitDelay;
 }
 //If the even is finished
-else
+else if(obj_GameController.debugMode == false)
 {
 	//Reset spit count and choose new event
 	spitCount = 0;
 	alarm[0] = room_speed * acidDelay;
+}
+else
+{
+	spitCount = 0;
 }

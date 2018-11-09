@@ -8,17 +8,7 @@ self.eventType = irandom_range(1, self.numOfEvents);
 
 //Checks to see if the last event was of the same type
 if(self.lastEvent != self.eventType)
-	{
-	/*Resets the count variable for these events*/
-	if(self.eventType == 1)
-	{
-		self.tridentsSpawned = 0;
-	}
-	if(self.eventType == 3)
-	{
-		self.atlanteanRobotsSpawned = 0;
-	}
-	
+{
 	self.lastEvent = self.eventType;
 
 	//Starts the new event 
