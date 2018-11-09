@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 /*If else statement used to move the boss onto the screen on spawn*/
-if(self.x < 0)
+if(self.x < sideBuffer)
 {
 	self.hspeed = xVelocity;
 }
@@ -31,8 +31,26 @@ if(place_meeting(self.x, self.y, obj_PlayerLand))
 {
 	if(canDamage)
 	{
-		health -= damage;
+		if(isJumping == true)
+			health -= jumpDamage;
+		else
+			health -= damage;
+			
 		canDamage = false;
 		alarm[11] = room_speed * damageDelay;
+	}
+}
+
+if(isJumping == true)
+{
+	self.y -= currentJumpVel;
+	currentJumpVel -= jumpDecel;
+	
+	if(self.y > room_height)
+	{
+		self.y = room_height;
+		isJumping = false;
+		
+		alarm[4] = 1;
 	}
 }
