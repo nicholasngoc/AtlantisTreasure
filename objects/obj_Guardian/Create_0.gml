@@ -13,4 +13,4 @@ self.y = room_height;
 image_speed = 0;
 
 //Start random events
-alarm[0] = room_speed * arrivalDelay;
+alarm[3] = room_speed * arrivalDelay;
