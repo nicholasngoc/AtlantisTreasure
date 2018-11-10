@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_HarpoonGun",
     "eventList": [
-        {
-            "id": "5c22025e-8e26-4ae2-8977-df214f072cef",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "7d88d88a-e127-4d41-933a-814c4d764136"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -32,9 +23,25 @@
             "objectId": "d111c6e6-b02b-4ad6-983a-807b72182a7c",
             "propertyId": "fb4c7cab-4338-49ca-a31c-4e492ffc6bd6",
             "value": "5"
+        },
+        {
+            "id": "966ecef8-6d12-4b2b-8818-54d941128e2b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "f6269fdc-1350-45dd-b027-edb61339342d",
+            "propertyId": "6d833775-d69b-4175-88ee-732939f9020c",
+            "value": "obj_Harpoon"
+        },
+        {
+            "id": "ffc0b178-7c26-427a-82bb-38e0aeab849f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "f6269fdc-1350-45dd-b027-edb61339342d",
+            "propertyId": "4682eb65-c803-4ade-a782-85d31a4bb33b",
+            "value": "1"
         }
     ],
-    "parentObjectId": "d111c6e6-b02b-4ad6-983a-807b72182a7c",
+    "parentObjectId": "f6269fdc-1350-45dd-b027-edb61339342d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1b3185b4-c5d4-467a-8670-f6427ed60719",
+            "Value": {
+                "id": "2b437230-61ee-421a-8712-34a5e3b2a1a9",
+                "resourcePath": "objects\\obj_BulletParent\\obj_BulletParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1bad234e-3f63-4956-acfa-063b71748746",
             "Value": {
                 "id": "3a8f1493-996f-43db-827c-df32c6adc0ac",
@@ -220,6 +228,14 @@
                 "id": "4cbdc001-cca2-4bd1-aad3-9293a5639dcc",
                 "resourcePath": "sprites\\spr_HarpoonGun\\spr_HarpoonGun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3b0a5ac9-fc53-40bd-ac5b-84bbe95713cd",
+            "Value": {
+                "id": "cd68d9e3-2c98-4922-a9e2-050df36b4f63",
+                "resourcePath": "views\\3b0a5ac9-fc53-40bd-ac5b-84bbe95713cd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -331,6 +347,14 @@
             "Value": {
                 "id": "2893196a-7ce4-41aa-8ffa-9702e8c15a54",
                 "resourcePath": "objects\\obj_Wall\\obj_Wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "68d3f88b-e506-4166-b1a3-c0650b29eb60",
+            "Value": {
+                "id": "e70c3055-9f6c-4781-82c9-8cfbbc6f00a6",
+                "resourcePath": "objects\\obj_BlowDartGun\\obj_BlowDartGun.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -515,6 +539,14 @@
             "Value": {
                 "id": "0ee0526a-3dae-4f51-8c9f-afd0d791a265",
                 "resourcePath": "objects\\obj_Room3\\obj_Room3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "98a09873-2618-43f8-9d93-e7ce1536f5b5",
+            "Value": {
+                "id": "cc649254-f05a-4818-9f9e-59f52bd1785e",
+                "resourcePath": "objects\\obj_Dart\\obj_Dart.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -743,6 +775,14 @@
             }
         },
         {
+            "Key": "cb791acf-326c-43f7-beec-8fafc903bef3",
+            "Value": {
+                "id": "345e8521-9b2e-4e8b-97f8-12576f703312",
+                "resourcePath": "sprites\\spr_Dart\\spr_Dart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc13462c-86d2-41e2-b982-b4fd0dae5011",
             "Value": {
                 "id": "b2776b86-4116-42ef-85a0-ea815331c0c8",
@@ -876,6 +916,14 @@
                 "id": "7e0f271c-1056-4f33-b8d9-78af5966186d",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f6269fdc-1350-45dd-b027-edb61339342d",
+            "Value": {
+                "id": "3c16b83b-a8de-4675-8e54-4efd24def630",
+                "resourcePath": "objects\\obj_GunParent\\obj_GunParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -9,9 +9,9 @@ var spawnDistance = irandom_range(0, pUpInitDist);
 var powerUp;
 
 var ranNum;
-if(object_exists(obj_Guardian))
+if(instance_exists(obj_Guardian))
 {
-	ranNum = irandom_range(1, 2);
+	ranNum = irandom_range(1, 3);
 }
 else
 {
@@ -25,6 +25,10 @@ switch(ranNum)
 		break;
 	case 2:
 		powerUp = obj_HarpoonGun;
+		break;
+	case 3:
+		powerUp = obj_BlowDartGun;
+		break;
 }
 
 instance_create_layer(x + spawnDistance, 288, "Instances", powerUp);
