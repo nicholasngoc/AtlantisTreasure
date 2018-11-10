@@ -143,6 +143,16 @@
             "enumb": 54,
             "eventtype": 9,
             "m_owner": "09fcb604-8f09-4aba-ab72-3f6c5d59b2d7"
+        },
+        {
+            "id": "f73e6835-9a51-48c8-adee-73de75aab9e9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "09fcb604-8f09-4aba-ab72-3f6c5d59b2d7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -452,8 +462,50 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "2",
             "varName": "numPUps",
+            "varType": 0
+        },
+        {
+            "id": "d7d7abee-27c5-457d-9a66-8d0d95d2bdca",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "step_count",
+            "varType": 0
+        },
+        {
+            "id": "1863be58-f648-469d-9e0f-10fb6b61297f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "timeTillBoss",
+            "varType": 0
+        },
+        {
+            "id": "2b8e9f60-2ecc-402c-a9a9-eb77d4f9d34f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "30",
+            "varName": "pUpDelay",
             "varType": 0
         }
     ],

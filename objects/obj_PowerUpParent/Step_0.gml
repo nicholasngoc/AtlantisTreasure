@@ -17,7 +17,17 @@ if(place_meeting(self.x, self.y, obj_PlayerLand) && self.pickedUp == false)
 	}
 	
 	self.hspeed = 0;
+	
+	if(obj_GameController.powerUp != noone)
+	{
+		obj_GameController.powerUp.destroy = true;
+	}
+	
+	obj_GameController.powerUp = self;
 }
+
+if(destroy)
+instance_destroy(self);
 
 if(pickedUp == false)
 {

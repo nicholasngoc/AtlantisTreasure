@@ -95,20 +95,6 @@
             "varType": 0
         },
         {
-            "id": "a0e4a153-88e4-4a38-bbb2-b34770660ffb",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "powerUp",
-            "varType": 3
-        },
-        {
             "id": "451ac2f2-7eca-4f94-a225-2a2c97fb4bfd",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -146,9 +132,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hasPUp",
-            "varType": 0
+            "value": "noone",
+            "varName": "powerUp",
+            "varType": 5
         }
     ],
     "solid": false,

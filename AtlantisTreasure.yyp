@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04c3b196-e663-4f62-a106-be056a32d618",
+            "Value": {
+                "id": "2d1e8053-75ee-4b1a-9911-f87939434487",
+                "resourcePath": "sprites\\spr_BlowDartGun\\spr_BlowDartGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09ac47f2-488e-47ac-b895-25b8a9cbc1ab",
             "Value": {
                 "id": "4bdc7c61-ccdd-4116-aa68-94bdb84d5211",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "12bc99a9-629d-40b2-a49e-115f521a2e71",
                 "resourcePath": "views\\190ee104-1e9f-43ef-a096-9af36f55f6e1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1bad234e-3f63-4956-acfa-063b71748746",
+            "Value": {
+                "id": "3a8f1493-996f-43db-827c-df32c6adc0ac",
+                "resourcePath": "views\\1bad234e-3f63-4956-acfa-063b71748746.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -402,7 +418,7 @@
             "Key": "7d88d88a-e127-4d41-933a-814c4d764136",
             "Value": {
                 "id": "9d0699f9-a11d-41d6-a5bc-4b6d3f09b806",
-                "resourcePath": "objects\\obj_harpoon\\obj_harpoon.yy",
+                "resourcePath": "objects\\obj_HarpoonGun\\obj_HarpoonGun.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -467,6 +483,14 @@
             "Value": {
                 "id": "13352387-6324-4c1c-b038-8e7cb1c95c1c",
                 "resourcePath": "objects\\obj_PitSpike\\obj_PitSpike.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8b5efab1-b85b-4013-91f6-876eb099b723",
+            "Value": {
+                "id": "bc2c5872-06b8-455f-8708-2eb2da9a03d2",
+                "resourcePath": "objects\\obj_Harpoon\\obj_Harpoon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -548,6 +572,14 @@
                 "id": "401a369e-9d84-40a4-bc36-203339b351b1",
                 "resourcePath": "sprites\\spr_harpoon\\spr_harpoon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a4a287a6-4a2e-44cd-948f-2444297adf22",
+            "Value": {
+                "id": "5f4a5992-cf15-4cd3-9321-0e54503cefb1",
+                "resourcePath": "views\\a4a287a6-4a2e-44cd-948f-2444297adf22.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -724,6 +756,14 @@
                 "id": "57ce2c11-e720-45d7-9a11-fd82f1f332de",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cfe0326f-a78d-4969-915f-b1404eabd1d4",
+            "Value": {
+                "id": "6bbdd6be-ae04-4f4a-adf2-b91d78f8b603",
+                "resourcePath": "views\\cfe0326f-a78d-4969-915f-b1404eabd1d4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

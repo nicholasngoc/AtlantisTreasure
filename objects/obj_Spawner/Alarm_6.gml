@@ -4,11 +4,30 @@ randomize();
 
 var spawnDistance = irandom_range(0, pUpInitDist);
 
-instance_create_layer(x + spawnDistance, 288, "Instances", obj_Bubble);
+//instance_create_layer(x + spawnDistance, 288, "Instances", obj_Bubble);
 
-//switch(irandom_range(0, numPUps))
-//{
-	//case 0:		
-//}
+var powerUp;
 
-instance_create_layer(x + spawnDistance, 288, "Instances", obj_GrilledFish);
+var ranNum;
+if(object_exists(obj_Guardian))
+{
+	ranNum = irandom_range(1, 2);
+}
+else
+{
+	ranNum = irandom_range(1, 1)
+}
+
+switch(ranNum)
+{
+	case 1:	
+		powerUp = obj_GrilledFish;
+		break;
+	case 2:
+		powerUp = obj_HarpoonGun;
+}
+
+instance_create_layer(x + spawnDistance, 288, "Instances", powerUp);
+
+if(!obj_GameController.debugMode)
+alarm[6] = room_speed * pUpDelay;

@@ -1,11 +1,21 @@
 /// @description Chooses random event
 
-//Randomizes seed
-randomize();
+if(countBasicEvent < maxBasicEvent)
+{
+	//Randomizes seed
+	randomize();
 
-//Selects a random event
-self.eventType = irandom_range(1, self.numOfEvents);
+	//Selects a random event
+	self.eventType = irandom_range(1, 2);
 
-//Starts the new event 
-alarm[self.eventType] = room_speed * self.eventDelay;
-
+	//Starts the new event 
+	alarm[self.eventType] = room_speed * self.eventDelay;
+	
+	countBasicEvent++;
+}
+else
+{
+	alarm[3] = room_speed * eventDelay;
+	
+	countBasicEvent = 0;
+}

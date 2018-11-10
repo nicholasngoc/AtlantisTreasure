@@ -111,6 +111,20 @@
             "value": "True",
             "varName": "display",
             "varType": 3
+        },
+        {
+            "id": "c2fa94cb-13d8-434f-8188-96ce4af7af65",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "destroy",
+            "varType": 3
         }
     ],
     "solid": false,

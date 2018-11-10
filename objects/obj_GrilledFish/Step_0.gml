@@ -10,6 +10,8 @@ if(mouse_check_button(mb_left) && self.pickedUp == true)
 		health = obj_GameController.healthMax;
 	}
 
+	obj_GameController.powerUp = noone;
+	
 	instance_destroy(self);
 }
 
