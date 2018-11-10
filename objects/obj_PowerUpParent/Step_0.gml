@@ -9,9 +9,12 @@ if(place_meeting(self.x, self.y, obj_PlayerLand) && self.pickedUp == false)
 	self.image_xscale = self.displayScale;
 	self.image_yscale = self.displayScale;
 	
-	//Sets the image to a display
-	self.x = room_width - sprite_width / 2 - self.margin;
-	self.y = sprite_height / 2 + self.margin;
+	if(display)
+	{
+		//Sets the image to a display
+		self.x = room_width - sprite_width / 2 - self.margin;
+		self.y = sprite_height / 2 + self.margin;
+	}
 	
 	self.hspeed = 0;
 }

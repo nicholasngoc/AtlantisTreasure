@@ -97,6 +97,20 @@
             "value": "0",
             "varName": "displayScale",
             "varType": 0
+        },
+        {
+            "id": "f981fdf7-e516-4e2c-965d-aa084a5a38e6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "display",
+            "varType": 3
         }
     ],
     "solid": false,
