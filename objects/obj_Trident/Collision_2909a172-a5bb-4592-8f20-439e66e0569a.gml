@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 //Deals damage
-health -= 5;
+health -= damage;
 //Destroys object
 instance_destroy(self);
