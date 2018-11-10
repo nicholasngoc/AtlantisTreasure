@@ -7,6 +7,11 @@
 //3 Player is not jumping
 if(place_meeting(self.x, self.y, obj_PlayerLand))
 {
+	if(obj_PlayerLand.trident == true)
+	{
+		instance_destroy(self);
+		obj_PlayerLand.trident = false;
+	}
 	if(obj_PlayerLand.isDucking == false || obj_PlayerLand.isJumping == true)
 	{
 		//Player takes damage and robot is destroyed
