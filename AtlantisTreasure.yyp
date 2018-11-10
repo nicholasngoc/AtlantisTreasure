@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "17dd197b-ee8a-46c9-8b3d-1f63f5e2ced8",
-            "Value": {
-                "id": "1b29f1e5-7e5b-4fd1-bac8-ef5c26398e07",
-                "resourcePath": "objects\\obj_Robot\\obj_Robot.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "190ee104-1e9f-43ef-a096-9af36f55f6e1",
             "Value": {
                 "id": "12bc99a9-629d-40b2-a49e-115f521a2e71",
@@ -602,7 +594,7 @@
             "Key": "b34e8525-f622-4b02-b655-07fc523a44d4",
             "Value": {
                 "id": "f2ab8c11-6bed-411f-9f0a-5cd67de01be3",
-                "resourcePath": "sprites\\spr_Robot\\spr_Robot.yy",
+                "resourcePath": "sprites\\spr_Anchor\\spr_Anchor.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -747,6 +739,14 @@
             "Value": {
                 "id": "cbaad1aa-1258-4b06-a2eb-99a3b303ada9",
                 "resourcePath": "objects\\obj_GrilledFish\\obj_GrilledFish.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dcc35f6c-2de9-477b-bc53-5e8e983082c6",
+            "Value": {
+                "id": "3773ba1f-2f3d-4bd0-84b5-df74b40a902d",
+                "resourcePath": "objects\\obj_Anchor\\obj_Anchor.yy",
                 "resourceType": "GMObject"
             }
         },

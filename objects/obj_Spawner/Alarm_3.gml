@@ -1,4 +1,4 @@
-/// @description Spawns Atlantean and Robot obstacles
+/// @description Spawns Atlantean and swing anchor 
 
 //This event will keep happening until all atlanteans/robots are spawned
 if(self.atlanteanRobotsSpawned < self.maxAtlanteanRobot)
@@ -18,7 +18,12 @@ if(self.atlanteanRobotsSpawned < self.maxAtlanteanRobot)
 	//This is for choosing a robot
 	else if(chooseObstacle == 1)
 	{
-		instance_create_layer(room_width + 150, self.robotHeight, "Instances", obj_Robot);
+		if(object_exists(obj_Anchor))
+		{
+			obj_Anchor.image_angle = 90;
+			obj_Anchor.hasDamaged = false;
+		}
+		
 	}
 	
 	//Increases count of obstacles spawned
