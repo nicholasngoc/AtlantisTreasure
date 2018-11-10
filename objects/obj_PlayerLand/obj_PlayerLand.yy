@@ -93,6 +93,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
+        },
+        {
+            "id": "7495f5e3-7c91-46cf-bebe-ee721936284d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "81960414-68d5-4107-8152-25e125c5cb9f",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -308,6 +318,20 @@
             "value": "-50",
             "varName": "wallPushDistance",
             "varType": 0
+        },
+        {
+            "id": "ce277806-4bbc-4874-90b0-7810baaa2486",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "trident",
+            "varType": 3
         }
     ],
     "solid": true,
