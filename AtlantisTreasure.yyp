@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "33ee32e0-b7a2-435a-9868-adf727bfedaa",
+            "Value": {
+                "id": "107a8b47-b436-4fc1-ab06-a4c1ddbf4977",
+                "resourcePath": "sprites\\spr_Urchin\\spr_Urchin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3548d17b-c3e6-4f24-8888-556b50cc2949",
             "Value": {
                 "id": "72bf9f7a-c14c-447a-bb86-d3c10f5efa85",
@@ -259,6 +267,14 @@
             "Value": {
                 "id": "96b8dfb9-f10e-4824-96ee-ab43c7500d75",
                 "resourcePath": "objects\\obj_GroundWave\\obj_GroundWave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "419c0623-d99a-489e-963a-f5b5e8abc1a7",
+            "Value": {
+                "id": "2f7c109b-fde2-4f94-b5c6-8438d9240ee7",
+                "resourcePath": "objects\\obj_UrchinBubble\\obj_UrchinBubble.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -863,6 +879,14 @@
             }
         },
         {
+            "Key": "e4eb1bed-a7ae-4426-8b3f-295dc639bf7f",
+            "Value": {
+                "id": "a88a06ab-ea62-4c2e-8550-0573d5b548a8",
+                "resourcePath": "views\\e4eb1bed-a7ae-4426-8b3f-295dc639bf7f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e5ba2241-3bea-4eb6-90ef-26f2411ada94",
             "Value": {
                 "id": "a975677c-6432-42c6-a50f-7ef8f1955af9",
@@ -931,6 +955,14 @@
             "Value": {
                 "id": "314a8a79-d512-4ea9-877d-01436028cd9f",
                 "resourcePath": "objects\\obj_PlayerWater\\obj_PlayerWater.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f701dd88-3229-45d0-8355-97b1c030a4ba",
+            "Value": {
+                "id": "36a756b8-4a21-43f4-b047-dfc4bd07848a",
+                "resourcePath": "objects\\obj_UrchinDrop\\obj_UrchinDrop.yy",
                 "resourceType": "GMObject"
             }
         },

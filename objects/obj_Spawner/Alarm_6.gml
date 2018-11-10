@@ -31,7 +31,7 @@ switch(ranNum)
 		break;
 }
 
-instance_create_layer(x + spawnDistance, 288, "Instances", powerUp);
+instance_create_layer(x + spawnDistance, 288, "Instances", obj_UrchinBubble);
 
 if(!obj_GameController.debugMode)
 alarm[6] = room_speed * pUpDelay;
