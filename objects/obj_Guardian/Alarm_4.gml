@@ -5,7 +5,9 @@ if(waveCount < maxWaves)
 	instance_create_layer(self.x, self.y, "Instances", obj_GroundWave);
 	waveCount++;
 	
-	alarm[4] = room_speed * waveDelay;
+	randomize();
+	
+	alarm[4] = room_speed * random_range(minWaveDelay, maxWaveDelay);
 }
 else if(obj_GameController.debugMode == false)
 {

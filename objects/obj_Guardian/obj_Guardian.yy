@@ -507,20 +507,6 @@
             "varType": 0
         },
         {
-            "id": "03660fce-e96f-47dc-8fd8-b77cab8f3708",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1.5",
-            "varName": "waveDelay",
-            "varType": 0
-        },
-        {
             "id": "a479230d-5b60-460a-b514-6da79d9371b2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -560,6 +546,34 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "finalWaveTime",
+            "varType": 0
+        },
+        {
+            "id": "259a21d0-d357-4e24-ab64-b8666d1d9e51",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "minWaveDelay",
+            "varType": 0
+        },
+        {
+            "id": "9fc1e5a2-99ba-4ead-95ca-7328069ec7bc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.5",
+            "varName": "maxWaveDelay",
             "varType": 0
         }
     ],
