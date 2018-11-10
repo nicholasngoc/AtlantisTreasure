@@ -6,16 +6,23 @@ randomize();
 //Selects a random event
 self.eventType = irandom_range(1, self.numOfEvents);
 
-//Checks to see if the last event was of the same type
-if(self.lastEvent != self.eventType)
+if(time < timeTillBoss)
 {
-	self.lastEvent = self.eventType;
+	//Checks to see if the last event was of the same type
+	if(self.lastEvent != self.eventType)
+	{
+		self.lastEvent = self.eventType;
 
-	//Starts the new event 
-	alarm[self.eventType] = room_speed * self.eventDelay;
+		//Starts the new event 
+		alarm[self.eventType] = room_speed * self.eventDelay;
+	}
+	//If it did try to repeat an event then it recalls the alarm
+	else
+	{
+		alarm[0] = 1;
+	}
 }
-//If it did try to repeat an event then it recalls the alarm
 else
 {
-	alarm[0] = 1;
+	alarm[5] = 1;
 }

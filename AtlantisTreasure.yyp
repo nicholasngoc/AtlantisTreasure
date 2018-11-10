@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04c3b196-e663-4f62-a106-be056a32d618",
+            "Value": {
+                "id": "2d1e8053-75ee-4b1a-9911-f87939434487",
+                "resourcePath": "sprites\\spr_BlowDartGun\\spr_BlowDartGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09ac47f2-488e-47ac-b895-25b8a9cbc1ab",
             "Value": {
                 "id": "4bdc7c61-ccdd-4116-aa68-94bdb84d5211",
@@ -103,18 +111,18 @@
             }
         },
         {
-            "Key": "17dd197b-ee8a-46c9-8b3d-1f63f5e2ced8",
-            "Value": {
-                "id": "1b29f1e5-7e5b-4fd1-bac8-ef5c26398e07",
-                "resourcePath": "objects\\obj_Robot\\obj_Robot.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "190ee104-1e9f-43ef-a096-9af36f55f6e1",
             "Value": {
                 "id": "12bc99a9-629d-40b2-a49e-115f521a2e71",
                 "resourcePath": "views\\190ee104-1e9f-43ef-a096-9af36f55f6e1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1bad234e-3f63-4956-acfa-063b71748746",
+            "Value": {
+                "id": "3a8f1493-996f-43db-827c-df32c6adc0ac",
+                "resourcePath": "views\\1bad234e-3f63-4956-acfa-063b71748746.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -410,7 +418,7 @@
             "Key": "7d88d88a-e127-4d41-933a-814c4d764136",
             "Value": {
                 "id": "9d0699f9-a11d-41d6-a5bc-4b6d3f09b806",
-                "resourcePath": "objects\\obj_harpoon\\obj_harpoon.yy",
+                "resourcePath": "objects\\obj_HarpoonGun\\obj_HarpoonGun.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -475,6 +483,14 @@
             "Value": {
                 "id": "13352387-6324-4c1c-b038-8e7cb1c95c1c",
                 "resourcePath": "objects\\obj_PitSpike\\obj_PitSpike.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8b5efab1-b85b-4013-91f6-876eb099b723",
+            "Value": {
+                "id": "bc2c5872-06b8-455f-8708-2eb2da9a03d2",
+                "resourcePath": "objects\\obj_Harpoon\\obj_Harpoon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -559,6 +575,14 @@
             }
         },
         {
+            "Key": "a4a287a6-4a2e-44cd-948f-2444297adf22",
+            "Value": {
+                "id": "5f4a5992-cf15-4cd3-9321-0e54503cefb1",
+                "resourcePath": "views\\a4a287a6-4a2e-44cd-948f-2444297adf22.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "7fa1f507-b06e-473c-854f-c1a565f75714",
@@ -602,7 +626,7 @@
             "Key": "b34e8525-f622-4b02-b655-07fc523a44d4",
             "Value": {
                 "id": "f2ab8c11-6bed-411f-9f0a-5cd67de01be3",
-                "resourcePath": "sprites\\spr_Robot\\spr_Robot.yy",
+                "resourcePath": "sprites\\spr_Anchor\\spr_Anchor.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -735,6 +759,14 @@
             }
         },
         {
+            "Key": "cfe0326f-a78d-4969-915f-b1404eabd1d4",
+            "Value": {
+                "id": "6bbdd6be-ae04-4f4a-adf2-b91d78f8b603",
+                "resourcePath": "views\\cfe0326f-a78d-4969-915f-b1404eabd1d4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d111c6e6-b02b-4ad6-983a-807b72182a7c",
             "Value": {
                 "id": "2c796498-edbb-4230-8d09-7a0b160ea88a",
@@ -747,6 +779,14 @@
             "Value": {
                 "id": "cbaad1aa-1258-4b06-a2eb-99a3b303ada9",
                 "resourcePath": "objects\\obj_GrilledFish\\obj_GrilledFish.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dcc35f6c-2de9-477b-bc53-5e8e983082c6",
+            "Value": {
+                "id": "3773ba1f-2f3d-4bd0-84b5-df74b40a902d",
+                "resourcePath": "objects\\obj_Anchor\\obj_Anchor.yy",
                 "resourceType": "GMObject"
             }
         },

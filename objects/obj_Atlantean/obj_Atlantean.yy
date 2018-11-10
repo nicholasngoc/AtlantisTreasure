@@ -5,16 +5,6 @@
     "name": "obj_Atlantean",
     "eventList": [
         {
-            "id": "22745b45-c10c-4066-8569-158ed02f903f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "5c8c13f6-b356-483d-9a51-058a9ca084a9",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "26a5ff46-571c-4111-b8ed-a18ddcea093e"
-        },
-        {
             "id": "c3d4e99b-2a2a-49f9-86a3-80d3e40e4481",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "26a5ff46-571c-4111-b8ed-a18ddcea093e"
+        },
+        {
+            "id": "77e6dd7d-9673-4b15-861e-a6abfba85f17",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "26a5ff46-571c-4111-b8ed-a18ddcea093e"
         }
     ],
@@ -86,6 +86,20 @@
             "value": "-25",
             "varName": "eventSpeed",
             "varType": 0
+        },
+        {
+            "id": "ede1b031-bb07-4c37-83a8-2c21b233e373",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hasDamaged",
+            "varType": 3
         }
     ],
     "solid": false,

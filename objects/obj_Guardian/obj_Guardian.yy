@@ -283,34 +283,6 @@
             "varType": 0
         },
         {
-            "id": "4aa25738-563c-4c49-a820-c8d45e179ff8",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "eventType",
-            "varType": 0
-        },
-        {
-            "id": "b17327c0-dedf-45a0-a386-4e209ec91101",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "2",
-            "varName": "numOfEvents",
-            "varType": 0
-        },
-        {
             "id": "2f7c4609-0e75-47f3-b852-00ac9b2daba6",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -516,7 +488,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "200",
+            "value": "100",
             "varName": "bossHealth",
             "varType": 0
         },
@@ -574,6 +546,34 @@
             "resourceFilter": 1023,
             "value": "1.5",
             "varName": "maxWaveDelay",
+            "varType": 0
+        },
+        {
+            "id": "59622b2d-9116-462a-91fc-ac255c90b8bb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "maxBasicEvent",
+            "varType": 0
+        },
+        {
+            "id": "70c6858a-9002-4a3c-9f54-5cc2b16cb381",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "countBasicEvent",
             "varType": 0
         }
     ],
