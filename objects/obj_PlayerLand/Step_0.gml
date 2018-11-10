@@ -30,11 +30,22 @@ else
 //This if statement handles the player jump
 if(self.isJumping == true)
 {
-	//This changes the players y
-	self.y -= self.jumpCount;
+	if(isDucking == false)
+	{
+		//This changes the players y
+		self.y -= self.jumpCount;
+		
+		//This decellerates their velocity
+		self.jumpCount -= self.playerFallingSpeed;
+	}
+	else
+	{
+		//Doubled gravity when ducking
+		self.y -= self.jumpCount * 2;
+		
+		self.jumpCount -= self.playerFallingSpeed * 2;
+	}
 	
-	//This decellerates their velocity
-	self.jumpCount -= self.playerFallingSpeed;
 	
 	//If statement for when they reach the ground
 	if(self.y >= room_height - (sprite_height / 2))
