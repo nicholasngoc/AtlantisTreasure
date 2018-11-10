@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(self.y > room_height)
+var predictedY = self.y - yVel;
+
+if(predictedY > room_height)
 {
 	self.y -= yVel;
 }

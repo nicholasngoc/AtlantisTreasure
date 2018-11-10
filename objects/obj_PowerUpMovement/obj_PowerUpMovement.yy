@@ -1,33 +1,33 @@
 {
-    "id": "d111c6e6-b02b-4ad6-983a-807b72182a7c",
+    "id": "c2d684aa-f28b-4354-b76c-ad3c73a05d0c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_PowerUpParent",
+    "name": "obj_PowerUpMovement",
     "eventList": [
         {
-            "id": "a26e6d81-1e6d-4ea0-bee7-81e7d878d91f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "d111c6e6-b02b-4ad6-983a-807b72182a7c"
-        },
-        {
-            "id": "31ce5e7e-d984-40e8-8372-b811fb228876",
+            "id": "c36c7a8b-a68d-4557-ab40-9b7704ad11f7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "d111c6e6-b02b-4ad6-983a-807b72182a7c"
+            "m_owner": "c2d684aa-f28b-4354-b76c-ad3c73a05d0c"
+        },
+        {
+            "id": "41bffbb8-06be-45bf-bb0e-70870e20c8f8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c2d684aa-f28b-4354-b76c-ad3c73a05d0c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "c2d684aa-f28b-4354-b76c-ad3c73a05d0c",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "2c36489a-8568-46be-97b2-bb4f537c9409",
+            "id": "e8c9d605-5eef-4358-aecc-ba2d16766909",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,26 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "pickedUp",
-            "varType": 3
-        },
-        {
-            "id": "bf4bd6eb-a53d-43bd-848c-078f153c986a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "25",
-            "varName": "margin",
+            "value": "10",
+            "varName": "amplitude",
             "varType": 0
         },
         {
-            "id": "6674426c-776e-4c8f-b82a-56d9d6b13d40",
+            "id": "68dd9813-7ce4-4617-8854-d4bf02a2043d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -81,11 +67,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "powerUpScale",
+            "varName": "yVel",
             "varType": 0
         },
         {
-            "id": "fb4c7cab-4338-49ca-a31c-4e492ffc6bd6",
+            "id": "3ee172ea-6255-4b07-b897-8b31cee7298f",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -94,8 +80,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "displayScale",
+            "value": ".5",
+            "varName": "accel",
+            "varType": 0
+        },
+        {
+            "id": "abcb1585-e346-4d71-8771-3f88328cf2b8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "scale",
             "varType": 0
         }
     ],

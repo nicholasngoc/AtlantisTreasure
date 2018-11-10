@@ -507,20 +507,6 @@
             "varType": 0
         },
         {
-            "id": "03660fce-e96f-47dc-8fd8-b77cab8f3708",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1.5",
-            "varName": "waveDelay",
-            "varType": 0
-        },
-        {
             "id": "a479230d-5b60-460a-b514-6da79d9371b2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -572,7 +558,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".75",
+            "value": "1",
             "varName": "minWaveDelay",
             "varType": 0
         },
