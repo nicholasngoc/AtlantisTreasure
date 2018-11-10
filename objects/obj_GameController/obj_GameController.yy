@@ -135,6 +135,20 @@
             "value": "True",
             "varName": "debugMode",
             "varType": 3
+        },
+        {
+            "id": "6987695a-30c6-42c9-87b4-b25935b72e31",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hasPUp",
+            "varType": 0
         }
     ],
     "solid": false,
