@@ -5,6 +5,8 @@ if(!isPoisoning)
 {
 	xVel = 0;
 	isPoisoning = true;
+	stuck = true;
+	stuckY = other.y - y;
 
 	alarm[0] = 1;
 }
