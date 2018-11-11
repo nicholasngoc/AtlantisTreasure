@@ -5,7 +5,7 @@ if(place_meeting(x, y, obj_Trash))
 {
 	self.x += self.playerMovementSpeed - obj_Trash.moveDebuff;
 }
-else
+else if(pushVel >= 0)
 {
 	//Moves player to the right
 	self.x += self.playerMovementSpeed;
