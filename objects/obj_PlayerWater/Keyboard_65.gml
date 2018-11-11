@@ -5,16 +5,8 @@
 self.x -= self.playerMovementSpeed;
 
 //If the player is on the left most side of the screen
-if(self.x <= sprite_width/2)
+if(self.x <= sprite_width/2 - sideBuffer)
 {
 	//Keeps the player there
-	self.x = sprite_width / 2;
-	self.playerMoving = false;
-}
-else
-{
-	//Player is moving and animation plays
-	self.playerMoving = true;
-	image_speed = 1;
-	image_angle = 90;
+	self.x = sprite_width / 2 - sideBuffer;
 }

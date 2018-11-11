@@ -33,6 +33,16 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
+        },
+        {
+            "id": "5afa94b9-3992-46f1-a3df-0fc34edda238",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 39,
+            "eventtype": 9,
+            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -135,6 +145,20 @@
             "value": "noone",
             "varName": "powerUp",
             "varType": 5
+        },
+        {
+            "id": "dc27042c-537c-4f88-a67c-17a4c04a9456",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "level",
+            "varType": 0
         }
     ],
     "solid": false,
