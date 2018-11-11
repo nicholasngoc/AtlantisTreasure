@@ -14,3 +14,14 @@ else
 {
 	self.hspeed = 0;
 }
+
+
+if(pushVel < 0)
+{
+	x += pushVel;
+	pushVel += pushDecel;
+}
+else
+{
+	pushVel = 0;
+}

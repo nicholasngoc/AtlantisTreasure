@@ -1,5 +1,7 @@
 /// @description Spawns Trash
 
+randomize();
+
 if(countTrash < maxTrashCount)
 {
 	instance_create_layer(x, random_range(minYTrash, maxYTrash), "Instances", obj_Trash);

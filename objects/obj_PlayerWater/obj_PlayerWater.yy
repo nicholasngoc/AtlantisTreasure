@@ -156,6 +156,34 @@
             "value": "15",
             "varName": "trashBuffer",
             "varType": 0
+        },
+        {
+            "id": "84337ac1-7122-4003-ba42-1ece1242fb30",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "pushVel",
+            "varType": 0
+        },
+        {
+            "id": "93d8a92c-bb55-4852-bb73-bbe9477f437e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "pushDecel",
+            "varType": 0
         }
     ],
     "solid": false,

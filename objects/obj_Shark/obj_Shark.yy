@@ -1,43 +1,48 @@
 {
-    "id": "46ee4320-253d-4fe6-b665-46d944bda17f",
+    "id": "91d058fb-ab17-47fe-927b-c151d4756d56",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Trash",
+    "name": "obj_Shark",
     "eventList": [
         {
-            "id": "91fc8879-c901-48c4-aabd-e000b36cbb32",
+            "id": "d1f566ad-0122-4aaf-90f5-071bf0a2e063",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "46ee4320-253d-4fe6-b665-46d944bda17f"
+            "m_owner": "91d058fb-ab17-47fe-927b-c151d4756d56"
         },
         {
-            "id": "efee606e-b5f3-4206-b41e-a15c788ba281",
+            "id": "4e73c02d-f001-48a4-ae03-9dbf972cc425",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "46ee4320-253d-4fe6-b665-46d944bda17f"
-        },
-        {
-            "id": "936396d6-bc1d-49e8-9389-0766ea6080a0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 7,
-            "m_owner": "46ee4320-253d-4fe6-b665-46d944bda17f"
+            "m_owner": "91d058fb-ab17-47fe-927b-c151d4756d56"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
-        
+        {
+            "id": "af6b3a61-a535-41c5-ac63-22c15eead2d3",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8e433772-2734-4968-bb92-e11cd74a8a26",
+            "propertyId": "d50af465-7494-4f36-b853-9d378585402a",
+            "value": "True"
+        },
+        {
+            "id": "5be6113e-ff3d-4dca-9172-c1b464e1166e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8e433772-2734-4968-bb92-e11cd74a8a26",
+            "propertyId": "a793fd64-d792-4104-96ee-ef931360376b",
+            "value": "7"
+        }
     ],
     "parentObjectId": "8e433772-2734-4968-bb92-e11cd74a8a26",
     "persistent": false,
@@ -55,7 +60,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "4c32652a-f5ce-4754-b73a-1d35d0dcad85",
+            "id": "2ad4aa20-715e-4f99-8abd-9a9856419be4",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -64,12 +69,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-15",
+            "value": "-50",
             "varName": "xVel",
             "varType": 0
         },
         {
-            "id": "db1d6104-4bc2-410a-8f94-e04e593ecfa9",
+            "id": "25c146df-d1f3-4568-8757-108d1728eeb6",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -78,12 +83,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
-            "varName": "scale",
+            "value": "20",
+            "varName": "damage",
             "varType": 0
         },
         {
-            "id": "f39b3abf-1ed4-4cb3-b148-b4104073eff0",
+            "id": "7bf4c51b-69a3-48db-9045-6abe891a3034",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -92,26 +97,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "7",
-            "varName": "spinSpeed",
-            "varType": 0
-        },
-        {
-            "id": "fe00a205-e837-4747-ae0f-e4551b082d1d",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "moveDebuff",
-            "varType": 0
+            "value": "0",
+            "varName": "hasDamaged",
+            "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "4bf3ffe8-b845-4910-9aec-eaaa9da1a2b7",
+    "spriteId": "cc52e3f3-9562-4863-b52e-5de6ab5220d3",
     "visible": true
 }

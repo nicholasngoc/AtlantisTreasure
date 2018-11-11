@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "030627b8-8ee3-43f5-a528-0a41c5bbfee4",
+            "Value": {
+                "id": "eca303ed-80ab-4c51-a9d1-3baff891c4ad",
+                "resourcePath": "objects\\obj_Stingray\\obj_Stingray.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "035b30a6-912c-4274-b296-8dbeaa13ff52",
             "Value": {
                 "id": "fdf9110a-aacf-4a1b-8ba6-acb79a21cbaf",
@@ -172,6 +180,14 @@
                 "id": "8795a0a4-0a3b-4116-aeaa-de09c411954f",
                 "resourcePath": "views\\3197e922-23e1-4034-98bc-ec40af6f30a6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "32eb79e3-cc70-4a83-9706-2585109f4f2a",
+            "Value": {
+                "id": "9625027a-5b18-4c96-8409-aa821fabdebc",
+                "resourcePath": "sprites\\spr_Stringray\\spr_Stringray.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -495,6 +511,14 @@
             }
         },
         {
+            "Key": "91d058fb-ab17-47fe-927b-c151d4756d56",
+            "Value": {
+                "id": "befe4f99-4285-41df-b79f-5c7381f5968a",
+                "resourcePath": "objects\\obj_Shark\\obj_Shark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "98a09873-2618-43f8-9d93-e7ce1536f5b5",
             "Value": {
                 "id": "cc649254-f05a-4818-9f9e-59f52bd1785e",
@@ -659,6 +683,14 @@
             "Value": {
                 "id": "b2776b86-4116-42ef-85a0-ea815331c0c8",
                 "resourcePath": "sprites\\spr_PlayerLandOld\\spr_PlayerLandOld.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cc52e3f3-9562-4863-b52e-5de6ab5220d3",
+            "Value": {
+                "id": "06879203-0a76-4daf-9e10-f7059fc2db49",
+                "resourcePath": "sprites\\spr_Shark\\spr_Shark.yy",
                 "resourceType": "GMSprite"
             }
         },
