@@ -11,7 +11,7 @@ var powerUp;
 var ranNum;
 if(instance_exists(obj_Guardian))
 {
-	ranNum = irandom_range(1, 3);
+	ranNum = irandom_range(1, 4);
 }
 else
 {
@@ -29,9 +29,12 @@ switch(ranNum)
 	case 3:
 		powerUp = obj_BlowDartGun;
 		break;
+	case 4:
+		powerUp = obj_UrchinBubble;
+		break;
 }
 
-instance_create_layer(x + spawnDistance, 288, "Instances", obj_UrchinBubble);
+instance_create_layer(x + spawnDistance, 288, "Instances", powerUp);
 
 if(!obj_GameController.debugMode)
 alarm[6] = room_speed * pUpDelay;

@@ -2,7 +2,7 @@
     "id": "09fcb604-8f09-4aba-ab72-3f6c5d59b2d7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Spawner",
+    "name": "obj_Spawner1",
     "eventList": [
         {
             "id": "049eb5ea-291b-4542-a723-394114639378",
@@ -490,7 +490,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "90",
             "varName": "timeTillBoss",
             "varType": 0
         },
@@ -504,7 +504,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "30",
+            "value": "20",
             "varName": "pUpDelay",
             "varType": 0
         }
