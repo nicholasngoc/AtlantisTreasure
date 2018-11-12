@@ -131,6 +131,20 @@
             "value": "0",
             "varName": "velocity",
             "varType": 0
+        },
+        {
+            "id": "f673cb2e-8299-48bc-a793-27bb5787a5a4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "destroy",
+            "varType": 3
         }
     ],
     "solid": false,

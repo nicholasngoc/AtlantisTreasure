@@ -47,10 +47,26 @@
             }
         },
         {
+            "Key": "04ae49d8-42fe-4c31-a409-74c09c2c681d",
+            "Value": {
+                "id": "91681170-5d3f-4839-ab9a-1102f9ff2147",
+                "resourcePath": "sprites\\spr_Invincible\\spr_Invincible.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "04c3b196-e663-4f62-a106-be056a32d618",
             "Value": {
                 "id": "2d1e8053-75ee-4b1a-9911-f87939434487",
                 "resourcePath": "sprites\\spr_BlowDartGun\\spr_BlowDartGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "088afe00-50d5-49ac-80f4-02ccb011f1e0",
+            "Value": {
+                "id": "16c8e5eb-9559-43e8-8b06-6608a620a5a9",
+                "resourcePath": "sprites\\spr_Starfish\\spr_Starfish.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -116,6 +132,14 @@
                 "id": "f1fa841a-0392-4cda-a8ed-9d4595bfa11a",
                 "resourcePath": "sprites\\spr_Level_2\\spr_Level_2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "17d5c1de-2461-4129-8996-94eb96813f48",
+            "Value": {
+                "id": "da6fb6f4-f5b6-4d97-b13b-e461fcefd614",
+                "resourcePath": "objects\\obj_Invincible\\obj_Invincible.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -220,6 +244,14 @@
                 "id": "72bf9f7a-c14c-447a-bb86-d3c10f5efa85",
                 "resourcePath": "sprites\\spr_Trident\\spr_Trident.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3548e0a8-d597-405d-aa83-cff600ed37d5",
+            "Value": {
+                "id": "574740f4-53ac-43f2-9f65-710a8cd2bcf0",
+                "resourcePath": "views\\3548e0a8-d597-405d-aa83-cff600ed37d5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -679,6 +711,14 @@
             }
         },
         {
+            "Key": "b4ae2a47-0ddb-4b3c-a8e7-6dbe11a80989",
+            "Value": {
+                "id": "ecc1c4cd-b877-428c-9b1e-a0aac9f3023b",
+                "resourcePath": "objects\\obj_Starfish\\obj_Starfish.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b5ca4d00-97da-4d16-9644-d07dfe2be7b7",
             "Value": {
                 "id": "7faf10f5-0f0a-479b-8c9f-c5edf097fc5c",
@@ -740,6 +780,14 @@
                 "id": "7af6f4e0-fcbc-4638-9e19-510983b72760",
                 "resourcePath": "objects\\obj_Bubble\\obj_Bubble.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c038b9ac-ea21-4208-8800-ac64f08773db",
+            "Value": {
+                "id": "b7824006-eebd-4259-9aa8-f59a564a4cfd",
+                "resourcePath": "views\\c038b9ac-ea21-4208-8800-ac64f08773db.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

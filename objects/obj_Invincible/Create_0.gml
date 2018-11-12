@@ -1,10 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-self.x += xVel;
-self.y += yVel;
+image_xscale = scale;
+image_yscale = scale;
 
-if(destroy)
-{
-	instance_destroy(self);
-}
+alarm[0] = room_speed * duration;

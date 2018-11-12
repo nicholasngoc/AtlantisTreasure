@@ -1,10 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-self.x += xVel;
-self.y += yVel;
-
-if(destroy)
+if(instance_exists(obj_PlayerWater))
 {
-	instance_destroy(self);
+	x = obj_PlayerWater.x;
+	y = obj_PlayerWater.y;
 }
