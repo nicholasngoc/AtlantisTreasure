@@ -93,6 +93,56 @@
             "enumb": 3,
             "eventtype": 2,
             "m_owner": "b1e81ca1-355b-494a-b111-31bbebd4e316"
+        },
+        {
+            "id": "fb696179-cb68-4a78-9a32-a2432fcdfd80",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 52,
+            "eventtype": 9,
+            "m_owner": "b1e81ca1-355b-494a-b111-31bbebd4e316"
+        },
+        {
+            "id": "f4def917-19b8-4581-947e-2ab34a2a66ce",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 2,
+            "m_owner": "b1e81ca1-355b-494a-b111-31bbebd4e316"
+        },
+        {
+            "id": "b4b36dfd-0c16-4455-a931-e08dd535d26b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 53,
+            "eventtype": 9,
+            "m_owner": "b1e81ca1-355b-494a-b111-31bbebd4e316"
+        },
+        {
+            "id": "b52fc17b-8a37-4e08-8d6f-936a1592aa92",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 54,
+            "eventtype": 9,
+            "m_owner": "b1e81ca1-355b-494a-b111-31bbebd4e316"
+        },
+        {
+            "id": "cb7df82b-f5a8-4d20-9f87-7e8ae5d89b0f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 2,
+            "m_owner": "b1e81ca1-355b-494a-b111-31bbebd4e316"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -404,6 +454,76 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "countRays",
+            "varType": 0
+        },
+        {
+            "id": "a85f9cfb-97cd-41ec-ba9e-25258bb63f53",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "192",
+            "varName": "minYEel",
+            "varType": 0
+        },
+        {
+            "id": "3dd0dbd5-b4fc-4300-817e-0b96d9dd2bc5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "512",
+            "varName": "maxYEel",
+            "varType": 0
+        },
+        {
+            "id": "c82908bb-50ee-47d6-9c6c-4fbed0f337f6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "eelDelay",
+            "varType": 0
+        },
+        {
+            "id": "fb436d71-4e19-4da3-9561-6dfbfdc79068",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "7",
+            "varName": "maxEels",
+            "varType": 0
+        },
+        {
+            "id": "f91a93f9-2a27-4266-9d0e-053f4f551cc0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "countEels",
             "varType": 0
         }
     ],

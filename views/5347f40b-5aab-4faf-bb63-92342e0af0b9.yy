@@ -11,7 +11,7 @@
         "81960414-68d5-4107-8152-25e125c5cb9f"
     ],
     "filterType": "GMObject",
-    "folderName": "Level1PowerUps",
+    "folderName": "Level1",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
