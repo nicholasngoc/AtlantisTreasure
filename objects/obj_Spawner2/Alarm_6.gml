@@ -20,7 +20,7 @@ switch(ranNum)
 		break;
 }
 
-instance_create_layer(x + spawnDistance, 288, "Instances", obj_Starfish);
+instance_create_layer(x + spawnDistance, 288, "Instances", obj_OxygenTank);
 
 if(!obj_GameController.debugMode)
 alarm[6] = room_speed * pUpDelay;

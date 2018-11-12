@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "5b42c480-8642-499e-bc5c-0ab85d0f0ef1",
+            "Value": {
+                "id": "c77b1daf-1f55-4bff-b004-031d7e615da2",
+                "resourcePath": "objects\\obj_OxygenTank\\obj_OxygenTank.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5c8c13f6-b356-483d-9a51-058a9ca084a9",
             "Value": {
                 "id": "b5e92f85-46a6-417d-8d17-dc4a47c1a630",
