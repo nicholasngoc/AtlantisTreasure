@@ -59,6 +59,20 @@
             "value": "0",
             "varName": "ammo",
             "varType": 1
+        },
+        {
+            "id": "27aa2069-16dc-4410-b1d9-439074f0291b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "fireAtMouse",
+            "varType": 3
         }
     ],
     "solid": false,

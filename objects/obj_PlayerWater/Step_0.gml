@@ -31,13 +31,25 @@ if(triggerSub = true)
 	alarm[0] = 1;
 	alarm[1] = room_speed * subDuration;
 	triggerSub = false;
+	tempHealth = health;
 }
 
+//Shoots torpedoes
 if(subMode)
 {
-	if(mouse_check_button(mb_left))
+	if(mouse_check_button(mb_left) && canFire)
 	{
 		var torpedo = instance_create_layer(x, y, "Instances", obj_Torpedo);
-		torpedo.yVel = 0;
+		
+		var xDist = mouse_x - x;
+		var yDist = mouse_y - y;
+		var vectorMagn = sqrt(sqr(xDist) + sqr(yDist));
+		
+		torpedo.xVel = xDist / vectorMagn * torpedo.velocity;
+		torpedo.yVel = yDist / vectorMagn * torpedo.velocity;
+		
+		canFire = false;
+		
+		alarm[2] = room_speed * subFireRate;
 	}
 }

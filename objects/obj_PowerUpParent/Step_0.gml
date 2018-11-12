@@ -1,8 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+var player;
+
+if(instance_exists(obj_PlayerWater))
+	player = obj_PlayerWater;
+else if(instance_exists(obj_PlayerLand))
+	player = obj_PlayerLand;
+
 //If the power up is picked up
-if((place_meeting(self.x, self.y, obj_PlayerLand) || place_meeting(x, y, obj_PlayerWater)) && self.pickedUp == false)
+if(place_meeting(self.x, self.y, player) && self.pickedUp == false)
 {
 	self.pickedUp = true;
 	
