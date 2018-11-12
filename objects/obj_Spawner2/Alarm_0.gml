@@ -6,7 +6,7 @@ randomize();
 //Selects a random event
 self.eventType = irandom_range(1, self.numOfEvents);
 
-if(countBasicEvent < maxBasicEvent)
+if(countBasicEvent < maxBasicEvent || obj_PlayerWater.subMode)
 {
 	//Checks to see if the last event was of the same type
 	if(self.lastEvent != self.eventType)

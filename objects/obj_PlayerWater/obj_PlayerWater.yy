@@ -53,6 +53,36 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
+        },
+        {
+            "id": "4ad94f84-70b9-4e1f-8b52-a788f78b777d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
+        },
+        {
+            "id": "a68d3864-f533-43a2-825a-51d5c5a4bb02",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
+        },
+        {
+            "id": "39e218d4-5f8e-4ad6-b981-6cc6420ab827",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -183,6 +213,76 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "pushDecel",
+            "varType": 0
+        },
+        {
+            "id": "bcb6974e-8987-484d-8141-0ac45d3f6cff",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "triggerSub",
+            "varType": 3
+        },
+        {
+            "id": "9100e47d-af2e-4d15-88c6-7d03485ebcfd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "subMode",
+            "varType": 3
+        },
+        {
+            "id": "aff03b58-85ef-4c20-b13f-406d83e3e478",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "subDuration",
+            "varType": 0
+        },
+        {
+            "id": "ef0b7ca2-119b-4ec3-9f74-9fceed6d9201",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "7",
+            "varName": "subScale",
+            "varType": 0
+        },
+        {
+            "id": "f6e3455f-d887-4806-8f21-d8d713e55fc6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "swimScale",
             "varType": 0
         }
     ],

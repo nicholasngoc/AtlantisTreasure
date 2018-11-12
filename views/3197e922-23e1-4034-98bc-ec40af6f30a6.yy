@@ -9,7 +9,8 @@
         "f6269fdc-1350-45dd-b027-edb61339342d",
         "1b3185b4-c5d4-467a-8670-f6427ed60719",
         "bda0a811-71c9-4c32-8254-087deece1823",
-        "5347f40b-5aab-4faf-bb63-92342e0af0b9"
+        "5347f40b-5aab-4faf-bb63-92342e0af0b9",
+        "98d052c2-4b77-4911-995e-df76aad7d4f6"
     ],
     "filterType": "GMObject",
     "folderName": "PowerUps",

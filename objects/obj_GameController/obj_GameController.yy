@@ -159,6 +159,20 @@
             "value": "1",
             "varName": "level",
             "varType": 0
+        },
+        {
+            "id": "ebbdd36e-a049-4367-b9b4-d81f9635c0ec",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "numMetal",
+            "varType": 0
         }
     ],
     "solid": false,

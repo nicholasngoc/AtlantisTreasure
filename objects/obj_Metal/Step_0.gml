@@ -9,27 +9,21 @@ if((place_meeting(self.x, self.y, obj_PlayerLand) || place_meeting(x, y, obj_Pla
 	self.image_xscale = self.displayScale;
 	self.image_yscale = self.displayScale;
 	
-	if(display)
-	{
-		//Sets the image to a display
-		self.x = room_width - sprite_width / 2 - self.margin;
-		self.y = sprite_height / 2 + self.margin;
-	}
+	//Sets the image to a display
+	self.x = 550 + (obj_GameController.numMetal * 50)
+	self.y = sprite_height / 2 + 10
+		
+	obj_GameController.numMetal++;
 	
 	self.hspeed = 0;
-	
-	if(obj_GameController.powerUp != noone)
-	{
-		obj_GameController.powerUp.destroy = true;
-	}
-	
-	obj_GameController.powerUp = self;
 }
-
-if(destroy)
-instance_destroy(self);
 
 if(pickedUp == false)
 {
 	event_inherited();
+}
+
+if(destroy)
+{
+	instance_destroy(self);
 }

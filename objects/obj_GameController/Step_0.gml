@@ -13,3 +13,15 @@ if(health <= 0)
 	room_goto(rm_GameOver);
 	self.gameState = -1;
 }
+
+if(numMetal >= 3)
+{
+	obj_PlayerWater.triggerSub = true;
+	
+	if(instance_exists(obj_Metal))
+	{
+		obj_Metal.destroy = true;
+	}
+	
+	numMetal = 0;
+}
