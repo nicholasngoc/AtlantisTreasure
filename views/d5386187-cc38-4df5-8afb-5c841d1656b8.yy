@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "d5386187-cc38-4df5-8afb-5c841d1656b8",
     "children": [
-        "10a36547-e1bd-43c9-9f73-e98f5a1beb7f"
+        "505ea9c7-d21f-45d9-b52a-78be7fa43479"
     ],
     "filterType": "GMSprite",
     "folderName": "Level2",

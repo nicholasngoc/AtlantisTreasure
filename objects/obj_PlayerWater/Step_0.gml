@@ -25,3 +25,19 @@ else
 {
 	pushVel = 0;
 }
+
+if(triggerSub = true)
+{
+	alarm[0] = 1;
+	alarm[1] = room_speed * subDuration;
+	triggerSub = false;
+}
+
+if(subMode)
+{
+	if(mouse_check_button(mb_left))
+	{
+		var torpedo = instance_create_layer(x, y, "Instances", obj_Torpedo);
+		torpedo.yVel = 0;
+	}
+}
