@@ -4,9 +4,14 @@
 if(image_angle > -200)
 {
 	image_angle -= swingSpeed;
+	isSwinging = true;
+}
+else
+{
+	isSwinging = false;
 }
 
-if(place_meeting(self.x, self.y, obj_PlayerLand) && !hasDamaged)
+if(place_meeting(self.x, self.y, obj_PlayerLand) && !hasDamaged && isSwinging)
 {
 	if(obj_PlayerLand.isJumping || !obj_PlayerLand.isDucking)
 	{
