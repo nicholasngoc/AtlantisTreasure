@@ -24,7 +24,7 @@ platform = instance_create_layer(2560, 544, "Instances", obj_PlatformSmall);
 platform.image_xscale = 4;
 
 //Highest platform
-platform = instance_create_layer(2752, 128, "Instances", obj_PlatformSmall);
+platform = instance_create_layer(2700, 128, "Instances", obj_PlatformSmall);
 platform.image_xscale = 5;
 
 //Last platform

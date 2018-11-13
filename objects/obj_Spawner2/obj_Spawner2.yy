@@ -196,7 +196,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "4",
             "varName": "numOfEvents",
             "varType": 0
         },

@@ -83,6 +83,20 @@
             "value": "0",
             "varName": "hasDamaged",
             "varType": 3
+        },
+        {
+            "id": "9fc3c19a-09de-420b-9689-1655e4870213",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "isSwinging",
+            "varType": 3
         }
     ],
     "solid": false,

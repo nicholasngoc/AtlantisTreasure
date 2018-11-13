@@ -1,16 +1,25 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(mouse_check_button_pressed(mb_left) && self.pickedUp == true && object_exists(obj_PlayerLand))
+var player;
+
+if(instance_exists(obj_PlayerWater))
+	player = obj_PlayerWater;
+else if(instance_exists(obj_PlayerLand))
+	player = obj_PlayerLand;
+
+if(mouse_check_button_pressed(mb_left) && self.pickedUp == true && instance_exists(player))
 {
-	var bulletInstance = instance_create_layer(obj_PlayerLand.x + obj_PlayerLand.sprite_width / 2,
-		obj_PlayerLand.y,
-		"Instances", bullet);
+	var bulletInstance = instance_create_layer(player.x, player.y, "Instances", bullet);
 		
-	if(mouse_x < obj_PlayerLand.x)
+	if(fireAtMouse)
 	{
-		bulletInstance.xVel *= -1;
-		bulletInstance.image_angle = 180;
+		var xDist = mouse_x - player.x;
+		var yDist = mouse_y - player.y;
+		var vectorMagn = sqrt(sqr(xDist) + sqr(yDist));
+		
+		bulletInstance.xVel = xDist / vectorMagn * bulletInstance.velocity;
+		bulletInstance.yVel = yDist / vectorMagn * bulletInstance.velocity;
 	}
 
 	ammo--;

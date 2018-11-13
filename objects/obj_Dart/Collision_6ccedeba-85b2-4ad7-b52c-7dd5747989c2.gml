@@ -8,5 +8,5 @@ if(!isPoisoning)
 	stuck = true;
 	stuckY = other.y - y;
 
-	alarm[0] = 1;
+	alarm[1] = 1;
 }

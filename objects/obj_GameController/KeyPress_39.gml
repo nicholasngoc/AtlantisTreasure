@@ -1,4 +1,4 @@
-/// @description Changes level
+/// @description Goes to next level
 
 if(debugMode)
 {

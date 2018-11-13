@@ -3,3 +3,8 @@
 
 self.x += xVel;
 self.y += yVel;
+
+if(destroy)
+{
+	instance_destroy(self);
+}

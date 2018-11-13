@@ -3,3 +3,5 @@
 
 image_xscale = scale;
 image_yscale = scale;
+
+alarm[0] = 1;

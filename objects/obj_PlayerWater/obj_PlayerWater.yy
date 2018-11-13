@@ -83,6 +83,26 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
+        },
+        {
+            "id": "8d9974e6-f58a-4c78-91e5-45de544b2945",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
+        },
+        {
+            "id": "22eb33a3-d384-4738-8feb-2d79cd2aa2a1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -225,7 +245,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "False",
             "varName": "triggerSub",
             "varType": 3
         },
@@ -283,6 +303,48 @@
             "resourceFilter": 1023,
             "value": "2",
             "varName": "swimScale",
+            "varType": 0
+        },
+        {
+            "id": "c0e88c31-f84a-4d02-9ccb-55225c9f6efb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": ".25",
+            "varName": "subFireRate",
+            "varType": 0
+        },
+        {
+            "id": "031f7177-a777-4085-8f14-69b85806ee05",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "canFire",
+            "varType": 3
+        },
+        {
+            "id": "9f3f3c0e-007e-4b05-95c6-b4ce842e026f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "tempHealth",
             "varType": 0
         }
     ],
