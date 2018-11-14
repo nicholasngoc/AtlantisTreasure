@@ -332,6 +332,34 @@
             "value": "0",
             "varName": "trident",
             "varType": 3
+        },
+        {
+            "id": "b5724ee8-a018-4bb5-9d00-3f677c22f94d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "isInvincible",
+            "varType": 3
+        },
+        {
+            "id": "9f02e80a-b39e-404c-940f-e9236004f77e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "invinTimer",
+            "varType": 0
         }
     ],
     "solid": true,

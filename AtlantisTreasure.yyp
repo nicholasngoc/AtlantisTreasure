@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1d703b63-f115-4dee-b691-03aefba26282",
+            "Value": {
+                "id": "27bc72bc-204d-470c-9713-c78ea0928bc6",
+                "resourcePath": "sprites\\spr_shield\\spr_shield.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1d95ae14-2270-45a4-851e-9832fb6a10d6",
             "Value": {
                 "id": "9e35528b-1693-459c-8a21-1250a7dda15e",
@@ -747,6 +755,14 @@
             "Value": {
                 "id": "cbaad1aa-1258-4b06-a2eb-99a3b303ada9",
                 "resourcePath": "objects\\obj_GrilledFish\\obj_GrilledFish.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dbeadea6-5a90-4b15-b516-15e2e2266d2b",
+            "Value": {
+                "id": "4c9d7639-a0da-4b93-9719-79faa38c60b6",
+                "resourcePath": "objects\\obj_shield\\obj_shield.yy",
                 "resourceType": "GMObject"
             }
         },

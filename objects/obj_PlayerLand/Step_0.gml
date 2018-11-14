@@ -54,3 +54,12 @@ if(self.isJumping == true)
 		self.isJumping = false;
 	}
 }
+if(self.invinTimer>0)
+{
+	isInvincible=true;
+	invinTimer-=room_speed;
+}
+if(invinTimer==0)
+{
+	isInvincible =false;
+}
