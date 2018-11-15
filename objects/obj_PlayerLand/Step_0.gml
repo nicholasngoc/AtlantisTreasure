@@ -4,17 +4,11 @@
 /*If else statement to handle ducking*/
 if(self.isDucking == true)
 {
-	image_speed = 0;
-	image_index = self.playerDuckIndex;
+	sprite_index = spr_PlayerDuck;
 }
 else
 {
-	image_speed = 1;
-	
-	if(image_index = self.playerDuckIndex - 1)
-	{
-		image_index = 0;
-	}
+	sprite_index = spr_PlayerLand;
 }
 
 //This pushes the player when they are on the left side of the wall

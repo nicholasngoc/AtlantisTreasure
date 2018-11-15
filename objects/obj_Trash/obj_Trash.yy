@@ -98,7 +98,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "1.5",
             "varName": "scale",
             "varType": 0
         },
@@ -126,8 +126,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "17",
             "varName": "moveDebuff",
+            "varType": 0
+        },
+        {
+            "id": "83abd0f5-d9d8-44fa-a605-2684bec9c7eb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "14",
+            "varName": "lastFrameIndex",
             "varType": 0
         }
     ],

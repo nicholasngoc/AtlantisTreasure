@@ -8,7 +8,7 @@ var spawnDistance = irandom_range(0, pUpInitDist);
 
 var powerUp;
 
-var ranNum = irandom_range(1, 2)
+var ranNum = irandom_range(1, 3)
 
 switch(ranNum)
 {
@@ -17,6 +17,9 @@ switch(ranNum)
 		break;
 	case 2:
 		powerUp = obj_Starfish;
+		break;
+	case 3:
+		powerUp = obj_OxygenTank;
 		break;
 }
 

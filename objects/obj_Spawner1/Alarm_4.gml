@@ -32,8 +32,9 @@ platform = instance_create_layer(2976, 512, "Instances", obj_PlatformSmall);
 platform.image_xscale = 5;
 
 var wall = instance_create_layer(3104, 0, "Instances", obj_Wall);
+wall.sprite_index = spr_CeilingWall;
 wall.image_xscale = 20;
-wall.image_yscale = 8;
+wall.image_yscale = 10;
 
 if(obj_GameController.debugMode == false)
 {

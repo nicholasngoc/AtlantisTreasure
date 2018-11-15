@@ -156,20 +156,6 @@
             "varType": 1
         },
         {
-            "id": "5526a967-229b-421a-90ea-b4b79ec89d16",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "12",
-            "varName": "playerDuckIndex",
-            "varType": 1
-        },
-        {
             "id": "fbfbde72-ec10-426f-9fa2-6ed6ebb0b867",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
