@@ -294,7 +294,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".15",
+            "value": ".05",
             "varName": "trashDelay",
             "varType": 0
         },
@@ -308,7 +308,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "50",
+            "value": "100",
             "varName": "maxTrashCount",
             "varType": 0
         },

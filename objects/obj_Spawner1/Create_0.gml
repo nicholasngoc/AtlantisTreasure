@@ -6,7 +6,10 @@ chasingAtlanteans.image_xscale = chasingAtlanteanScale;
 chasingAtlanteans.image_yscale = chasingAtlanteanScale;
 
 if(obj_GameController.debugMode == false)
-//Selects random event
-alarm[0] = 5;
+{
+	//Selects random event
+	alarm[0] = 5;
 
-alarm[6] = room_speed * pUpDelay;
+	//Spawns power up
+	alarm[6] = room_speed * pUpDelay;
+}

@@ -4,7 +4,7 @@
 //If statement that prevents the player from trying to move
 //while up againt a wall.
 //Uses self.x + 10 to specify to the right of the player
-if(place_meeting(self.x + 10, self.y, obj_Wall) == false)
+if(place_meeting(self.x + 1, self.y, obj_Wall) == false)
 {
 	//Moves player to the right
 	self.x += self.playerMovementSpeed;
@@ -16,4 +16,5 @@ if(place_meeting(self.x + 10, self.y, obj_Wall) == false)
 		self.x = room_width - (sprite_width / 2);	
 		self.playerMoving = false;
 	}
+	
 }
