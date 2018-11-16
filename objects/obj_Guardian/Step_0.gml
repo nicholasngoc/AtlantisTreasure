@@ -32,7 +32,6 @@ if(swingSword == true && swings <= maxSwings)
 else
 {
 	swingSword = false;
-	image_speed = 0;
 }
 
 /*The following if statement is used to deal damage on the player*/

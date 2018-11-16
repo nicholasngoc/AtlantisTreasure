@@ -2,15 +2,12 @@
 // You can write your code in this editor
 
 //Sets the obj to a new scale
-image_xscale = scale;
-image_yscale = scale;
+image_xscale = xScale;
+image_yscale = yScale;
 
 //Initial spawn location
 self.x = -sprite_width;
 self.y = room_height;
-
-//Stops animation
-image_speed = 0;
 
 if(obj_GameController.debugMode == false)
 {

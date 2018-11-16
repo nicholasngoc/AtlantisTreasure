@@ -167,20 +167,6 @@
             "varType": 0
         },
         {
-            "id": "c1875c07-beda-453f-8df2-8f760e9e3be9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "20",
-            "varName": "scale",
-            "varType": 0
-        },
-        {
             "id": "24bbc0c2-7106-43fe-af90-d10e382fe142",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -274,7 +260,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "192",
+            "value": "272",
             "varName": "spitY",
             "varType": 0
         },
@@ -288,7 +274,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.5",
+            "value": "2",
             "varName": "spitDelay",
             "varType": 0
         },
@@ -585,9 +571,37 @@
             "value": "0",
             "varName": "countBasicEvent",
             "varType": 0
+        },
+        {
+            "id": "cdca0fca-29e6-447a-80ad-439ff5bbc737",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "13",
+            "varName": "xScale",
+            "varType": 0
+        },
+        {
+            "id": "5c7e3aa6-e2e8-4ca5-8086-1012efaca9f7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "17",
+            "varName": "yScale",
+            "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "73d2f5cd-6038-49a7-bfdd-416f7cdecc57",
+    "spriteId": "708c81e2-c8a9-4143-8e61-a6a71f103bb1",
     "visible": true
 }
