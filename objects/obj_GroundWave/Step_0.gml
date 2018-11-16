@@ -14,7 +14,7 @@ else
 
 self.x += xVel;
 
-if(self.x > room_width)
+if(self.x > room_width + sprite_width)
 {
 	instance_destroy(self);
 }

@@ -5,3 +5,8 @@ if(swingSword)
 {
 	swings++;
 }
+
+if(sprite_index == spr_GuardianSmash)
+{
+	sprite_index = spr_Guardian;
+}

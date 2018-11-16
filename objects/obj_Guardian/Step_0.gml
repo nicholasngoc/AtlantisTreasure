@@ -23,10 +23,7 @@ else
 if(swingSword && swings >= maxSwings)
 {
 	swingSword = false;
-}
-if(!swingSword && sprite_index != spr_Guardian)
-{
-	sprite_index = spr_Guardian
+	sprite_index = spr_Guardian;
 }
 
 /*The following if statement is used to deal damage on the player*/
@@ -46,6 +43,13 @@ if(place_meeting(self.x, self.y, obj_PlayerLand))
 
 if(isJumping == true)
 {
+	pauseIndex = 2;
+	if(image_index >= 2)
+	{
+		image_speed = 0;
+		image_index = 2;
+	}
+	
 	self.y -= currentJumpVel;
 	
 	currentJumpVel -= jumpDecel;
@@ -54,6 +58,8 @@ if(isJumping == true)
 	{
 		self.y = room_height;
 		isJumping = false;
+		
+		image_speed = 1;
 		
 		alarm[4] = 1;
 	}

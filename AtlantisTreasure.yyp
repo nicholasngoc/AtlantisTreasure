@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "db4832ba-e0b0-42b2-bca6-233763fc1837",
+            "Value": {
+                "id": "5378a549-e689-453a-b96c-f849492cf76b",
+                "resourcePath": "sprites\\spr_GuardianSmash\\spr_GuardianSmash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dcc35f6c-2de9-477b-bc53-5e8e983082c6",
             "Value": {
                 "id": "3773ba1f-2f3d-4bd0-84b5-df74b40a902d",
