@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "90aea220-0bca-4e77-b262-7853a760016b",
+            "Value": {
+                "id": "9a661585-7925-4e91-bc44-52202d331355",
+                "resourcePath": "objects\\obj_TridentPUp\\obj_TridentPUp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "90d53baa-f830-4211-8cab-846467dab4c5",
             "Value": {
                 "id": "9f1f96f7-cdef-45ee-8747-23bacd8edb83",
@@ -700,6 +708,14 @@
                 "id": "cda83253-a769-459b-a69c-02e85d80fa8f",
                 "resourcePath": "sprites\\spr_PlayerLand\\spr_PlayerLand.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ad0c002a-deab-4b7f-9aa6-7c5b8414c77b",
+            "Value": {
+                "id": "2691ff5a-3232-4ad1-97a8-9d7a8663d357",
+                "resourcePath": "views\\ad0c002a-deab-4b7f-9aa6-7c5b8414c77b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
