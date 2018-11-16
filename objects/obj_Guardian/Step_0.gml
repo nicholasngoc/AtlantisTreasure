@@ -20,25 +20,16 @@ else
 	self.hspeed = 0;
 }
 
-/*The following handles the animation of guardian swinging his sword*/
-lastSwingIndex = 4;
-if(swingSword == true && swings <= maxSwings)
-{
-	if(image_index == 0)
-	{
-		swings++;
-	}
-}
-else
+if(swingSword && swings >= maxSwings)
 {
 	swingSword = false;
-	image_speed = 0;
+	sprite_index = spr_Guardian;
 }
 
 /*The following if statement is used to deal damage on the player*/
 if(place_meeting(self.x, self.y, obj_PlayerLand))
 {
-	if(canDamage)
+	if(canDamage && (!swingSword || !obj_PlayerLand.shield))
 	{
 		if(isJumping == true)
 			health -= jumpDamage;
@@ -52,6 +43,13 @@ if(place_meeting(self.x, self.y, obj_PlayerLand))
 
 if(isJumping == true)
 {
+	pauseIndex = 2;
+	if(image_index >= 2)
+	{
+		image_speed = 0;
+		image_index = 2;
+	}
+	
 	self.y -= currentJumpVel;
 	
 	currentJumpVel -= jumpDecel;
@@ -60,6 +58,8 @@ if(isJumping == true)
 	{
 		self.y = room_height;
 		isJumping = false;
+		
+		image_speed = 1;
 		
 		alarm[4] = 1;
 	}
