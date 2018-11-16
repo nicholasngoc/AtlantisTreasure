@@ -3,7 +3,16 @@
 
 if(place_meeting(self.x, self.y, obj_PlayerLand) && !hasDamaged)
 {
+	if(obj_PlayerLand.trident==true)
+	{
+		obj_PlayerLand.trident=false;
+		instance_destroy(self)
+	}
+	
+	else
+	{
 	health -= damage;
 	
 	hasDamaged = true;
+	}
 }
