@@ -329,7 +329,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "False",
             "varName": "trident",
             "varType": 3
         },
@@ -359,6 +359,20 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "invinTimer",
+            "varType": 0
+        },
+        {
+            "id": "2bb586bc-ddde-490d-b74a-3a1128d2ca8a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "step_count",
             "varType": 0
         }
     ],

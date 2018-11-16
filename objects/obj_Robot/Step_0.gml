@@ -7,22 +7,17 @@
 //3 Player is not jumping
 if(place_meeting(self.x, self.y, obj_PlayerLand))
 {
-	if(obj_PlayerLand.trident == true||obj_PlayerLand.isInvincible==true)
-	{
-		if(obj_PlayerLand.trident == true||obj_PlayerLand.isInvincible!=true)
-		{
-			obj_PlayerLand.trident = false;
-		}
-		instance_destroy(self);
-		
-	}
-	else
-	{
-	if(obj_PlayerLand.isDucking == false || obj_PlayerLand.isJumping == true)
+	
+	
+	if(obj_PlayerLand.isDucking == false || obj_PlayerLand.isJumping == true && obj_PlayerLand.trident==false&&obj_PlayerLand.isInvincible==false)
 	{
 		//Player takes damage and robot is destroyed
 		health -= self.damage
 		instance_destroy(self);
 	}
+	else if (obj_PlayerLand.trident==true&&obj_PlayerLand.isDucking==false)
+	{
+	instance_destroy(self);
+	obj_PlayerLand.trident = false;
 	}
 }

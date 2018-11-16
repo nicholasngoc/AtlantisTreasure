@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 /*If else statement to handle ducking*/
+
 if(self.isDucking == true)
 {
 	image_speed = 0;
@@ -54,12 +55,9 @@ if(self.isJumping == true)
 		self.isJumping = false;
 	}
 }
-if(self.invinTimer>0)
+
+if(invinTimer>0)
 {
-	isInvincible=true;
-	invinTimer-=room_speed;
-}
-if(invinTimer==0)
-{
-	isInvincible =false;
+	isInvincible = true;
+invinTimer-=1;
 }
