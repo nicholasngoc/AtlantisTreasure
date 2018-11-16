@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "65841bcc-2143-4d6d-be8a-3a15644a8563",
+            "Value": {
+                "id": "99efdc94-6006-4e76-a3e9-96d38f51d528",
+                "resourcePath": "views\\65841bcc-2143-4d6d-be8a-3a15644a8563.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "662eb96d-d1d6-4085-b9c6-fb49ebeb0e8c",
             "Value": {
                 "id": "2893196a-7ce4-41aa-8ffa-9702e8c15a54",
@@ -591,6 +599,14 @@
             }
         },
         {
+            "Key": "8ce0f9a3-9436-4176-8621-bd513516e3a9",
+            "Value": {
+                "id": "698d2531-867f-4cc3-9b99-c9d13c19a865",
+                "resourcePath": "sprites\\spr_Shield\\spr_Shield.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e433772-2734-4968-bb92-e11cd74a8a26",
             "Value": {
                 "id": "6030a5ca-ceb7-4487-aca7-ee98feadea3a",
@@ -692,6 +708,14 @@
                 "id": "5f4a5992-cf15-4cd3-9321-0e54503cefb1",
                 "resourcePath": "views\\a4a287a6-4a2e-44cd-948f-2444297adf22.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a67d45e9-ed51-4daa-9deb-d52ff53f82d5",
+            "Value": {
+                "id": "5ea9fc0c-72ca-4ea4-8a05-f815f919f048",
+                "resourcePath": "objects\\obj_ShieldBubble\\obj_ShieldBubble.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -899,6 +923,14 @@
             "Value": {
                 "id": "2c796498-edbb-4230-8d09-7a0b160ea88a",
                 "resourcePath": "objects\\obj_PowerUpParent\\obj_PowerUpParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4a46360-c6a0-4b49-acc1-8290c62045d0",
+            "Value": {
+                "id": "e2d36ce6-da41-40bf-94a3-4602842b738e",
+                "resourcePath": "objects\\obj_Shield\\obj_Shield.yy",
                 "resourceType": "GMObject"
             }
         },

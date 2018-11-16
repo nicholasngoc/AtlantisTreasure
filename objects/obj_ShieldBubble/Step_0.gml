@@ -6,9 +6,9 @@ if(mouse_check_button(mb_left) && self.pickedUp == true)
 	if(instance_exists(obj_PlayerLand))
 	{
 		var player = obj_PlayerLand;
-		player.trident = true;
+		player.shield = true;
 		
-		instance_create_layer(player.x, player.y, "Instances", obj_TridentPUp);
+		instance_create_layer(player.x, player.y, "Instances", obj_Shield);
 	}
 
 	obj_GameController.powerUp = noone;
@@ -18,3 +18,4 @@ if(mouse_check_button(mb_left) && self.pickedUp == true)
 
 // Inherit the parent event
 event_inherited();
+

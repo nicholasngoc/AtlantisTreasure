@@ -18,3 +18,9 @@ if(self.x > room_width)
 {
 	instance_destroy(self);
 }
+
+if(place_meeting(x, y, obj_PlayerLand) && !obj_PlayerLand.shield)
+{
+	health -= damage;
+	instance_destroy(self);
+}
