@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-health -= damage;
+other.destroy = true;
 instance_destroy(self);

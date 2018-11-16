@@ -1,32 +1,34 @@
 {
-    "id": "85bc96fb-a10e-499b-916a-b766fd9eb31f",
+    "id": "90aea220-0bca-4e77-b262-7853a760016b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Acid",
+    "name": "obj_TridentPUp",
     "eventList": [
         {
-            "id": "1c235456-d200-4eb4-95e8-83261563267c",
+            "id": "b73d42b7-b845-4e0a-b620-7c8fc08ca517",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "85bc96fb-a10e-499b-916a-b766fd9eb31f"
+            "m_owner": "90aea220-0bca-4e77-b262-7853a760016b"
         },
         {
-            "id": "c613d316-17f0-460a-823d-36d08b2780e7",
+            "id": "23f9247c-e6a4-4d05-82e8-1e52297be15a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "85bc96fb-a10e-499b-916a-b766fd9eb31f"
+            "m_owner": "90aea220-0bca-4e77-b262-7853a760016b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        
+    ],
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -43,7 +45,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "df0d7352-4c3b-4bef-bb02-01888e345abe",
+            "id": "237789a3-6380-4ccf-a13a-558c8c1b02dc",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +54,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-15",
-            "varName": "initYVel",
+            "value": "100",
+            "varName": "playerDistance",
             "varType": 0
         },
         {
-            "id": "e79a1512-93cf-4894-838f-01ac9939025b",
+            "id": "b2fa0822-ee8c-4bb3-a591-642cd1e2e524",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,54 +68,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
-            "varName": "xVelBase",
-            "varType": 0
-        },
-        {
-            "id": "a51e6b61-41f1-45a8-8319-a42836b3ef43",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "xVelRange",
-            "varType": 0
-        },
-        {
-            "id": "d148752e-22ee-4b91-8ea1-88cb4be46d7b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "deceleration",
-            "varType": 0
-        },
-        {
-            "id": "7bca1ae1-0d5e-4f60-b2f1-10bfdad96d03",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "3",
+            "value": "4",
             "varName": "scale",
             "varType": 0
         },
         {
-            "id": "4e7e3cc9-be93-4792-a31e-f6e50f877fa9",
+            "id": "95d79f9d-b27a-4154-9c2f-9882f6ffd5b1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -122,12 +82,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
-            "varName": "damage",
-            "varType": 0
+            "value": "0",
+            "varName": "destroy",
+            "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "b1830b63-d2ad-49af-bac2-6120e0606b98",
+    "spriteId": "0ed4550d-7c43-4049-8b5a-e54f61d2665d",
     "visible": true
 }
