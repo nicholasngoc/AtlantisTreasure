@@ -318,7 +318,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "2",
             "varName": "event3SpawnMin",
             "varType": 0
         },
@@ -332,7 +332,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "3",
             "varName": "event3SpawnMax",
             "varType": 0
         },

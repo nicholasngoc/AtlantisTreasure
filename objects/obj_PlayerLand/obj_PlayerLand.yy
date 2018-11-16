@@ -267,7 +267,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "4",
             "varName": "platformCollisionWidth",
             "varType": 0
         },
@@ -281,7 +281,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-50",
+            "value": "20",
             "varName": "wallPushDistance",
             "varType": 0
         },

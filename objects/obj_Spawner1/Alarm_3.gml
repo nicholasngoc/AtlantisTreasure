@@ -7,7 +7,7 @@ if(self.atlanteanRobotsSpawned < self.maxAtlanteanRobot)
 	randomize();
 	
 	//Chooses random obstacle
-	var chooseObstacle = irandom_range(0, 2);
+	var chooseObstacle = irandom_range(0, 1);
 	
 	/*Added 32 to both of these x1 to have them spawn off screen*/
 	//This is for spawning atlantean

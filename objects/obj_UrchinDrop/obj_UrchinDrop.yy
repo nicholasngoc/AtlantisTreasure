@@ -103,7 +103,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "3",
             "varName": "normalDamage",
             "varType": 0
         },
@@ -117,7 +117,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "40",
             "varName": "jumpDamage",
             "varType": 0
         }
