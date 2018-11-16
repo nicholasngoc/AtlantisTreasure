@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "bfbd817d-3ea3-4a5c-8eb4-f260ac3b50d7",
+            "Value": {
+                "id": "f08e5254-1513-4360-a919-f65f4ddb9ab3",
+                "resourcePath": "sprites\\spr_GuardianAttack\\spr_GuardianAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c038b9ac-ea21-4208-8800-ac64f08773db",
             "Value": {
                 "id": "b7824006-eebd-4259-9aa8-f59a564a4cfd",

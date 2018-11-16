@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(mouse_check_button(mb_left) && self.pickedUp == true)
+if(mouse_check_button(mb_left) && self.pickedUp == true && !obj_PlayerLand.shield)
 {
 	if(instance_exists(obj_PlayerLand))
 	{

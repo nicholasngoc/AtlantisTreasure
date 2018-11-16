@@ -133,6 +133,16 @@
             "enumb": 96,
             "eventtype": 9,
             "m_owner": "851236d0-f1ba-4130-a264-cfff446eb89f"
+        },
+        {
+            "id": "edfd8f2b-c133-483c-bd83-e94d7d9069e6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "851236d0-f1ba-4130-a264-cfff446eb89f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -190,7 +200,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "4",
             "varName": "maxSwings",
             "varType": 0
         },
@@ -302,7 +312,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "4",
             "varName": "swordDelay",
             "varType": 0
         },
