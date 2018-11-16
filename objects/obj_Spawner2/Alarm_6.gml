@@ -21,6 +21,7 @@ switch(ranNum)
 	case 3:
 		powerUp = obj_OxygenTank;
 		break;
+	
 }
 
 instance_create_layer(x + spawnDistance, 288, "Instances", powerUp);
