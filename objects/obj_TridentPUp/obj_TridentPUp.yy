@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "90aea220-0bca-4e77-b262-7853a760016b"
+        },
+        {
+            "id": "2b09be1f-6f9b-4df1-bdbd-78238a5a5d1b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "90aea220-0bca-4e77-b262-7853a760016b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -85,6 +95,20 @@
             "value": "0",
             "varName": "destroy",
             "varType": 3
+        },
+        {
+            "id": "a559046b-1e10-468f-9055-8c705ebd469c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2000",
+            "varName": "pScore",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -4,7 +4,7 @@
 //If statement that prevents the player from trying to move
 //while up againt a wall.
 //Uses self.x + 10 to specify to the right of the player
-if(place_meeting(self.x + 1, self.y, obj_Wall) == false)
+if(place_meeting(self.x + wallPushDistance, self.y, obj_Wall) == false)
 {
 	if(!isDucking)
 	//Moves player to the right
