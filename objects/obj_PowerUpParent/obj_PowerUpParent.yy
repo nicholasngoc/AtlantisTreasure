@@ -125,6 +125,20 @@
             "value": "0",
             "varName": "destroy",
             "varType": 3
+        },
+        {
+            "id": "9c01af46-9f39-46ba-94dd-ff65818d9261",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "pScore",
+            "varType": 0
         }
     ],
     "solid": false,

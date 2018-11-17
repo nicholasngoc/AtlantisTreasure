@@ -4,10 +4,12 @@
 if(other.isJumping)
 {
 	other.bossHealth -= jumpDamage;
+	score += jumpScore;
 }
 else
 {
 	other.bossHealth -= normalDamage;
+	score += noramlScore;
 }
 
 instance_destroy(self);

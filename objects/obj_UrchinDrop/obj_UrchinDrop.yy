@@ -120,6 +120,34 @@
             "value": "40",
             "varName": "jumpDamage",
             "varType": 0
+        },
+        {
+            "id": "d4e4f9dc-9867-4a29-9662-f346e6830dfb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5000",
+            "varName": "jumpScore",
+            "varType": 0
+        },
+        {
+            "id": "e8322a24-5454-40b1-bd04-23f5b8d94c48",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "250",
+            "varName": "noramlScore",
+            "varType": 0
         }
     ],
     "solid": false,
