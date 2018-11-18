@@ -32,6 +32,7 @@ if(triggerSub = true)
 	alarm[1] = room_speed * subDuration;
 	triggerSub = false;
 	tempHealth = health;
+	score += subScore
 }
 
 //Shoots torpedoes

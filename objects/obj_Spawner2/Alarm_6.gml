@@ -8,7 +8,7 @@ var spawnDistance = irandom_range(0, pUpInitDist);
 
 var powerUp;
 
-var ranNum = irandom_range(1, 3)
+var ranNum = 6//irandom_range(1, 6)
 
 switch(ranNum)
 {
@@ -21,7 +21,15 @@ switch(ranNum)
 	case 3:
 		powerUp = obj_OxygenTank;
 		break;
-	
+	case 4:
+		powerUp = obj_PufferBubble;
+		break;
+	case 5:
+		powerUp = obj_BubblePickup;
+		break;
+	case 6:
+		powerUp = obj_TorpedoGun;
+		break;
 }
 
 instance_create_layer(x + spawnDistance, 288, "Instances", powerUp);

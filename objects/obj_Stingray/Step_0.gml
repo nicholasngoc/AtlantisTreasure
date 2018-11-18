@@ -12,7 +12,15 @@ y += newY;
 step_count = step_count+circleSpeed
 self.time = self.step_count / room_speed
 
-if(place_meeting(x, y, obj_PlayerWater) && canHurt)
+
+if(place_meeting(self.x, self.y, obj_BubbleShield) && canHurt)
+{
+	obj_BubbleShield.bubbleHealth -= damage;
+	
+	canHurt = false;
+	alarm[0] = room_speed * cooldown;
+}
+else if(place_meeting(x, y, obj_PlayerWater) && canHurt)
 {
 	health -= damage;
 	obj_PlayerWater.pushVel = push;
