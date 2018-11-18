@@ -1,0 +1,101 @@
+{
+    "id": "2034903c-7e09-4f6a-b48e-a93e7fe1c40c",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_BubbleShield",
+    "eventList": [
+        {
+            "id": "a5fdecac-fbd5-4569-8188-b98160262b0b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "2034903c-7e09-4f6a-b48e-a93e7fe1c40c"
+        },
+        {
+            "id": "7c6484d7-eaf2-479d-b7ee-f016c11973ba",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2034903c-7e09-4f6a-b48e-a93e7fe1c40c"
+        },
+        {
+            "id": "0e88dab3-f3ea-43e0-8f38-88e7ecddd706",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "2034903c-7e09-4f6a-b48e-a93e7fe1c40c"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "0111f37d-5b03-4132-841e-f88fcebf5109",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "6",
+            "varName": "scale",
+            "varType": 0
+        },
+        {
+            "id": "a0bb9452-bd02-4cc7-86ae-7db76ffb8c01",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "30",
+            "varName": "bubbleHealth",
+            "varType": 0
+        },
+        {
+            "id": "bcd7316d-60b5-40d0-b24f-0777688ac9b1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "30",
+            "varName": "maxHealth",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "6a305ed5-c8bc-47f5-a0fa-0a8efeca2d77",
+    "visible": true
+}

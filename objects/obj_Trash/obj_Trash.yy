@@ -53,6 +53,26 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "46ee4320-253d-4fe6-b665-46d944bda17f"
+        },
+        {
+            "id": "eb1eedd8-4586-4bed-b8ac-cbaeb7f5b7f6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "fd7484d1-fa7e-40b9-9aea-a74efc6d916f",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "46ee4320-253d-4fe6-b665-46d944bda17f"
+        },
+        {
+            "id": "1f70ce61-e1e4-4f26-a8ba-bfbe14517d8d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "fb6986c5-0d0f-4c74-85c7-07a053b604ae",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "46ee4320-253d-4fe6-b665-46d944bda17f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -126,7 +146,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "15",
+            "value": "13",
             "varName": "moveDebuff",
             "varType": 0
         },
@@ -142,6 +162,34 @@
             "resourceFilter": 1023,
             "value": "14",
             "varName": "lastFrameIndex",
+            "varType": 0
+        },
+        {
+            "id": "84b3b468-3867-409c-8748-ccd065193087",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "500",
+            "varName": "torpedoScore",
+            "varType": 0
+        },
+        {
+            "id": "810bd030-a797-4990-8da5-85e3d725bc9a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "250",
+            "varName": "pufferScore",
             "varType": 0
         }
     ],

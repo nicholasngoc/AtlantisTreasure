@@ -2,7 +2,7 @@
     "id": "b7c989a0-3a21-454b-b663-7a712e716f73",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_Torped0",
+    "name": "spr_Torped01",
     "For3D": false,
     "HTile": false,
     "VTile": false,

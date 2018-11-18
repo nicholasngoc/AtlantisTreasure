@@ -346,6 +346,20 @@
             "value": "0",
             "varName": "tempHealth",
             "varType": 0
+        },
+        {
+            "id": "52c03c63-60c0-4829-84c3-f7b257ea2d90",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4000",
+            "varName": "subScore",
+            "varType": 0
         }
     ],
     "solid": false,
