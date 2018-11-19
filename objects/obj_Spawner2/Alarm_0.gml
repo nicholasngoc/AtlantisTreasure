@@ -6,12 +6,14 @@ randomize();
 //Selects a random event
 self.eventType = irandom_range(1, self.numOfEvents);
 
-if(countBasicEvent < maxBasicEvent || obj_PlayerWater.subMode)
+if(countBasicEvent < maxBasicEvent)
 {
 	//Checks to see if the last event was of the same type
 	if(self.lastEvent != self.eventType)
 	{
 		self.lastEvent = self.eventType;
+		
+		countBasicEvent++;
 
 		//Starts the new event 
 		alarm[self.eventType] = room_speed * self.eventDelay;
@@ -24,5 +26,6 @@ if(countBasicEvent < maxBasicEvent || obj_PlayerWater.subMode)
 }
 else
 {
+	countBasicEvent = 0;
 	alarm[5] = 1;
 }
