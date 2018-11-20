@@ -10,6 +10,8 @@ else if(bossHealth <= 0)
 {
 	self.hspeed = -xVelocity;
 	
+	score += bossScore;
+	
 	if(self.x + sprite_width < 0)
 	{
 		room_goto_next();

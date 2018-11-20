@@ -23,6 +23,26 @@
             "enumb": 7,
             "eventtype": 7,
             "m_owner": "fd7484d1-fa7e-40b9-9aea-a74efc6d916f"
+        },
+        {
+            "id": "8b290c00-8005-49cc-a2ad-24a177fa9f6d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "f574de8e-8e00-40e6-ab84-d46c09281556",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "fd7484d1-fa7e-40b9-9aea-a74efc6d916f"
+        },
+        {
+            "id": "0ebdaa61-ce03-4769-9e74-70999adfd064",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "517f3e91-6ece-4a74-8fea-eb9e9c397c4b",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "fd7484d1-fa7e-40b9-9aea-a74efc6d916f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -55,6 +75,62 @@
             "value": "12",
             "varName": "scale",
             "varType": 0
+        },
+        {
+            "id": "7e1bfb90-f41f-4933-8989-f5b3107228b3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hasDamagedBody",
+            "varType": 3
+        },
+        {
+            "id": "dcb8440d-27ed-4320-aaee-fff4e8718ab9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "damage",
+            "varType": 0
+        },
+        {
+            "id": "d9407127-64e9-427e-b725-a00263481173",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "byTorpedo",
+            "varType": 3
+        },
+        {
+            "id": "287748d3-12d4-4fa1-8514-6bbe33270948",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hasDamagedEye",
+            "varType": 3
         }
     ],
     "solid": false,

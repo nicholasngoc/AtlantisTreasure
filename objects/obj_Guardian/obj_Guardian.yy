@@ -609,6 +609,20 @@
             "value": "17",
             "varName": "yScale",
             "varType": 0
+        },
+        {
+            "id": "6ba43b0f-1638-4728-b6f0-2a45a4b3b0e6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10000",
+            "varName": "bossScore",
+            "varType": 0
         }
     ],
     "solid": false,

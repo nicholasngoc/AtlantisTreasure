@@ -3,6 +3,9 @@
 
 if(mouse_check_button(mb_left) && self.pickedUp == true && instance_exists(obj_PlayerWater))
 {
+	if(instance_exists(obj_BubbleShield))
+	obj_BubbleShield.bubbleHealth = 0;
+	
 	var player = obj_PlayerWater;
 	
 	instance_create_layer(player.x, player.y, "Instances", obj_BubbleShield);
