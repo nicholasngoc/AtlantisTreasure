@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "04c29346-cf58-4ef3-b31f-d8dd4c3182d3",
+            "Value": {
+                "id": "47f4984f-2d43-47bd-b4d9-05e89a942b28",
+                "resourcePath": "objects\\obj_OctopusCups\\obj_OctopusCups.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "04c3b196-e663-4f62-a106-be056a32d618",
             "Value": {
                 "id": "2d1e8053-75ee-4b1a-9911-f87939434487",
@@ -860,6 +868,14 @@
                 "id": "401a369e-9d84-40a4-bc36-203339b351b1",
                 "resourcePath": "sprites\\spr_harpoon\\spr_harpoon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a457c29d-4f04-47f5-8474-d062a7ddee41",
+            "Value": {
+                "id": "e2f4d4fe-3a0f-411c-a10c-8704904822b8",
+                "resourcePath": "objects\\obj_Ink\\obj_Ink.yy",
+                "resourceType": "GMObject"
             }
         },
         {

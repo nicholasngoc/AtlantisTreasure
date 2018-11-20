@@ -1,25 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-/*If else statement used to move the boss onto the screen on spawn*/
-if(self.y > room_height - sideBuffer && bossHealth > 0)
+if(countScale < maxScale)
 {
-	self.vspeed = yVelocity;
-}
-else if(bossHealth <= 0)
-{
-	self.vspeed = -yVelocity;
+	image_xscale += scaleInc;
+	image_yscale += scaleInc;
 	
-	score += bossScore;
-	
-	if(y > room_height + sprite_height)
-	{
-		room_goto_next();
-	}
+	countScale += scaleInc;
 }
-else
+else if(!triggerFire)
 {
-	self.vspeed = 0;
+	alarm[0] = room_speed * delay;
+	triggerFire = true;
+}
+
+if(fire)
+{
+	y -= yVel;
 }
 
 /*The following if statement is used to deal damage to the player*/
@@ -42,10 +39,4 @@ else if(place_meeting(self.x, self.y, obj_PlayerWater))
 		canDamage = false;
 		alarm[11] = room_speed * damageDelay;
 	}
-}
-
-if(chooseEvent)
-{
-	chooseEvent = false;
-	alarm[0] = room_speed * eventDelay;
 }

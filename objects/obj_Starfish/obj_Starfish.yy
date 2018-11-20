@@ -16,7 +16,16 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "7251582a-c425-4987-9f3b-dbf1b48ba574",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "d111c6e6-b02b-4ad6-983a-807b72182a7c",
+            "propertyId": "9c01af46-9f39-46ba-94dd-ff65818d9261",
+            "value": "1000"
+        }
+    ],
     "parentObjectId": "d111c6e6-b02b-4ad6-983a-807b72182a7c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -32,20 +41,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "41d48155-2ccf-44ff-a24c-b2e29f4b6441",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1000",
-            "varName": "pScore1",
-            "varType": 0
-        }
+        
     ],
     "solid": false,
     "spriteId": "088afe00-50d5-49ac-80f4-02ccb011f1e0",
