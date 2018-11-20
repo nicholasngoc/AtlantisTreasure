@@ -6,7 +6,9 @@ event_inherited();
 
 if(mouse_check_button_pressed(mb_left))
 {
-	instance_create_layer(x, y, "Instances", obj_PufferExplosion);
+	var explosion = instance_create_layer(x, y, "Instances", obj_PufferExplosion);
+	explosion.damage = damage
+	explosion.hasDamagedEye = true;
 	
 	instance_destroy(self);
 }

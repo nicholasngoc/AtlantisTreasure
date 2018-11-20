@@ -2,7 +2,7 @@
     "id": "4094be67-dd61-4b45-a7af-8474dae0e30a",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_OctopusTentacle",
+    "name": "spr_OctopusLeftArm",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 9,
+    "origin": 8,
     "originLocked": false,
     "playbackSpeed": 5,
     "playbackSpeedType": 0,
@@ -66,5 +66,5 @@
     "type": 0,
     "width": 32,
     "xorig": 31,
-    "yorig": 28
+    "yorig": 31
 }

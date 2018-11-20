@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02706709-d4f2-4b55-9221-ff5987bb1714",
+            "Value": {
+                "id": "627510cc-222e-4603-be58-96d2818537b4",
+                "resourcePath": "sprites\\spr_OctopusRightArm\\spr_OctopusRightArm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "030627b8-8ee3-43f5-a528-0a41c5bbfee4",
             "Value": {
                 "id": "eca303ed-80ab-4c51-a9d1-3baff891c4ad",
@@ -386,7 +394,7 @@
             "Key": "4094be67-dd61-4b45-a7af-8474dae0e30a",
             "Value": {
                 "id": "73a6ac20-be60-4fd6-9d82-352996793b32",
-                "resourcePath": "sprites\\spr_OctopusTentacle\\spr_OctopusTentacle.yy",
+                "resourcePath": "sprites\\spr_OctopusLeftArm\\spr_OctopusLeftArm.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -431,6 +439,14 @@
             }
         },
         {
+            "Key": "4aed842d-4821-499f-a899-86529e67886c",
+            "Value": {
+                "id": "5e361b9c-3fcc-4b74-8571-f03441ad3596",
+                "resourcePath": "objects\\obj_OctopusRightArm\\obj_OctopusRightArm.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4bf3ffe8-b845-4910-9aec-eaaa9da1a2b7",
             "Value": {
                 "id": "d409729e-66a7-4397-add3-a422ee867df2",
@@ -460,6 +476,14 @@
                 "id": "8a90ca5f-b7b8-4330-819d-75b881f8effd",
                 "resourcePath": "views\\505ea9c7-d21f-45d9-b52a-78be7fa43479.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "517f3e91-6ece-4a74-8fea-eb9e9c397c4b",
+            "Value": {
+                "id": "b110612e-a6b0-4828-8502-b9626fb1f1a2",
+                "resourcePath": "objects\\obj_OctopusEye\\obj_OctopusEye.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -555,6 +579,14 @@
             "Value": {
                 "id": "4d05e688-ac1e-4b62-bdea-1a528cfc2e07",
                 "resourcePath": "sprites\\spr_Bubble\\spr_Bubble.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c017fab-dfb9-44d5-a49b-841b4f2d4dc7",
+            "Value": {
+                "id": "aca16118-3236-475a-b71c-62c67054e760",
+                "resourcePath": "sprites\\spr_OctopusEye\\spr_OctopusEye.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1314,7 +1346,7 @@
             "Key": "fbc26b06-445e-4279-b836-8401900f0e0a",
             "Value": {
                 "id": "80f5963a-e4b7-4887-ae48-4df8906cc989",
-                "resourcePath": "objects\\obj_OctopusArm\\obj_OctopusArm.yy",
+                "resourcePath": "objects\\obj_OctopusLeftArm\\obj_OctopusLeftArm.yy",
                 "resourceType": "GMObject"
             }
         },

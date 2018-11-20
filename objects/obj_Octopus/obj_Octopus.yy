@@ -226,7 +226,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "30",
+            "value": "15",
             "varName": "sideBuffer",
             "varType": 0
         },
@@ -254,7 +254,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "30",
             "varName": "healthBarHeight",
             "varType": 0
         },
@@ -268,7 +268,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "10",
             "varName": "healthBarBuffer",
             "varType": 0
         },
