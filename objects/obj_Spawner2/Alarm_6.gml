@@ -9,8 +9,18 @@ if(instance_exists(obj_PlayerWater) && !obj_PlayerWater.subMode)
 	//instance_create_layer(x + spawnDistance, 288, "Instances", obj_Bubble);
 
 	var powerUp;
+	var ranNum
 
-	var ranNum = 5//irandom_range(1, 6)
+	if(countPUps < metalPUp)
+	{
+		ranNum = irandom_range(1, 6)
+		countPUps++;
+	}
+	else
+	{
+		ranNum = 1;
+		countPUps = 0;
+	}
 
 	switch(ranNum)
 	{

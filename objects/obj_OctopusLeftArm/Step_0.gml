@@ -22,7 +22,7 @@ if(place_meeting(self.x, self.y, obj_BubbleShield))
 		alarm[0] = room_speed * damageDelay;
 	}
 }
-else if(place_meeting(self.x, self.y, obj_PlayerWater))
+else if(place_meeting(self.x, self.y, obj_PlayerWater) && !obj_PlayerWater.subMode)
 {
 	if(canDamage)
 	{

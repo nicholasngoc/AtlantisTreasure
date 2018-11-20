@@ -153,6 +153,16 @@
             "enumb": 6,
             "eventtype": 2,
             "m_owner": "b1e81ca1-355b-494a-b111-31bbebd4e316"
+        },
+        {
+            "id": "9454a6bd-12f0-4e96-87e5-6fa7ba5690da",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b1e81ca1-355b-494a-b111-31bbebd4e316"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -562,6 +572,48 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "pUpDelay",
+            "varType": 0
+        },
+        {
+            "id": "99e28b1e-3c38-42d4-9f68-39bfd5e0a0fc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "startEvents",
+            "varType": 3
+        },
+        {
+            "id": "82534dfa-5de0-4096-a9a8-58b5b5dbdaa3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "countPUps",
+            "varType": 0
+        },
+        {
+            "id": "85b8665c-ff65-4bc4-ae2b-2bec71e30090",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "metalPUp",
             "varType": 0
         }
     ],

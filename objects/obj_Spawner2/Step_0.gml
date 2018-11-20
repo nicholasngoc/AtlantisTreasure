@@ -1,4 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-obj_Spawner2.startEvents = true;
+if(startEvents)
+{
+	alarm[0] = 1;
+	startEvents = false;
+}

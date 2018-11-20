@@ -31,8 +31,12 @@ if(triggerSub = true)
 	alarm[0] = 1;
 	alarm[1] = room_speed * subDuration;
 	triggerSub = false;
-	tempHealth = health;
 	score += subScore
+	
+	if(instance_exists(obj_BubbleShield))
+	{
+		obj_BubbleShield.bubbleHealth = 0;
+	}
 }
 
 //Shoots torpedoes

@@ -13,8 +13,8 @@ if(countRays < maxRays)
 else if(obj_GameController.debugMode == false)
 {
 	//Chooses new event
-	//Has 2 second delay to allow for trash to get off the screen
-	alarm[0] = room_speed * 3;
+	//Has 5 second delay to allow for stingrays to get off the screen
+	alarm[0] = room_speed * 5;
 	
 	countRays = 0;
 }

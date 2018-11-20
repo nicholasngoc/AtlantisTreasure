@@ -20,7 +20,7 @@ if(countSwings < maxSwings)
 }
 else if(obj_GameController.debugMode == false)
 {
-	obj_Spawner2.countBasicEvent = 0;
+	obj_Spawner2.startEvents = true;
 	
 	countSwings = 0;
 }
