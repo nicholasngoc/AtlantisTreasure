@@ -131,6 +131,20 @@
             "value": "0",
             "varName": "hasDamagedEye",
             "varType": 3
+        },
+        {
+            "id": "59396e6e-436d-43cd-baa3-0848ab5b72c9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "500",
+            "varName": "pScore",
+            "varType": 0
         }
     ],
     "solid": false,

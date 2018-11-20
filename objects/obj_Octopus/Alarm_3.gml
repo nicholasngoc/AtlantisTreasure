@@ -11,7 +11,6 @@ if(countShotRounds < maxShotRounds)
 		instance_create_layer(xPos, shotY, "SuctionCups", obj_OctopusCups);
 		
 		countShots++;
-		show_debug_message("Test")
 	}
 	
 	countShots = 0;

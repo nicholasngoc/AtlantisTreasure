@@ -262,6 +262,20 @@
             "value": "750",
             "varName": "pufferScore",
             "varType": 0
+        },
+        {
+            "id": "03e2f4a8-200a-49f9-97fc-e8c78ece0fc8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "250",
+            "varName": "starfishScore",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -255,6 +255,20 @@
             "value": "10",
             "varName": "damage",
             "varType": 0
+        },
+        {
+            "id": "3ff201ce-7512-45db-882b-de4ba09e33e0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "250",
+            "varName": "starfishScore",
+            "varType": 0
         }
     ],
     "solid": false,

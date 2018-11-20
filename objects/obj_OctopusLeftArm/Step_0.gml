@@ -11,24 +11,27 @@ else
 	image_angle = 0;
 }
 
-/*The following if statement is used to deal damage to the player*/
-if(place_meeting(self.x, self.y, obj_BubbleShield))
+if(!instance_exists(obj_Invincible))
 {
-	if(canDamage)
+	/*The following if statement is used to deal damage to the player*/
+	if(place_meeting(self.x, self.y, obj_BubbleShield))
 	{
-		obj_BubbleShield.bubbleHealth -= damage;
+		if(canDamage)
+		{
+			obj_BubbleShield.bubbleHealth -= damage;
 			
-		canDamage = false;
-		alarm[0] = room_speed * damageDelay;
+			canDamage = false;
+			alarm[0] = room_speed * damageDelay;
+		}
 	}
-}
-else if(place_meeting(self.x, self.y, obj_PlayerWater) && !obj_PlayerWater.subMode)
-{
-	if(canDamage)
+	else if(place_meeting(self.x, self.y, obj_PlayerWater) && !obj_PlayerWater.subMode)
 	{
-		health -= damage;
+		if(canDamage)
+		{
+			health -= damage;
 			
-		canDamage = false;
-		alarm[0] = room_speed * damageDelay;
+			canDamage = false;
+			alarm[0] = room_speed * damageDelay;
+		}
 	}
 }
