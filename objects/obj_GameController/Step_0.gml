@@ -25,3 +25,15 @@ if(numMetal >= 3)
 	
 	numMetal = 0;
 }
+
+if(switchMusic)
+{
+	switchMusic = false;
+	alarm[0] = 1;
+}
+
+if(tempHealth != health)
+{
+	audio_play_sound(sfx_PlayerDamage, 10, 0);
+	tempHealth = health;
+}

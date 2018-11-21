@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "32db7e88-c865-4d23-a08d-5638c453ed94",
+            "Value": {
+                "id": "aad5fd9d-9b74-4acf-a25a-8734c1aeb55b",
+                "resourcePath": "sounds\\sfx_TridentObstacle\\sfx_TridentObstacle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "32eb79e3-cc70-4a83-9706-2585109f4f2a",
             "Value": {
                 "id": "9625027a-5b18-4c96-8409-aa821fabdebc",
@@ -412,6 +420,14 @@
                 "id": "2f7c109b-fde2-4f94-b5c6-8438d9240ee7",
                 "resourcePath": "objects\\obj_UrchinBubble\\obj_UrchinBubble.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "42fdf836-71ad-4da1-8d3a-823872da91e1",
+            "Value": {
+                "id": "752c124e-5d73-49c3-b75d-e558d1a33899",
+                "resourcePath": "views\\42fdf836-71ad-4da1-8d3a-823872da91e1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -719,6 +735,22 @@
             }
         },
         {
+            "Key": "8627a95d-3e13-4f5e-8d64-8f51614bfd6a",
+            "Value": {
+                "id": "007c7a6b-0dad-4fc1-bbfa-83dad67d7b69",
+                "resourcePath": "sounds\\sfx_PlayerDeath\\sfx_PlayerDeath.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8740cfa4-3ca8-4e2d-9773-e5a2c53259e0",
+            "Value": {
+                "id": "20895aa6-9b6b-4b24-b72d-90dd4b3d285d",
+                "resourcePath": "sounds\\sfx_PlayerDamage\\sfx_PlayerDamage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8779e67f-563d-4ff5-a7ea-7edd6cd3176c",
             "Value": {
                 "id": "996693fc-5321-4f94-939b-087302122a7d",
@@ -828,6 +860,22 @@
                 "id": "f30d534f-db67-4de3-adba-fe3783445e71",
                 "resourcePath": "objects\\obj_PufferBomb\\obj_PufferBomb.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "96873c1f-bc4f-4971-aba5-2853fbbd90df",
+            "Value": {
+                "id": "f6374387-c2e8-4e56-b44d-a74a92cd45fe",
+                "resourcePath": "sounds\\mus_GameOver\\mus_GameOver.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "97baa3c9-436a-4e68-9b58-a5e8be3f9abc",
+            "Value": {
+                "id": "c4d5f773-8025-488c-947c-19551a48fb89",
+                "resourcePath": "sounds\\mus_Level2\\mus_Level2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1188,6 +1236,14 @@
                 "id": "cbaad1aa-1258-4b06-a2eb-99a3b303ada9",
                 "resourcePath": "objects\\obj_GrilledFish\\obj_GrilledFish.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "da99cd48-4b94-4f9a-bcd3-10642e431606",
+            "Value": {
+                "id": "0bc9a0c4-4308-411f-9ffb-5180083f2931",
+                "resourcePath": "sounds\\mus_Level1\\mus_Level1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
