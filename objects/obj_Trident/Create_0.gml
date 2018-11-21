@@ -14,3 +14,5 @@ image_angle = self.direction - 45;
 //Rescales the image to be smaller
 image_xscale = self.newScale;
 image_yscale = self.newScale;
+
+audio_play_sound(sfx_TridentObstacle, 10, 0);

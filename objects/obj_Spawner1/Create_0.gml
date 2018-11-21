@@ -13,3 +13,5 @@ if(obj_GameController.debugMode == false)
 	//Spawns power up
 	alarm[6] = room_speed * pUpDelay;
 }
+
+obj_GameController.switchMusic = true;

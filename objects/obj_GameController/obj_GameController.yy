@@ -53,6 +53,16 @@
             "enumb": 37,
             "eventtype": 9,
             "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
+        },
+        {
+            "id": "ba9ebc41-5ba6-4386-8330-ee41f847f1a1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -182,6 +192,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "numMetal",
+            "varType": 0
+        },
+        {
+            "id": "bd23c01b-2fc3-4557-ab32-5d4252fe14c3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "switchMusic",
+            "varType": 3
+        },
+        {
+            "id": "a8f00fee-2d4f-4012-b05c-96d93fa5b07f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "tempHealth",
             "varType": 0
         }
     ],
