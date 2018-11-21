@@ -10,7 +10,7 @@ if((place_meeting(self.x, self.y, obj_PlayerLand) || place_meeting(x, y, obj_Pla
 	self.image_yscale = self.displayScale;
 	
 	//Sets the image to a display
-	self.x = 550 + (obj_GameController.numMetal * 50)
+	self.x = 650 + (obj_GameController.numMetal * 50)
 	self.y = sprite_height / 2 + 10
 		
 	obj_GameController.numMetal++;

@@ -3,6 +3,7 @@
 
 if(!hasDamagedBody)
 {
+	score += pScore;
 	other.bossHealth -= damage;
 	hasDamagedBody = true;
 }

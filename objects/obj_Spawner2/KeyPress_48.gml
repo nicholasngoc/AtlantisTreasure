@@ -4,5 +4,5 @@ if(obj_GameController.debugMode == true)
 {
 	obj_GameController.debugMode = false;
 	alarm[6] = room_speed * pUpDelay;
-	alarm[0] = 1;
+	startEvents = true;
 }

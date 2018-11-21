@@ -174,7 +174,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "500",
+            "value": "100",
             "varName": "torpedoScore",
             "varType": 0
         },
@@ -190,6 +190,20 @@
             "resourceFilter": 1023,
             "value": "250",
             "varName": "pufferScore",
+            "varType": 0
+        },
+        {
+            "id": "65160ac8-d599-458c-af65-3431728cbfea",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "250",
+            "varName": "starfishScore",
             "varType": 0
         }
     ],

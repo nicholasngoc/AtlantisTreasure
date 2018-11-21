@@ -11,7 +11,6 @@ if(countShotRounds < maxShotRounds)
 		instance_create_layer(xPos, shotY, "SuctionCups", obj_OctopusCups);
 		
 		countShots++;
-		show_debug_message("Test")
 	}
 	
 	countShots = 0;
@@ -21,7 +20,7 @@ if(countShotRounds < maxShotRounds)
 }
 else if(obj_GameController.debugMode == false)
 {
-	obj_Spawner2.countBasicEvent = 0;
+	obj_Spawner2.startEvents = true;
 	
 	countShotRounds = 0;
 }

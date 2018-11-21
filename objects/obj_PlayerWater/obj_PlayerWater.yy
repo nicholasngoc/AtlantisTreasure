@@ -93,16 +93,6 @@
             "enumb": 2,
             "eventtype": 2,
             "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
-        },
-        {
-            "id": "22eb33a3-d384-4738-8feb-2d79cd2aa2a1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "f652bf21-213d-4a3c-8482-942d8155934f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -287,7 +277,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "7",
+            "value": "5",
             "varName": "subScale",
             "varType": 0
         },
@@ -332,20 +322,6 @@
             "value": "True",
             "varName": "canFire",
             "varType": 3
-        },
-        {
-            "id": "9f3f3c0e-007e-4b05-95c6-b4ce842e026f",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "tempHealth",
-            "varType": 0
         },
         {
             "id": "52c03c63-60c0-4829-84c3-f7b257ea2d90",
