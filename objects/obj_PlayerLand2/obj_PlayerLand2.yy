@@ -326,6 +326,34 @@
             "value": "576",
             "varName": "groundY",
             "varType": 0
+        },
+        {
+            "id": "271979cc-bc02-4b36-9c86-c6b16f6489b2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "pushVel",
+            "varType": 0
+        },
+        {
+            "id": "d1f63259-2b0b-4029-842c-d6a36d52a563",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "pushDecel",
+            "varType": 0
         }
     ],
     "solid": true,

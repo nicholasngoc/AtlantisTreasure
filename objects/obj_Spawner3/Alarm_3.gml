@@ -1,1 +1,2 @@
-/// @description Spawns Atlantean and swing anchor 
+/// @description Mountain event
+

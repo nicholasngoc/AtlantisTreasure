@@ -6,3 +6,13 @@ if(self.x + sprite_width / 2 < 0)
 {
 	health = 0;
 }
+
+if(pushVel < 0)
+{
+	x += pushVel;
+	pushVel += pushDecel;
+}
+else
+{
+	pushVel = 0;
+}
