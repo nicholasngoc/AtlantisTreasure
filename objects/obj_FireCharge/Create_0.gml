@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(self.x < 0)
-{
-	instance_destroy(self);
-}
+image_xscale = scale;
+image_yscale = scale;
+
+image_index = 0;
