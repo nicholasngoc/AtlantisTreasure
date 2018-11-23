@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "2bac2adb-9532-4c12-b8b0-562433d82c9d",
+            "Value": {
+                "id": "e9610f30-20fc-4c30-91ab-20883deadf60",
+                "resourcePath": "objects\\obj_Rock\\obj_Rock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f3e7ce7-6abd-446b-8ebe-1b9849da2001",
             "Value": {
                 "id": "bbe22819-dc7f-4034-a91d-39863d72f580",
@@ -651,6 +659,14 @@
             "Value": {
                 "id": "aca16118-3236-475a-b71c-62c67054e760",
                 "resourcePath": "sprites\\spr_OctopusEye\\spr_OctopusEye.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6e7fa949-95ae-4bcb-9c14-db362c3372ba",
+            "Value": {
+                "id": "cf6203c9-3b0b-4115-b9fd-35d4230d0e8e",
+                "resourcePath": "sprites\\spr_Native\\spr_Native.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1183,6 +1199,14 @@
             }
         },
         {
+            "Key": "bfbc1033-da80-49ad-afd2-c464a8afb7e8",
+            "Value": {
+                "id": "35b95f8d-b287-4baa-bc2a-3d3fe7188a63",
+                "resourcePath": "objects\\obj_Mountain\\obj_Mountain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bfbd817d-3ea3-4a5c-8eb4-f260ac3b50d7",
             "Value": {
                 "id": "f08e5254-1513-4360-a919-f65f4ddb9ab3",
@@ -1428,6 +1452,14 @@
                 "id": "afa57bb1-c97c-478a-9544-596e36cd5d8d",
                 "resourcePath": "objects\\obj_ChasingAtlanteans\\obj_ChasingAtlanteans.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb0df589-f46e-4fdd-8406-80ce01a607a0",
+            "Value": {
+                "id": "9ca2c45b-d546-449c-b779-a1ef9f3cae50",
+                "resourcePath": "sounds\\sfx_PlayerHeal\\sfx_PlayerHeal.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -30,7 +30,6 @@ if(self.isJumping == true)
 		self.jumpCount -= self.playerFallingSpeed * 2;
 	}
 	
-	
 	//If statement for when they reach the ground
 	if(self.y >= groundY)
 	{

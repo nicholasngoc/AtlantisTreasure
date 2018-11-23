@@ -11,9 +11,9 @@ else
 	isSwinging = false;
 }
 
-if(place_meeting(self.x, self.y, obj_PlayerLand) && !hasDamaged && isSwinging && !obj_PlayerLand.shield)
+if(place_meeting(self.x, self.y, obj_PlayerLand) && !hasDamaged && isSwinging && !obj_PlayerLand1.shield)
 {
-	if(obj_PlayerLand.isJumping || !obj_PlayerLand.isDucking)
+	if(obj_PlayerLand1.isJumping || !obj_PlayerLand1.isDucking)
 	{
 		health -= damage
 		hasDamaged = true;

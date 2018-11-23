@@ -9,7 +9,8 @@ self.countdown = time-seconds
 if(health <= 0)
 {
 	instance_destroy(obj_PlayerWater);
-	instance_destroy(obj_PlayerLand);
+	instance_destroy(obj_PlayerLand1);
+	instance_destroy(obj_PlayerLand2);
 	room_goto(rm_GameOver);
 	self.gameState = -1;
 }
@@ -32,8 +33,19 @@ if(switchMusic)
 	alarm[0] = 1;
 }
 
-if(tempHealth != health)
+if(health > healthMax)
+{
+	health = healthMax;
+	tempHealth = healthMax;
+}
+
+if(tempHealth > health)
 {
 	audio_play_sound(sfx_PlayerDamage, 10, 0);
+	tempHealth = health;
+}
+else if(tempHealth < health)
+{
+		audio_play_sound(sfx_PlayerHeal, 10, 0);
 	tempHealth = health;
 }
