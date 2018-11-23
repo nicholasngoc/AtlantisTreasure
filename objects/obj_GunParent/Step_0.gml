@@ -5,8 +5,10 @@ var player;
 
 if(instance_exists(obj_PlayerWater))
 	player = obj_PlayerWater;
-else if(instance_exists(obj_PlayerLand))
-	player = obj_PlayerLand;
+else if(instance_exists(obj_PlayerLand1))
+	player = obj_PlayerLand1;
+else if(instance_exists(obj_PlayerLand2))
+	player = obj_PlayerLand2;
 
 if(mouse_check_button_pressed(mb_left) && self.pickedUp == true && instance_exists(player))
 {

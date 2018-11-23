@@ -83,6 +83,16 @@
             "enumb": 1,
             "eventtype": 3,
             "m_owner": "dc0a3a36-73fe-4f27-895f-1c1b5c5528dd"
+        },
+        {
+            "id": "4c3c8bd6-3b83-4152-8cab-b90329e0ca6a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "dc0a3a36-73fe-4f27-895f-1c1b5c5528dd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -410,6 +420,76 @@
             "value": "0",
             "varName": "mountainGroundY",
             "varType": 0
+        },
+        {
+            "id": "bb47f175-dbe6-40a5-9616-1b0ea636f31b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "powerUp",
+            "varType": 5
+        },
+        {
+            "id": "710ae7d3-188b-4315-be08-49655153bcc1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "speedBuff",
+            "varType": 0
+        },
+        {
+            "id": "d217f5b3-2a8b-4b4a-af01-7ef36873f7e0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "tempMoveSpeed",
+            "varType": 0
+        },
+        {
+            "id": "f10bdcf6-35df-4183-9043-517281cc84ff",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "speedDuration",
+            "varType": 0
+        },
+        {
+            "id": "5022c0c2-23e2-4395-b5ab-d72c83c919c4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "triggerSpeedBuff",
+            "varType": 3
         }
     ],
     "solid": true,
