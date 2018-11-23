@@ -37,3 +37,13 @@ if(self.isJumping == true)
 		self.isJumping = false;
 	}
 }
+
+if(triggerSpeedBuff)
+{
+	tempMoveSpeed = playerMovementSpeed;
+	playerMovementSpeed *= speedBuff;
+	
+	triggerSpeedBuff = false;
+	
+	alarm[0] = speedDuration * room_speed;
+}

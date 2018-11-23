@@ -11,32 +11,29 @@ var powerUp;
 var ranNum;
 if(instance_exists(obj_Guardian))
 {
-	ranNum = irandom_range(2, 6);
+	ranNum = irandom_range(3, 6);
 }
 else
 {
-	ranNum = irandom_range(1, 3)
+	ranNum = 5//irandom_range(1, 4)
 }
 
 switch(ranNum)
 {
 	case 1:
-		powerUp = obj_player_trident_pickup;
+		powerUp = obj_Spear;
 		break;
-	case 2:	
-		powerUp = obj_GrilledFish;
+	case 2:
+		powerUp = obj_Shell;
 		break;
 	case 3:
-		powerUp = obj_ShieldBubble;
+		powerUp = obj_Banana;
 		break;
 	case 4:
-		powerUp = obj_HarpoonGun;
+		powerUp = obj_TreeBark;
 		break;
 	case 5:
-		powerUp = obj_BlowDartGun;
-		break;
-	case 6:
-		powerUp = obj_UrchinBubble;
+		powerUp = obj_TorchBubble;
 		break;
 }
 

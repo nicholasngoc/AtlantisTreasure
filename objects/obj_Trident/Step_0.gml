@@ -10,7 +10,7 @@ if(self.y > room_height - (sprite_height / 2))
 	self.y = room_height - (sprite_height / 2);
 }
 
-if(place_meeting(x, y, obj_PlayerLand) && !obj_PlayerLand.shield)
+if(place_meeting(x, y, obj_PlayerLand1) && !obj_PlayerLand1.shield)
 {
 	
 	//Deals damage

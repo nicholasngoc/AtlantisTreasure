@@ -5,8 +5,10 @@ var player;
 
 if(instance_exists(obj_PlayerWater))
 	player = obj_PlayerWater;
-else if(instance_exists(obj_PlayerLand))
-	player = obj_PlayerLand;
+else if(instance_exists(obj_PlayerLand1))
+	player = obj_PlayerLand1;
+else if(instance_exists(obj_PlayerLand2))
+	player = obj_PlayerLand2;
 
 //If the power up is picked up
 if(place_meeting(self.x, self.y, player) && self.pickedUp == false)

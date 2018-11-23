@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(instance_exists(obj_PlayerLand))
+if(instance_exists(obj_PlayerLand1))
 {
-	var player = obj_PlayerLand;
+	var player = obj_PlayerLand1;
 }
 
 if(mouse_check_button(mb_left) && self.pickedUp == true && player != noone && player.trident == false)
