@@ -11,11 +11,11 @@ var powerUp;
 var ranNum;
 if(instance_exists(obj_Guardian))
 {
-	ranNum = irandom_range(2, 6);
+	ranNum = irandom_range(3, 6);
 }
 else
 {
-	ranNum = irandom_range(1, 4)
+	ranNum = 5//irandom_range(1, 4)
 }
 
 switch(ranNum)
@@ -31,6 +31,9 @@ switch(ranNum)
 		break;
 	case 4:
 		powerUp = obj_TreeBark;
+		break;
+	case 5:
+		powerUp = obj_TorchBubble;
 		break;
 }
 
