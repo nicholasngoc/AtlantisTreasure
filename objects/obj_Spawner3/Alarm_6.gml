@@ -15,7 +15,7 @@ if(instance_exists(obj_Guardian))
 }
 else
 {
-	ranNum = 5//irandom_range(1, 4)
+	ranNum = 7//irandom_range(1, 4)
 }
 
 switch(ranNum)
@@ -34,6 +34,12 @@ switch(ranNum)
 		break;
 	case 5:
 		powerUp = obj_TorchBubble;
+		break;
+	case 6:
+		powerUp = obj_Bow;
+		break;
+	case 7:
+		powerUp = obj_Gem;
 		break;
 }
 
