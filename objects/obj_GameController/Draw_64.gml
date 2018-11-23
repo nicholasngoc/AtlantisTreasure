@@ -5,7 +5,7 @@
 //here is the display code
 if(health >0&&self.gameState!=-1)
 {
-	draw_set_color(c_white)
+	draw_set_color(c_black)
 	
 	if(debugMode)
 	draw_text(100,200,"Time: " + string(self.seconds))

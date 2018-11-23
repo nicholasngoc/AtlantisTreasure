@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "71e7c2e1-3955-4470-b8ea-230359a73bce",
+            "Value": {
+                "id": "3eccb54f-6db4-4be0-95f5-ae6496228af5",
+                "resourcePath": "sprites\\spr_NativeFlipped\\spr_NativeFlipped.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72565777-8a52-490f-a5ee-01c07642420a",
             "Value": {
                 "id": "f0305c65-8000-4e86-8226-07b4bb278a4f",
@@ -1111,6 +1119,14 @@
             }
         },
         {
+            "Key": "b52039d5-6f20-4953-8654-ff5ddb19ac12",
+            "Value": {
+                "id": "ff14572c-0981-4349-9e71-46d50fe01c2b",
+                "resourcePath": "objects\\obj_Native\\obj_Native.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b533059e-bfbf-4a9b-9b8c-7af56da196c3",
             "Value": {
                 "id": "98d65f34-ad5f-44e0-88a6-5fa6e15e3d29",
@@ -1340,6 +1356,14 @@
                 "id": "cbaad1aa-1258-4b06-a2eb-99a3b303ada9",
                 "resourcePath": "objects\\obj_GrilledFish\\obj_GrilledFish.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d7960a43-fe17-4af6-979b-e06377ac4545",
+            "Value": {
+                "id": "c94bb0fb-5f45-4dc5-a7dc-fb2a282ffe0c",
+                "resourcePath": "views\\d7960a43-fe17-4af6-979b-e06377ac4545.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

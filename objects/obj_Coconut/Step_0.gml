@@ -34,6 +34,7 @@ if(place_meeting(x, y, obj_PlayerLand2))
 	if(hasDropped && mouse_check_button(mb_left))
 	{
 		health++;
+		score += addScore;
 		instance_destroy(self);
 	}
 }
