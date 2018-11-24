@@ -2,7 +2,7 @@
     "id": "4aed842d-4821-499f-a899-86529e67886c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_OctopusRightArm",
+    "name": "obj_OctopusTopArm",
     "eventList": [
         {
             "id": "d321236d-7576-4eed-b00d-d9c36a07ec15",

@@ -155,7 +155,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "20",
-            "varName": "yVel",
+            "varName": "xVel",
             "varType": 0
         },
         {

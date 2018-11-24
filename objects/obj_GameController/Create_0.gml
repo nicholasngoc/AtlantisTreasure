@@ -8,5 +8,3 @@ self.time = self.timeInMinutes * 60
 health = self.healthMax
 tempHealth = health;
 score = 0;
-
-switchMusic = true;

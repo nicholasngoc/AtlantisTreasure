@@ -6,9 +6,9 @@ if(countShotRounds < maxShotRounds)
 	{
 		randomize();
 
-		var xPos = random_range(room_width / 2 - shotRange / 2, room_width / 2 + shotRange / 2);
+		var yPos = random_range(shotRange / 2, room_height - shotRange / 2);
 	
-		instance_create_layer(xPos, shotY, "SuctionCups", obj_OctopusCups);
+		instance_create_layer(shotX, yPos, "SuctionCups", obj_OctopusCups);
 		
 		countShots++;
 	}

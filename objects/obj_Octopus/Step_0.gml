@@ -2,24 +2,24 @@
 // You can write your code in this editor
 
 /*If else statement used to move the boss onto the screen on spawn*/
-if(self.y > room_height - sideBuffer && bossHealth > 0)
+if(self.x > room_width - sideBuffer && bossHealth > 0)
 {
-	self.vspeed = yVelocity;
+	self.hspeed = xVelocity;
 }
 else if(bossHealth <= 0)
 {
-	self.vspeed = -yVelocity;
+	self.hspeed = -xVelocity;
 	
 	score += bossScore;
 	
-	if(y > room_height + sprite_height)
+	if(x > room_width + sprite_width)
 	{
 		room_goto_next();
 	}
 }
 else
 {
-	self.vspeed = 0;
+	self.hspeed = 0;
 }
 
 /*The following if statement is used to deal damage to the player*/

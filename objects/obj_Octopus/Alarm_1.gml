@@ -8,11 +8,11 @@ if(countSwings < maxSwings)
 
 	if(arm == 0)
 	{
-		obj_OctopusLeftArm.currentAngle = 0;
+		obj_OctopusTopArm.currentAngle = 0;
 	}
 	else
 	{
-		obj_OctopusRightArm.currentAngle = 0;
+		obj_OctopusDownArm.currentAngle = 0;
 	}
 	
 	countSwings++;

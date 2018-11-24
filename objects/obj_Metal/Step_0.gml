@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //If the power up is picked up
-if((place_meeting(self.x, self.y, obj_PlayerLand) || place_meeting(x, y, obj_PlayerWater)) && self.pickedUp == false)
+if(place_meeting(x, y, obj_PlayerWater) && self.pickedUp == false)
 {
 	self.pickedUp = true;
 	
