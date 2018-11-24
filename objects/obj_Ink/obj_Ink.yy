@@ -93,7 +93,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "10",
-            "varName": "yVel",
+            "varName": "xVel",
             "varType": 0
         },
         {

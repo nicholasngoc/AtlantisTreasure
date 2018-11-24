@@ -34,7 +34,7 @@
             "Key": "02706709-d4f2-4b55-9221-ff5987bb1714",
             "Value": {
                 "id": "627510cc-222e-4603-be58-96d2818537b4",
-                "resourcePath": "sprites\\spr_OctopusRightArm\\spr_OctopusRightArm.yy",
+                "resourcePath": "sprites\\spr_OctopusUpArm\\spr_OctopusUpArm.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -514,7 +514,7 @@
             "Key": "4094be67-dd61-4b45-a7af-8474dae0e30a",
             "Value": {
                 "id": "73a6ac20-be60-4fd6-9d82-352996793b32",
-                "resourcePath": "sprites\\spr_OctopusLeftArm\\spr_OctopusLeftArm.yy",
+                "resourcePath": "sprites\\spr_OctopusDownArm\\spr_OctopusDownArm.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -578,7 +578,7 @@
             "Key": "4aed842d-4821-499f-a899-86529e67886c",
             "Value": {
                 "id": "5e361b9c-3fcc-4b74-8571-f03441ad3596",
-                "resourcePath": "objects\\obj_OctopusRightArm\\obj_OctopusRightArm.yy",
+                "resourcePath": "objects\\obj_OctopusTopArm\\obj_OctopusTopArm.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1842,7 +1842,7 @@
             "Key": "fbc26b06-445e-4279-b836-8401900f0e0a",
             "Value": {
                 "id": "80f5963a-e4b7-4887-ae48-4df8906cc989",
-                "resourcePath": "objects\\obj_OctopusLeftArm\\obj_OctopusLeftArm.yy",
+                "resourcePath": "objects\\obj_OctopusDownArm\\obj_OctopusDownArm.yy",
                 "resourceType": "GMObject"
             }
         },

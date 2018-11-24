@@ -37,6 +37,9 @@ if(triggerSub = true)
 	{
 		obj_BubbleShield.bubbleHealth = 0;
 	}
+	
+	obj_GameController.powerUp.destroy = true;
+	obj_GameController.powerUp = noone;
 }
 
 //Shoots torpedoes

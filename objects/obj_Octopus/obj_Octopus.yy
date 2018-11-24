@@ -143,7 +143,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "-5",
-            "varName": "yVelocity",
+            "varName": "xVelocity",
             "varType": 0
         },
         {
@@ -228,48 +228,6 @@
             "resourceFilter": 1023,
             "value": "15",
             "varName": "sideBuffer",
-            "varType": 0
-        },
-        {
-            "id": "54079b16-0f4f-44af-8dae-1727f1d2a651",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "750",
-            "varName": "healthBarWidth",
-            "varType": 0
-        },
-        {
-            "id": "601e0ba0-03a3-49a4-bb1a-aab91ae459a9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "30",
-            "varName": "healthBarHeight",
-            "varType": 0
-        },
-        {
-            "id": "f0e9f4a7-174f-4e0e-809f-d1bbb9ddafc7",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "10",
-            "varName": "healthBarBuffer",
             "varType": 0
         },
         {
@@ -366,7 +324,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "800",
+            "value": "100",
             "varName": "shotRange",
             "varType": 0
         },
@@ -408,8 +366,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "650",
-            "varName": "shotY",
+            "value": "1184",
+            "varName": "shotX",
             "varType": 0
         },
         {
@@ -438,6 +396,34 @@
             "resourceFilter": 1023,
             "value": "1000",
             "varName": "bossScore",
+            "varType": 0
+        },
+        {
+            "id": "da9711f0-045e-4c6a-b342-e07e42c87dd5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "healthBarBuffer",
+            "varType": 0
+        },
+        {
+            "id": "4a5d19cf-f7da-41f7-a0d2-326ae027741c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "healthBarHeight",
             "varType": 0
         }
     ],

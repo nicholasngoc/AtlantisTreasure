@@ -16,7 +16,7 @@ else if(!triggerFire)
 
 if(fire)
 {
-	y -= yVel;
+	x -= xVel;
 }
 
 /*The following if statement is used to deal damage to the player*/
