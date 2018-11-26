@@ -3,7 +3,7 @@
 chasingAtlanteans.enabler = false;
 pUpDelay = 8;
 
-instance_create_layer(x,y,"Instances", obj_King);
+instance_create_layer(x,y,"King", obj_King);
 
 if(instance_exists(obj_SpearPUp))
 {
