@@ -9,13 +9,13 @@ var spawnDistance = irandom_range(0, pUpInitDist);
 var powerUp;
 
 var ranNum;
-if(instance_exists(obj_Guardian))
+if(instance_exists(obj_King))
 {
-	ranNum = irandom_range(3, 6);
+	ranNum = irandom_range(3, 7);
 }
 else
 {
-	ranNum = 7//irandom_range(1, 4)
+	ranNum = irandom_range(1, 4)
 }
 
 switch(ranNum)
