@@ -29,7 +29,7 @@ if(swingSword && swings >= maxSwings)
 }
 
 /*The following if statement is used to deal damage on the player*/
-if(place_meeting(self.x, self.y, obj_PlayerLand))
+if(place_meeting(self.x, self.y, obj_PlayerLand1))
 {
 	if(canDamage && (!swingSword || !obj_PlayerLand.shield))
 	{
