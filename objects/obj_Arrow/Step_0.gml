@@ -1,6 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(place_meeting(x, y, obj_King))
+{
+	if(y < obj_King.y - obj_King.sprite_height / 2)
+	{
+		if(!isPoisoning)
+		{
+			xVel = 0;
+			isPoisoning = true;
+			stuck = true;
+			stuckY = other.y - y;
+
+			alarm[1] = 1;
+		}
+	}
+}
+
 if(!stuck)
 {
 	self.x += xVel;
@@ -8,6 +24,6 @@ if(!stuck)
 }
 else
 {
-	if(instance_exists(obj_Guardian))
-	y = obj_Guardian.y - stuckY;
+	if(instance_exists(obj_King))
+	y = obj_King.y - stuckY;
 }
