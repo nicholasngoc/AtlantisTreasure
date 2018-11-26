@@ -2,7 +2,7 @@
 
 if(poisonCount < maxPoisonCount)
 {
-	obj_Guardian.bossHealth -= damage;
+	obj_King.bossHealth -= damage;
 	poisonCount++;
 	
 	score += pScore;

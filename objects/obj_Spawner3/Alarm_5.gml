@@ -3,14 +3,14 @@
 chasingAtlanteans.enabler = false;
 pUpDelay = 8;
 
-instance_create_layer(x,y,"Instances", obj_Guardian);
+instance_create_layer(x,y,"King", obj_King);
 
-if(instance_exists(obj_TridentPUp))
+if(instance_exists(obj_SpearPUp))
 {
 	obj_TridentPUp.destroy = true;	
 }
 
-if(instance_exists(obj_player_trident_pickup))
+if(instance_exists(obj_Spear))
 {
-	obj_player_trident_pickup.destroy = true;
+	obj_Spear.destroy = true;
 }
