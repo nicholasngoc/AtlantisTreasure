@@ -29,9 +29,9 @@ if(swingSword && swings >= maxSwings)
 }
 
 /*The following if statement is used to deal damage on the player*/
-if(place_meeting(self.x, self.y, obj_PlayerLand))
+if(place_meeting(self.x, self.y, obj_PlayerLand1))
 {
-	if(canDamage && (!swingSword || !obj_PlayerLand.shield))
+	if(canDamage && (!swingSword || !obj_PlayerLand1.shield))
 	{
 		if(isJumping == true)
 			health -= jumpDamage;
@@ -65,9 +65,4 @@ if(isJumping == true)
 		
 		alarm[4] = 1;
 	}
-}
-
-if(bossHealth <= 0)
-{
-	
 }
