@@ -38,6 +38,11 @@ if(triggerSub = true)
 		obj_BubbleShield.bubbleHealth = 0;
 	}
 	
+	if(instance_exists(obj_Invincible))
+	{
+		obj_Invincible.destroy = true;
+	}
+	
 	obj_GameController.powerUp.destroy = true;
 	obj_GameController.powerUp = noone;
 }

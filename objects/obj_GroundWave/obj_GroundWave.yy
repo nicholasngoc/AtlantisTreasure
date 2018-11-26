@@ -108,7 +108,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "10",
             "varName": "maxXScale",
             "varType": 0
         },
@@ -122,7 +122,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "8",
             "varName": "minXScale",
             "varType": 0
         },

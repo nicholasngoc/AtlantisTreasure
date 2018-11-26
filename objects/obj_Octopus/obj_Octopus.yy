@@ -366,7 +366,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1184",
+            "value": "1075",
             "varName": "shotX",
             "varType": 0
         },
