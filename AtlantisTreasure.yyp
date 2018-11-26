@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "053a6c40-7cc5-4b89-ae9e-d741d394419c",
+            "Value": {
+                "id": "2a215a6d-d16d-426c-8906-7e370af13648",
+                "resourcePath": "sprites\\spr_Tornado\\spr_Tornado.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "06e97bb0-2dd8-4021-b9a8-e2dc9abc554c",
             "Value": {
                 "id": "86b17463-4564-4475-8376-33704bbb2fc4",
@@ -604,6 +612,14 @@
                 "id": "d409729e-66a7-4397-add3-a422ee867df2",
                 "resourcePath": "sprites\\spr_Trash\\spr_Trash.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4d196e3d-d3b1-4cc7-827f-961bd9284aec",
+            "Value": {
+                "id": "6830d1d1-9944-4c15-9789-e0147c3a6b2a",
+                "resourcePath": "objects\\obj_Tornado\\obj_Tornado.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1124,6 +1140,14 @@
                 "id": "e050fb65-10c0-4de0-b0ac-b88b840bf44c",
                 "resourcePath": "sprites\\spr_Eel\\spr_Eel.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95981972-b532-4f4c-a8fb-f172bbfd0e99",
+            "Value": {
+                "id": "5b736176-7c33-4b19-9e68-57ce095f156a",
+                "resourcePath": "objects\\obj_SwordFish\\obj_SwordFish.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1780,6 +1804,14 @@
                 "id": "afa57bb1-c97c-478a-9544-596e36cd5d8d",
                 "resourcePath": "objects\\obj_ChasingAtlanteans\\obj_ChasingAtlanteans.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e98d487a-598d-4966-bda8-bcc22e160e92",
+            "Value": {
+                "id": "69c07206-a79a-4186-9963-a5d8fd4c12ba",
+                "resourcePath": "sprites\\spr_SwordFish\\spr_SwordFish.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

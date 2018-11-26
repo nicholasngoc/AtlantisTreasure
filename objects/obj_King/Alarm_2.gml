@@ -1,27 +1,22 @@
-/// @description Spits Acid
+/// @description Sends sword fish
 
-//If statement to count how many spits shot
-if(spitCount < maxSpits)
+if(countSwordFish < maxSwordFish)
 {
-	//Creates two spits
-	//Spawn 2 because I ran into bug earlier and I liked it
-	instance_create_layer(spitX, spitY, "Instances", obj_Acid);
-	instance_create_layer(spitX, spitY, "Instances", obj_Acid);
+	instance_create_layer(swordFishInitX, swordFishInitY, "Instances", obj_SwordFish);
 	
 	//Increase spit count
-	spitCount++;
+	countSwordFish++;
 	
 	//Calls alarm again to keep spitting
-	alarm[2] = room_speed * spitDelay;
+	alarm[2] = room_speed * swordFishDelay;
 }
 //If the even is finished
 else if(obj_GameController.debugMode == false)
 {
-	//Reset spit count and choose new event
-	spitCount = 0;
-	alarm[0] = room_speed * acidDelay;
+	countSwordFish = 0;
+	alarm[0] = room_speed * 3;
 }
 else
 {
-	spitCount = 0;
+	countSwordFish = 0;
 }
