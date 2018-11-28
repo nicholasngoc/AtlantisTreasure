@@ -3,14 +3,14 @@
 
 if(place_meeting(x, y, obj_King))
 {
-	if(y < obj_King.y - obj_King.sprite_height / 2)
+	if(y < obj_King.y - obj_King.sprite_height / 2 && x < obj_King.x + obj_King.sprite_width - stuckDist)
 	{
 		if(!isPoisoning)
 		{
 			xVel = 0;
 			isPoisoning = true;
 			stuck = true;
-			stuckY = other.y - y;
+			stuckY = obj_King.y - y;
 
 			alarm[1] = 1;
 		}
