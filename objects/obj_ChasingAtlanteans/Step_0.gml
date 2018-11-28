@@ -8,6 +8,17 @@ if(enabler == true)
 	{
 		self.hspeed = obj_GameController.backgroundSpeed;
 	}
+	else if(place_meeting(x, y, obj_Mountain))
+	{
+		if(x > 0)
+		{
+			self.hspeed = obj_GameController.backgroundSpeed;
+		}
+		else
+		{
+			hspeed = 0;
+		}
+	}
 	else
 	{
 		//If it is out of bounds
