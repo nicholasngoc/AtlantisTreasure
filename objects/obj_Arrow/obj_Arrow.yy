@@ -23,16 +23,6 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "bbadaafc-3ea6-4231-aecd-947d7c19fce2"
-        },
-        {
-            "id": "1017b007-b688-4b96-90e6-14ad8f1b2247",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "90c73d99-44ff-4291-b88a-f66ea6486b5b",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "bbadaafc-3ea6-4231-aecd-947d7c19fce2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +33,7 @@
             "mvc": "1.0",
             "objectId": "1b3185b4-c5d4-467a-8670-f6427ed60719",
             "propertyId": "a464dfc1-693b-4e83-bf43-6d9c56953370",
-            "value": "2"
+            "value": "1"
         },
         {
             "id": "d14eafd5-83bc-4e6e-8ab1-13e07881e246",
@@ -87,7 +77,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "7",
             "varName": "poisonDelay",
             "varType": 0
         },
@@ -173,6 +163,20 @@
             "resourceFilter": 1023,
             "value": "500",
             "varName": "pScore",
+            "varType": 0
+        },
+        {
+            "id": "84aaaaa2-efbe-4ab3-835e-a572044034e4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "150",
+            "varName": "stuckDist",
             "varType": 0
         }
     ],
