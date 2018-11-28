@@ -17,7 +17,7 @@ if(isLightning)
 		countLightning = 0;
 		isLightning = false;
 		sprite_index = spr_KingIdle;
-		alarm[0] = room_speed * acidDelay;
+		alarm[0] = room_speed * 2;
 	}
 	else
 	{

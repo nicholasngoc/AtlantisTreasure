@@ -133,6 +133,26 @@
             "enumb": 7,
             "eventtype": 7,
             "m_owner": "90c73d99-44ff-4291-b88a-f66ea6486b5b"
+        },
+        {
+            "id": "2d805438-735e-4d88-86a5-85f44526c4dd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 2,
+            "m_owner": "90c73d99-44ff-4291-b88a-f66ea6486b5b"
+        },
+        {
+            "id": "44341ce5-0289-4528-abe7-b5893503d50f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 100,
+            "eventtype": 9,
+            "m_owner": "90c73d99-44ff-4291-b88a-f66ea6486b5b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -204,7 +224,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "25",
             "varName": "damage",
             "varType": 0
         },
@@ -500,6 +520,48 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "tornadoDelay",
+            "varType": 0
+        },
+        {
+            "id": "9b49aaa1-9a94-4b1d-8e83-3a22c5088b99",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "countTrees",
+            "varType": 0
+        },
+        {
+            "id": "8c12e19c-cf78-4c9a-b0e2-d553f1a18e72",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "7",
+            "varName": "maxTrees",
+            "varType": 0
+        },
+        {
+            "id": "c5ee9c70-7c49-4344-8579-42219c8185a7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.5",
+            "varName": "treeDelay",
             "varType": 0
         }
     ],

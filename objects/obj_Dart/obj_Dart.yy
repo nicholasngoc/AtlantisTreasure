@@ -166,6 +166,20 @@
             "value": "500",
             "varName": "pScore",
             "varType": 0
+        },
+        {
+            "id": "1b934b86-6e08-437c-88d2-a7d21255215d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "400",
+            "varName": "stuckDist",
+            "varType": 0
         }
     ],
     "solid": false,

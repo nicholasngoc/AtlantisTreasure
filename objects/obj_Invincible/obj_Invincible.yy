@@ -79,6 +79,20 @@
             "value": "6",
             "varName": "scale",
             "varType": 0
+        },
+        {
+            "id": "68ad9320-2670-403b-8679-5c0335620235",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "destroy",
+            "varType": 3
         }
     ],
     "solid": false,
