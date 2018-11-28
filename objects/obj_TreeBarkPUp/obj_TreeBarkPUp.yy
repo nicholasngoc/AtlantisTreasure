@@ -55,20 +55,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "ea110794-2896-4bcd-b741-b2158c4e0fdd",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "100",
-            "varName": "playerDistance",
-            "varType": 0
-        },
-        {
             "id": "be3c5ec3-4d27-4428-8c8c-1944f91ab430",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -78,7 +64,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "1",
             "varName": "scale",
             "varType": 0
         },

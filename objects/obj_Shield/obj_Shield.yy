@@ -69,20 +69,6 @@
             "varType": 0
         },
         {
-            "id": "97cd21f9-1182-4b5f-9898-82c6c593b41d",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "50",
-            "varName": "playerDistance",
-            "varType": 0
-        },
-        {
             "id": "efcdbbcb-070f-40bd-b643-c4c6831c3944",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -92,7 +78,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "2",
             "varName": "scale",
             "varType": 0
         }

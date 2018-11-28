@@ -5,8 +5,8 @@ if(instance_exists(obj_PlayerLand2))
 {
 	var player = obj_PlayerLand2;
 	
-	x = player.x + playerDistance;
-	y = player.y;
+	x = player.x;
+	y = player.y - player.sprite_height / 2 - sprite_height / 2;
 }
 
 if(tempHealth != health)
