@@ -5,6 +5,6 @@ if(instance_exists(obj_Octopus))
 {
 	var octo = obj_Octopus;
 	
-	x = octo.x - 64;
-	y = octo.y - 64;
+	x = octo.x + xPos;
+	y = octo.y + yPos;
 }

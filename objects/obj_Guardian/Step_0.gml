@@ -14,6 +14,7 @@ else if(bossHealth <= 0)
 	
 	if(self.x + sprite_width < 0)
 	{
+		obj_GameController.powerUp = noone;
 		room_goto_next();
 	}
 }

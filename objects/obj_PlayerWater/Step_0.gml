@@ -43,8 +43,11 @@ if(triggerSub = true)
 		obj_Invincible.destroy = true;
 	}
 	
-	obj_GameController.powerUp.destroy = true;
-	obj_GameController.powerUp = noone;
+	if(obj_GameController.powerUp != noone)
+	{
+		obj_GameController.powerUp.destroy = true;
+		obj_GameController.powerUp = noone;
+	}
 }
 
 //Shoots torpedoes

@@ -14,3 +14,7 @@ if(obj_GameController.debugMode == false)
 	//Start random events
 	alarm[0] = room_speed * arrivalDelay;
 }
+
+audio_stop_all()
+
+audio_play_sound(mus_KingFight, 1, 1);

@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "2669c2ba-9ccb-4023-8307-2bb2ce06ab77",
+            "Value": {
+                "id": "cb318390-86ff-451c-a183-08ee681ea234",
+                "resourcePath": "objects\\obj_GameWon\\obj_GameWon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "26a5ff46-571c-4111-b8ed-a18ddcea093e",
             "Value": {
                 "id": "d985006c-9408-4760-a63f-fcfba62624a5",
@@ -556,6 +564,14 @@
                 "id": "752c124e-5d73-49c3-b75d-e558d1a33899",
                 "resourcePath": "views\\42fdf836-71ad-4da1-8d3a-823872da91e1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "432a9f71-9cae-418d-9c74-7f7c72938a50",
+            "Value": {
+                "id": "67644f69-2521-4196-a61e-7cd4018e8e89",
+                "resourcePath": "sounds\\mus_GameWon\\mus_GameWon.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1111,6 +1127,14 @@
             }
         },
         {
+            "Key": "91313f0a-25bb-4cad-9ff7-0b786f151e08",
+            "Value": {
+                "id": "18d79e92-7a2a-40e5-9c06-41d19c992dcd",
+                "resourcePath": "rooms\\rm_GameWon\\rm_GameWon.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "91d058fb-ab17-47fe-927b-c151d4756d56",
             "Value": {
                 "id": "befe4f99-4285-41df-b79f-5c7381f5968a",
@@ -1535,6 +1559,14 @@
             }
         },
         {
+            "Key": "c0f13d10-cc2e-4fcc-a577-add70fa72f95",
+            "Value": {
+                "id": "6fcf0c80-33cf-4e98-adae-018ff55bbb0b",
+                "resourcePath": "sounds\\mus_KingFight\\mus_KingFight.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c2d684aa-f28b-4354-b76c-ad3c73a05d0c",
             "Value": {
                 "id": "6c867caf-6574-4b40-9e31-9e131f781add",
@@ -1620,6 +1652,14 @@
                 "id": "493570f3-d50f-4788-b1c4-aead69db3083",
                 "resourcePath": "sprites\\spr_Arrow\\spr_Arrow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ceceba84-58c5-4656-9ab7-09442558bcb6",
+            "Value": {
+                "id": "40d42711-e255-4626-b233-4830ac448bf3",
+                "resourcePath": "sounds\\mus_GameStart\\mus_GameStart.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1956,6 +1996,14 @@
                 "id": "97556716-236b-4f72-8801-802247f5f369",
                 "resourcePath": "objects\\obj_PufferExplosion\\obj_PufferExplosion.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ff1670b4-acda-4d99-96c6-a32dea0e1acc",
+            "Value": {
+                "id": "2f894360-7563-44d3-8911-c2cf7fc50789",
+                "resourcePath": "sounds\\mus_Level3\\mus_Level3.yy",
+                "resourceType": "GMSound"
             }
         }
     ],

@@ -15,4 +15,7 @@ switch(room)
 	case rm_Level2:
 		audio_play_sound(mus_Level2, 1, 1);
 		break;
+	case rm_Level3:
+		audio_play_sound(mus_Level3, 1, 1);
+		break;
 }

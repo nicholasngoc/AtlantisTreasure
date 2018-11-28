@@ -3,7 +3,7 @@
 chasingAtlanteans.enabler = false;
 pUpDelay = 8;
 
-instance_create_layer(x,y,"Instances", obj_Guardian);
+instance_create_layer(x,y,"Boss", obj_Guardian);
 
 if(instance_exists(obj_TridentPUp))
 {

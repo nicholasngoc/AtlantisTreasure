@@ -3,7 +3,7 @@
 
 if(instance_exists(obj_PlayerLand1))
 {
-	obj_PlayerLand.trident = false;
+	obj_PlayerLand1.trident = false;
 	
 	score += pScore;
 }
