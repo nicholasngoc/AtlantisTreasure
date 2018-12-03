@@ -13,4 +13,5 @@ if(instance_exists(obj_TridentPUp))
 if(instance_exists(obj_player_trident_pickup))
 {
 	obj_player_trident_pickup.destroy = true;
+	obj_GameController.powerUp = noone;
 }
