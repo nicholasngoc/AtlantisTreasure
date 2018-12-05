@@ -5,16 +5,6 @@
     "name": "obj_Atlantean",
     "eventList": [
         {
-            "id": "22745b45-c10c-4066-8569-158ed02f903f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "5c8c13f6-b356-483d-9a51-058a9ca084a9",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "26a5ff46-571c-4111-b8ed-a18ddcea093e"
-        },
-        {
             "id": "c3d4e99b-2a2a-49f9-86a3-80d3e40e4481",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,26 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "26a5ff46-571c-4111-b8ed-a18ddcea093e"
+        },
+        {
+            "id": "77e6dd7d-9673-4b15-861e-a6abfba85f17",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "26a5ff46-571c-4111-b8ed-a18ddcea093e"
+        },
+        {
+            "id": "33be6f9a-1f66-49c3-a891-1da46abe8a4e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "90aea220-0bca-4e77-b262-7853a760016b",
+            "enumb": 0,
+            "eventtype": 4,
             "m_owner": "26a5ff46-571c-4111-b8ed-a18ddcea093e"
         }
     ],
@@ -33,7 +43,7 @@
             "mvc": "1.0",
             "objectId": "8e433772-2734-4968-bb92-e11cd74a8a26",
             "propertyId": "a793fd64-d792-4104-96ee-ef931360376b",
-            "value": "4"
+            "value": "3"
         },
         {
             "id": "a24b446b-777c-4d0c-a9d6-2cb32b475637",
@@ -69,7 +79,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "15",
             "varName": "damage",
             "varType": 0
         },
@@ -86,6 +96,20 @@
             "value": "-25",
             "varName": "eventSpeed",
             "varType": 0
+        },
+        {
+            "id": "ede1b031-bb07-4c37-83a8-2c21b233e373",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hasDamaged",
+            "varType": 3
         }
     ],
     "solid": false,

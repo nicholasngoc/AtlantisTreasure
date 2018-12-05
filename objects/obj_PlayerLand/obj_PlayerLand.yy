@@ -83,26 +83,6 @@
             "enumb": 1,
             "eventtype": 3,
             "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
-        },
-        {
-            "id": "be74c040-61ec-4b38-8304-11cf391d74c4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "662eb96d-d1d6-4085-b9c6-fb49ebeb0e8c",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
-        },
-        {
-            "id": "7495f5e3-7c91-46cf-bebe-ee721936284d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "81960414-68d5-4107-8152-25e125c5cb9f",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "5c8c13f6-b356-483d-9a51-058a9ca084a9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -161,22 +141,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "13",
             "varName": "playerMovementSpeed",
-            "varType": 1
-        },
-        {
-            "id": "5526a967-229b-421a-90ea-b4b79ec89d16",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "12",
-            "varName": "playerDuckIndex",
             "varType": 1
         },
         {
@@ -301,7 +267,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "4",
             "varName": "platformCollisionWidth",
             "varType": 0
         },
@@ -315,7 +281,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-50",
+            "value": "20",
             "varName": "wallPushDistance",
             "varType": 0
         },
@@ -332,6 +298,20 @@
             "value": "0",
             "varName": "trident",
             "varType": 3
+        },
+        {
+            "id": "e65b8c0c-934f-4d8a-a6af-3dde745498c5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "shield",
+            "varType": 0
         }
     ],
     "solid": true,

@@ -14,7 +14,13 @@ else
 
 self.x += xVel;
 
-if(self.x > room_width)
+if(self.x > room_width + sprite_width)
 {
+	instance_destroy(self);
+}
+
+if(place_meeting(x, y, obj_PlayerLand) && !obj_PlayerLand.shield)
+{
+	health -= damage;
 	instance_destroy(self);
 }

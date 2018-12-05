@@ -4,9 +4,11 @@
     "mvc": "1.1",
     "name": "e66bdfc3-46b3-4cf1-af03-e217e98968ea",
     "children": [
-        "73d2f5cd-6038-49a7-bfdd-416f7cdecc57",
+        "708c81e2-c8a9-4143-8e61-a6a71f103bb1",
         "b1830b63-d2ad-49af-bac2-6120e0606b98",
-        "3cb9f61d-37ff-45bc-8712-3942d2c228e0"
+        "3cb9f61d-37ff-45bc-8712-3942d2c228e0",
+        "bfbd817d-3ea3-4a5c-8eb4-f260ac3b50d7",
+        "db4832ba-e0b0-42b2-bca6-233763fc1837"
     ],
     "filterType": "GMSprite",
     "folderName": "Boss",

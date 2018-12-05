@@ -9,3 +9,12 @@ if(self.y > room_height - (sprite_height / 2))
 	self.vspeed = 0;
 	self.y = room_height - (sprite_height / 2);
 }
+
+if(place_meeting(x, y, obj_PlayerLand) && !obj_PlayerLand.shield)
+{
+	
+	//Deals damage
+	health -= damage;
+	//Destroys object
+	instance_destroy(self);
+}

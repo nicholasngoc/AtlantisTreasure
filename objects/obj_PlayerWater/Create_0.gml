@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//Stops initial animation speed
-self.image_speed = 0
+x = room_width / 2;
+y = room_height / 2;
+image_xscale = swimScale;
+image_yscale = swimScale;

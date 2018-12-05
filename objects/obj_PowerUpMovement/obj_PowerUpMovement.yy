@@ -83,20 +83,6 @@
             "value": ".5",
             "varName": "accel",
             "varType": 0
-        },
-        {
-            "id": "abcb1585-e346-4d71-8771-3f88328cf2b8",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "3",
-            "varName": "scale",
-            "varType": 0
         }
     ],
     "solid": false,

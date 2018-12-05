@@ -33,6 +33,26 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
+        },
+        {
+            "id": "5afa94b9-3992-46f1-a3df-0fc34edda238",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 39,
+            "eventtype": 9,
+            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
+        },
+        {
+            "id": "d6e3496e-ef74-4ee4-8db8-8ebdffcc1bab",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 37,
+            "eventtype": 9,
+            "m_owner": "bc8b179e-878e-4c6d-9cab-ff5fb61d8eb9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -95,20 +115,6 @@
             "varType": 0
         },
         {
-            "id": "a0e4a153-88e4-4a38-bbb2-b34770660ffb",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "powerUp",
-            "varType": 3
-        },
-        {
             "id": "451ac2f2-7eca-4f94-a225-2a2c97fb4bfd",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -146,8 +152,36 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "powerUp",
+            "varType": 5
+        },
+        {
+            "id": "dc27042c-537c-4f88-a67c-17a4c04a9456",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "level",
+            "varType": 0
+        },
+        {
+            "id": "ebbdd36e-a049-4367-b9b4-d81f9635c0ec",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
             "value": "0",
-            "varName": "hasPUp",
+            "varName": "numMetal",
             "varType": 0
         }
     ],

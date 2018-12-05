@@ -4,21 +4,19 @@
 /*If else statement to handle ducking*/
 if(self.isDucking == true)
 {
-	image_speed = 0;
-	image_index = self.playerDuckIndex;
+	sprite_index = spr_PlayerDuck;
 }
 else
 {
-	image_speed = 1;
-	
-	if(image_index = self.playerDuckIndex - 1)
-	{
-		image_index = 0;
-	}
+	sprite_index = spr_PlayerLand;
 }
 
 //This pushes the player when they are on the left side of the wall
-if(place_meeting(self.x + sprite_width / 2 + self.wallPushDistance, self.y, obj_Wall) == true)
+if(collision_rectangle(self.x + sprite_width / 2, 
+	self.y - sprite_height / 2, 
+	self.x + sprite_width / 2 + wallPushDistance, 
+	self.y + sprite_height / 2, 
+	obj_Wall, false, true) != noone)
 {
 	self.hspeed = obj_GameController.backgroundSpeed;
 }
