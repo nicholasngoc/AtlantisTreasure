@@ -6,7 +6,8 @@
     "children": [
         "d47ac6d1-c9dd-4917-a892-433c3c334a6f",
         "8c9fb003-8b5f-4775-9adc-5248727b4cad",
-        "ff44d6ba-a621-4dfd-9f98-c704fd4be76e"
+        "ff44d6ba-a621-4dfd-9f98-c704fd4be76e",
+        "6e97e54c-a6b4-4b24-aedf-7cc9bac373ec"
     ],
     "filterType": "GMSprite",
     "folderName": "Obstacles\/Enemies",
